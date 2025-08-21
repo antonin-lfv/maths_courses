@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Les bases, simplement',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Des explications courtes et visuelles pour (re)poser les fondations
+        en maths, de la 6e à la Terminale.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Un site pensé pour apprendre',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Parcours par niveau, fiches mémo et exercices auto-corrigés.
+        Avance à ton rythme, sans te perdre.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Étudie où tu veux',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Sur téléphone ou ordinateur, pour réviser, préparer un contrôle
+        ou projeter en classe. Efficace et sobre.
       </>
     ),
   },
