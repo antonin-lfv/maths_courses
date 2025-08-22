@@ -23,4 +23,3 @@ This command generates static content into the `build` directory and can be serv
 ```bash
 npm run serve
 ```
-
