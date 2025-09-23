@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/maths_courses/seconde/</loc>
+    <loc>http://localhost:1313/seconde/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/premiere/</loc>
+    <loc>http://localhost:1313/premiere/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/</loc>
+    <loc>http://localhost:1313/terminale/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/</loc>
+    <loc>http://localhost:1313/3eme/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/3eme/</loc>
+    <loc>http://localhost:1313/4eme/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/4eme/</loc>
+    <loc>http://localhost:1313/5eme/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/5eme/</loc>
+    <loc>http://localhost:1313/6eme/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/6eme/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/compl%C3%A9mentaires/</loc>
+    <loc>http://localhost:1313/terminale/compl%C3%A9mentaires/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/expertes/</loc>
+    <loc>http://localhost:1313/terminale/expertes/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/sp%C3%A9cialit%C3%A9/suites/</loc>
+    <loc>http://localhost:1313/terminale/sp%C3%A9cialit%C3%A9/suites/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/sp%C3%A9cialit%C3%A9/</loc>
+    <loc>http://localhost:1313/terminale/sp%C3%A9cialit%C3%A9/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
