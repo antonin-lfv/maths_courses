@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://antonin-lfv.github.io/maths_courses/
 languageCode: fr
 title: Mathématiques
 module:
@@ -61,3 +61,8 @@ menu:
       params:
         type: link
         icon: collection
+    - name: Search
+      weight: 8
+      params:
+        type: search
+
