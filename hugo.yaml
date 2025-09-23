@@ -68,7 +68,7 @@ menu:
         type: link
         icon: collection
     - name: Terminale
-      pageRef: /perminale
+      pageRef: /terminale
       weight: 7
       params:
         type: link
