@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/seconde/</loc>
-  </url><url>
-    <loc>http://localhost:1313/premiere/</loc>
-  </url><url>
-    <loc>http://localhost:1313/terminale/</loc>
-  </url><url>
     <loc>http://localhost:1313/3eme/</loc>
   </url><url>
     <loc>http://localhost:1313/4eme/</loc>
@@ -26,8 +20,14 @@
   </url><url>
     <loc>http://localhost:1313/terminale/sp%C3%A9cialit%C3%A9/suites/</loc>
   </url><url>
+    <loc>http://localhost:1313/premiere/</loc>
+  </url><url>
+    <loc>http://localhost:1313/seconde/</loc>
+  </url><url>
     <loc>http://localhost:1313/terminale/sp%C3%A9cialit%C3%A9/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/terminale/</loc>
   </url>
 </urlset>
