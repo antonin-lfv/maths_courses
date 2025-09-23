@@ -2,6 +2,7 @@
 title: 'Les suites'
 cascade:
   type: docs
+toc: false
 ---
 
 ## Conjecturer le comportement d’une suite à partir du graphe \((n, U_n)\)

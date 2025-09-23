@@ -18,14 +18,16 @@ markup:
 params:
   navbar:
     displayTitle: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
 
   footer:
     displayCopyright: true
     displayPoweredBy: false
 
   editURL:
-    enable: true
-    base: "https://github.com/antonin-lfv/maths_courses/edit/main/content"
+    enable: false
 
 menu:
   main:
