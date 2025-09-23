@@ -1,4 +1,3 @@
-baseURL: https://antonin-lfv.github.io/
 languageCode: fr
 title: Mathématiques
 module:
@@ -16,6 +15,17 @@ markup:
     renderer:
       unsafe: true
 
+params:
+  navbar:
+    displayTitle: true
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/antonin-lfv/maths_courses/edit/main/content"
 
 menu:
   main:
