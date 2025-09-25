@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/01_definition_limites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/01_raisonnement_par_recurrence/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/02_comportement_global_suite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/02_limites_operations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/03_limites_comparaison/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/04_suites_geometriques_monotones/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/3eme/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/4eme/</loc>
@@ -17,8 +33,6 @@
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/specialite/suites/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/</loc>
   </url><url>
