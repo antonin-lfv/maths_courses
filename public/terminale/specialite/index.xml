@@ -70,5 +70,33 @@
       </description>
     </item>
     
+    <item>
+      <title>Limites de fonctions</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Vous trouverez ici les cours du chapitre 3 : Limites de fonctions.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Dérivation, convexité et continuité</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Vous trouverez ici les cours du chapitre 4 : Dérivation, convexité et continuité.&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Dérivation, convexité et continuité</title>
+    <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/</link>
+    <description>Recent content in Dérivation, convexité et continuité on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

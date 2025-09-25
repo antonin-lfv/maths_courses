@@ -4,7 +4,11 @@
   <url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/01_definition_limites/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/01_modes_generation_suite/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/01_raisonnement_par_recurrence/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/</loc>
   </url><url>
@@ -14,9 +18,21 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/02_limites_operations/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/02_suites_arithmetiques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/03_limites_comparaison/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/03_suites_geometriques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/04_sens_variation_suite/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/04_suites_geometriques_monotones/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/05_notion_limite/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/3eme/</loc>
   </url><url>
