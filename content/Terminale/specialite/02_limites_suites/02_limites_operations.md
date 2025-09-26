@@ -11,10 +11,10 @@ Soient \((u_n)\) et \((v_n)\) deux suites et soient \(l\) et \(l'\) deux réels.
 
 > [!TIP] **Propriété (admise)**  
 > 
-> | Si \(\lim\limits_{n \to +\infty} u_n = \dots\) | \(\ell\) | \(\ell\) | \(+\infty\) | \(-\infty\) | \(+\infty\) |  
+> | Si \(\lim\limits_{n \to +\infty} u_n = \dots\) | \(\ell\) | \(\ell\) | \(\ell\) | \(+\infty\) | \(-\infty\) | \(+\infty\) |  
 > |:------------------------------------------------:|:----------:|:----------:|:-------------:|:-------------:|:-------------:|  
-> | et \(\lim\limits_{n \to +\infty} v_n = \dots\) | \(\ell'\) | \(+\infty\) | \(-\infty\) | \(+\infty\) | \(-\infty\) |  
-> | alors \(\lim\limits_{n \to +\infty} (u_n + v_n) = \dots\) | \(\ell + \ell'\) | \(+\infty\) | \(-\infty\) | \(+\infty\) | **Forme indéterminée** |  
+> | et \(\lim\limits_{n \to +\infty} v_n = \dots\) | \(\ell'\) | \(+\infty\) | \(-\infty\) | \(+\infty\) | \(-\infty\) | \(-\infty\) |   
+> | alors \(\lim\limits_{n \to +\infty} (u_n + v_n) = \dots\) | \(\ell + \ell'\) | \(+\infty\) | \(-\infty\) | \(+\infty\) | \(+\infty\) | **Forme indéterminée** |  
 
 > [!IMPORTANT] **Remarques**  
 > - Dans le cas où le calcul mène à une forme indéterminée, il peut être utile de transformer l’écriture de \(u_n + v_n\).  
