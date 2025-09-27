@@ -51,6 +51,22 @@ Soit \((u_n)\) une suite de nombres réels. Soient \(M\) et \(m\) deux réels.
 > - Si \((u_n)\) est décroissante et non minorée, alors \((u_n)\) diverge vers \(-\infty\).
 
 
+## Théorème du point fixe
+
+> [!NOTE] **Théorème du point fixe**  
+> Si la suite \((u_n)\) converge vers \(l\) et si la fonction \(f\) est continue en \(l\), alors :  
+> \[
+\lim_{n \to +\infty} f(u_n) = f(l).
+\]  
+> Soit \((u_n)\) une suite définie par la relation de récurrence : \(u_{n+1} = f(u_n)\).  
+> Si on montre que \((u_n)\) converge (soit parce qu’elle est décroissante et minorée ou croissante et majorée) et si \(f\) est continue, alors la limite \(l\) vérifie :  
+> \[
+l = f(l).
+\]  
+> En pratique, on cherche à résoudre l’équation \(x = f(x)\) (c’est-à-dire l’intersection entre la courbe de la fonction et la droite \(y = x\)) pour trouver les éventuelles limites.  
+> Si deux limites existent, un raisonnement simple permet d’en éliminer une.
+
+
 ## Déterminer la limite d’une suite du type \((q^n)\)
 
 > [!NOTE] **Méthode 1 — Déterminer la limite d’une suite du type \((q^n)\)**  
