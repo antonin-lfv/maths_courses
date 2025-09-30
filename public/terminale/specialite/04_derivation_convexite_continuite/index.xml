@@ -14,5 +14,70 @@
       
     
     
+    <item>
+      <title>Dérivation</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/01_derivation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/01_derivation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Convexité: approche graphique</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/02_convexite_graphique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/02_convexite_graphique/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Convexité des fonctions dérivables</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/03_convexite_fonctions_derivables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/03_convexite_fonctions_derivables/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fonctions continues</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/04_fonctions_continues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/04_fonctions_continues/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Théorème des valeurs intermédiaires</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/05_tvi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/05_tvi/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

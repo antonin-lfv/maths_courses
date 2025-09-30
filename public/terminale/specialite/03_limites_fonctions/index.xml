@@ -14,5 +14,57 @@
       
     
     
+    <item>
+      <title>Limites en l&#39;infini</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/01_limites_en_infini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/01_limites_en_infini/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Limite en un réel</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/02_limite_reel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/02_limite_reel/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Limites et opérations</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/03_limites_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/03_limites_operations/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Limites et comparaison</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/04_limites_comparaison/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/04_limites_comparaison/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>
