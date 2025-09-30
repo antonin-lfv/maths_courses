@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Géométrie repérée</title>
+    <link>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/</link>
+    <description>Recent content in Géométrie repérée on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Vecteur normal à une droite</title>
+      <link>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/01_vecteur_normal_droite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/01_vecteur_normal_droite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Équation cartésienne d’un cercle et d’une parabole</title>
+      <link>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/02_equation_cercle_parabole/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/02_equation_cercle_parabole/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/03_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/03_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

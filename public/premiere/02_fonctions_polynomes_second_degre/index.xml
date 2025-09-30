@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Fonctions polynômes du second degré</title>
+    <link>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/</link>
+    <description>Recent content in Fonctions polynômes du second degré on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Fonctions polynômes du second degré</title>
+      <link>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/01_fonctions_polynomes_second_degre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/01_fonctions_polynomes_second_degre/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Factorisation d’un trinôme et recherche du 0</title>
+      <link>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/02_factorisation_trinome_recherche_zeros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/02_factorisation_trinome_recherche_zeros/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Signe d’un trinôme du second degré</title>
+      <link>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/03_signe_trinome_second_degre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/03_signe_trinome_second_degre/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

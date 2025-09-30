@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Variables aléatoires réelles</title>
+    <link>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/</link>
+    <description>Recent content in Variables aléatoires réelles on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Variable aléatoire réelle sur un ensemble fini</title>
+      <link>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/01_variable_aleatoire_ensemble_fini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/01_variable_aleatoire_ensemble_fini/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Paramètres d’une variable aléatoire</title>
+      <link>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/02_parametres_variable_aleatoire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/02_parametres_variable_aleatoire/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/03_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/03_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

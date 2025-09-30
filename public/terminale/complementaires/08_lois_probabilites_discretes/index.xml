@@ -1,0 +1,109 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Lois de probabilités discrètes</title>
+    <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/</link>
+    <description>Recent content in Lois de probabilités discrètes on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Conditionnement et indépendance</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/01_conditionnement_independance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/01_conditionnement_independance/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Loi uniforme discrète</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/02_loi_uniforme_discrete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/02_loi_uniforme_discrete/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Loi et schéma de Bernoulli</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/03_loi_schema_bernoulli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/03_loi_schema_bernoulli/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Coefficients binomiaux</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/04_coefficients_binomiaux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/04_coefficients_binomiaux/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Loi binomiale</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/05_loi_binomiale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/05_loi_binomiale/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Loi géométrique</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/06_loi_geometrique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/06_loi_geometrique/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/07_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/07_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

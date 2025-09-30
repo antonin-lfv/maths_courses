@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Dérivation globale</title>
+    <link>http://localhost:1313/maths_courses/premiere/05_derivation_globale/</link>
+    <description>Recent content in Dérivation globale on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/premiere/05_derivation_globale/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Fonctions dérivables sur un intervalle</title>
+      <link>http://localhost:1313/maths_courses/premiere/05_derivation_globale/01_fonctions_derivables_intervalle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/05_derivation_globale/01_fonctions_derivables_intervalle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Variations et courbes représentatives des fonctions</title>
+      <link>http://localhost:1313/maths_courses/premiere/05_derivation_globale/02_variations_courbes_representatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/05_derivation_globale/02_variations_courbes_representatives/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/premiere/05_derivation_globale/03_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/05_derivation_globale/03_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

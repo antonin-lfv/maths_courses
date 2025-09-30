@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Graphes</title>
+    <link>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/</link>
+    <description>Recent content in Graphes on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/expertes/10_graphes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Graphes non-orientés</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/01_graphes_non_orientes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/01_graphes_non_orientes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Parcourir un graphe non-orienté</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/02_parcourir_graphe_non_oriente/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/02_parcourir_graphe_non_oriente/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Graphes orientés</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/03_graphes_orientes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/03_graphes_orientes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

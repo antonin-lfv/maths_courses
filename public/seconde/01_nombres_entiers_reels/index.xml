@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Nombres entiers &amp; nombres réels</title>
+    <link>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/</link>
+    <description>Recent content in Nombres entiers &amp; nombres réels on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Nombres entiers</title>
+      <link>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/01_nombres_entiers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/01_nombres_entiers/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Nombres réels</title>
+      <link>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/02_nombres_reels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/02_nombres_reels/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Intervalles – Valeur absolue d’un nombre réel</title>
+      <link>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/03_intervalles_valeur_absolue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/03_intervalles_valeur_absolue/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Puissances</title>
+      <link>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/04_puissances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/04_puissances/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

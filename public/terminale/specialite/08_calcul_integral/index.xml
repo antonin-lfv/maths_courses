@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Calcul intégral</title>
+    <link>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/</link>
+    <description>Recent content in Calcul intégral on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Intégrale d&#39;une fonction continue et positive</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/01_integrale_fonction_continue_positive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/01_integrale_fonction_continue_positive/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Intégrales d&#39;une fonction continue</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/02_integrales_fonction_continue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/02_integrales_fonction_continue/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Application</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/03_application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/03_application/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Combinatoire &amp; dénombrement</title>
+    <link>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/</link>
+    <description>Recent content in Combinatoire &amp; dénombrement on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Principe additif et multiplicatif</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/01_principe_additif_multiplicatif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/01_principe_additif_multiplicatif/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>k-uplets d&#39;un ensemble fini</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/02_k_uplets_ensemble_fini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/02_k_uplets_ensemble_fini/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Parties d&#39;un ensemble et combinaisons</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/03_parties_ensemble_combinaisons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/03_parties_ensemble_combinaisons/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Propriétés des combinaisons</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/04_proprietes_combinaisons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/04_proprietes_combinaisons/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

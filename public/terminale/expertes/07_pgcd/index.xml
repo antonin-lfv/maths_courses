@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – PGCD</title>
+    <link>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/</link>
+    <description>Recent content in PGCD on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Diviseurs communs</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/01_diviseurs_communs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/01_diviseurs_communs/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Nombres premiers entre eux</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/02_nombres_premiers_entre_eux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/02_nombres_premiers_entre_eux/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Conséquences du théorème de Bezout</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/03_consequences_bezout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/03_consequences_bezout/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

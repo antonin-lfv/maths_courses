@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Utilisation des nombres complexes</title>
+    <link>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/</link>
+    <description>Recent content in Utilisation des nombres complexes on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Interprétation géométrique du module et de l&#39;argument</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/01_interpretation_geometrique_module_argument/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/01_interpretation_geometrique_module_argument/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Racine n-ième de l&#39;unité</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/02_racines_nieme_unite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/02_racines_nieme_unite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/03_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/03_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Équations polynomiales</title>
+    <link>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/</link>
+    <description>Recent content in Équations polynomiales on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Équations du second degré à coefficients réels</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/01_equations_second_degre_coefficients_reels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/01_equations_second_degre_coefficients_reels/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Factorisation des polynômes</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/02_factorisation_polynomes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/02_factorisation_polynomes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/03_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/03_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

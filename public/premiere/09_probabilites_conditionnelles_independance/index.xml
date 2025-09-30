@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Probabilités conditionnelles et indépendance</title>
+    <link>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/</link>
+    <description>Recent content in Probabilités conditionnelles et indépendance on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Probabilités conditionnelles</title>
+      <link>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/01_probabilites_conditionnelles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/01_probabilites_conditionnelles/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Arbres pondérés</title>
+      <link>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/02_arbres_ponderes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/02_arbres_ponderes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Indépendance</title>
+      <link>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/03_independance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/03_independance/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

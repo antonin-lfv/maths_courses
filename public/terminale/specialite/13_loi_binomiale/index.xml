@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Loi binomiale</title>
+    <link>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/</link>
+    <description>Recent content in Loi binomiale on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Succession d&#39;épreuves indépendantes</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/01_succession_epreuves_independantes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/01_succession_epreuves_independantes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Schéma de Bernoulli et loi binomiale</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/02_schema_bernoulli_loi_binomiale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/02_schema_bernoulli_loi_binomiale/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/03_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/03_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Information chiffrée &amp; statistique descriptive</title>
+    <link>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/</link>
+    <description>Recent content in Information chiffrée &amp; statistique descriptive on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Proportion et pourcentage</title>
+      <link>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/01_proportion_pourcentage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/01_proportion_pourcentage/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Variations d’une quantité</title>
+      <link>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/02_variations_quantite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/02_variations_quantite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Évolutions d’une quantité</title>
+      <link>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/03_evolutions_quantite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/03_evolutions_quantite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Indicateurs de séries statistiques</title>
+      <link>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/04_indicateurs_series_statistiques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/04_indicateurs_series_statistiques/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

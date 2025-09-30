@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Équations de droites</title>
+    <link>http://localhost:1313/maths_courses/seconde/09_equations_droites/</link>
+    <description>Recent content in Équations de droites on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/seconde/09_equations_droites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Équation cartésienne de droite</title>
+      <link>http://localhost:1313/maths_courses/seconde/09_equations_droites/01_equation_cartesienne_droite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/09_equations_droites/01_equation_cartesienne_droite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Équation réduite de droite</title>
+      <link>http://localhost:1313/maths_courses/seconde/09_equations_droites/02_equation_reduite_droite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/09_equations_droites/02_equation_reduite_droite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Systèmes d’équations</title>
+      <link>http://localhost:1313/maths_courses/seconde/09_equations_droites/03_systemes_equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/09_equations_droites/03_systemes_equations/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/seconde/09_equations_droites/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/09_equations_droites/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

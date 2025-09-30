@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Primitives &amp; équations différentielles</title>
+    <link>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/</link>
+    <description>Recent content in Primitives &amp; équations différentielles on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Équation différentielle simple et primitive</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/01_equation_differentielle_simple_primitive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/01_equation_differentielle_simple_primitive/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Primitives et opérations</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/02_primitives_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/02_primitives_operations/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Équations différentielles</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/03_equations_differentielles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/03_equations_differentielles/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

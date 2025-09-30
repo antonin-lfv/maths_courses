@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Fonctions trigonométriques</title>
+    <link>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/</link>
+    <description>Recent content in Fonctions trigonométriques on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Lecture sur le cercle trigonométrique</title>
+      <link>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/01_lecture_cercle_trigonometrique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/01_lecture_cercle_trigonometrique/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Enroulement de la droite des réels</title>
+      <link>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/02_enroulement_droite_reels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/02_enroulement_droite_reels/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Sinus et cosinus d’un nombre réel</title>
+      <link>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/03_sinus_cosinus_nombre_reel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/03_sinus_cosinus_nombre_reel/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fonctions sinus et cosinus</title>
+      <link>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/04_fonctions_sinus_cosinus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/04_fonctions_sinus_cosinus/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

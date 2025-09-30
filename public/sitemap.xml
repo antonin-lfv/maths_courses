@@ -2,69 +2,579 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/01_colinearite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/01_conditionnement_independance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/07_convexite_fonctions/01_convexite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/01_autres_formules_trigonometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/01_dans_z/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/01_definition_limites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/06_fonction_exponentielle/01_definition_proprietes_algebriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/01_derivation/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/01_diviseurs_communs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/12_echantillonnage/01_echantillon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/02_equations_inequations/01_egalite_equations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/01_ensemble_complexes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/09_equations_droites/01_equation_cartesienne_droite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/01_equation_differentielle_simple_primitive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/01_equations_differentielles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/01_equations_second_degre_coefficients_reels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/01_experience_aleatoire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/01_fonction_carre/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/06_fonction_logarithme/01_fonction_logarithme_neperien/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/01_fonction_racine_carree/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/01_fonction_reciproque/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/03_fonctions_affines/01_fonctions_affines/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/01_fonction_cosinus_sinus/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/05_derivation_globale/01_fonctions_derivables_intervalle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/01_fonctions_polynomes_second_degre/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/01_graphes_non_orientes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/01_image_affixe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/01_integrale_fonction_continue_positive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/01_integrale_continue_positive_intervalle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/01_interpretation_geometrique_module_argument/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/01_introduction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/01_lecture_cercle_trigonometrique/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/01_limites_en_infini/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/01_modes_generation_suite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/01_nombres_entiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/01_nombres_premiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/01_notion_densite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/01_limite_en_infini/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/01_notion_vecteur/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/01_notion_intuitive_limite_suite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/06_variations_extremums/01_parite_fonction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/01_principe_additif_multiplicatif/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/01_probabilites_conditionnelles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/07_calcul_vectoriel_produit_scalaire/01_produit_scalaire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/01_produit_scalaire_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/01_proportion_pourcentage/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/01_raisonnement_par_recurrence/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/03_derivabilite_fonctions/01_rappels_fonctions_derivables/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/01_representations_parametriques_droites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/01_series_statistiques_doubles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/01_succession_epreuves_independantes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/01_suites_matrices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/04_derivation_locale/01_taux_variation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/01_transformations_variables_aleatoires/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/01_variable_aleatoire_ensemble_fini/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/01_vecteur_normal_droite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/01_vecteurs_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/02_ajustement_affine/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/02_arbres_ponderes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/02_calculs_probabilites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/02_chaines_markov/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/02_comportement_global_suite/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/02_convexite_graphique/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/02_deux_theoremes_fondamentaux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/02_division_euclidienne/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/02_droites_plans_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/02_enroulement_droite_reels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/02_equation_cercle_parabole/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/09_equations_droites/02_equation_reduite_droite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/02_equations_inequations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/02_equations_cartesiennes_plans/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/06_fonction_exponentielle/02_etude_fonction_exponentielle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/02_factorisation_trinome_recherche_zeros/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/02_factorisation_polynomes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/02_fonction_cube/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/02_fonction_inverse/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/02_fonction_logarithme_neperien/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/07_convexite_fonctions/02_fonctions_derivables_convexite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/02_forme_exponentielle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/03_derivabilite_fonctions/02_formules_derivation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/02_indicateurs_variable_aleatoire_densite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/02_inegalites_concentration/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/02_equations_inequations/02_inegalites_inequations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/02_integrale_fonction_continue/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/02_integrales_fonction_continue/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/02_k_uplets_ensemble_fini/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/02_limite_reel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/02_limites_operations/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/02_limites_operations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/02_loi_uniforme_discrete/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/02_module_nombre_complexe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/04_derivation_locale/02_nombre_derive_en_un_point/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/02_nombres_premiers_entre_eux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/02_nombres_reels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/02_limite_en_un_reel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/02_operations_vecteurs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/02_orthogonalite_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/02_parallelisme_alignement/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/02_parametres_variable_aleatoire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/02_parcourir_graphe_non_oriente/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/02_primitives_fonction_continue/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/02_primitives_operations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/12_echantillonnage/02_principe_estimation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/02_produit/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/07_calcul_vectoriel_produit_scalaire/02_proprietes_produit_scalaire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/02_racines_nieme_unite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/02_schema_bernoulli_loi_binomiale/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/02_suites_arithmetiques/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/02_techniques_operatoires/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/06_variations_extremums/02_variation_extremums/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/02_variations_quantite/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/02_variation_fonctions_trigo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/05_derivation_globale/02_variations_courbes_representatives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/06_fonction_logarithme/02_variations_limites_ln/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/03_fonctions_affines/02_variations_signe_fonction_affine/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/03_application/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/03_applications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/07_calcul_vectoriel_produit_scalaire/03_applications_produit_scalaire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/03_arguments_nombre_complexe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/03_representation_chaine_markov_suite_matrices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/03_congruence_z/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/03_consequences_bezout/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/03_convexite_fonctions_derivables/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/03_coordonnees_vecteur/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/03_correlation_ajustements/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/03_denombrement/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/03_derivabilite_fonctions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/03_equations_differentielles_ordre_1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/03_equations_differentielles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/03_equations_inequations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/03_equations_inequations_racine_carree/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/03_equation_inequation_cosinus/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/03_etude_fonction_logarithme_neperien/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/03_evolutions_quantite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/04_derivation_locale/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/05_derivation_globale/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/06_fonction_exponentielle/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/02_equations_inequations/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/03_fonctions_affines/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/06_variations_extremums/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/12_echantillonnage/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/03_derivabilite_fonctions/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/07_convexite_fonctions/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/03_exercices/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/06_fonction_logarithme/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/03_fonctions_affines/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/03_formules_moivre_euler/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/03_graphes_orientes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/03_independance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/03_intervalles_valeur_absolue/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/03_limites_comparaison/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/03_limites_comparaisons/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/03_limites_operations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/03_loi_grands_nombres/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/03_loi_schema_bernoulli/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/03_loi_uniforme/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/03_matrice_inverse/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/03_operations_sur_les_limites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/03_orthogonalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/03_parties_ensemble_combinaisons/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/03_positions_relatives_droites_plans/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/03_signe_trinome_second_degre/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/03_sinus_cosinus_nombre_reel/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/03_suites_geometriques/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/09_equations_droites/03_systemes_equations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/03_vecteur_normal_projete_orthogonal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/04_calculs_distances/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/04_coefficients_binomiaux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/04_coordonnees_operations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/04_derivation_locale/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/04_equations_inequations_fonction_inverse/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/04_equation_inequation_sinus/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/07_calcul_vectoriel_produit_scalaire/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/09_equations_droites/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/04_fonctions_continues/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/04_fonctions_sinus_cosinus/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/04_indicateurs_series_statistiques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/04_inequations_produit/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/04_limites_comparaison/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/04_loi_exponentielle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/04_notion_continuite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/04_proprietes_combinaisons/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/04_puissances/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/04_reperes_espace/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/04_sens_variation_suite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/04_suites_arithmetiques_geometriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/04_suites_geometriques_monotones/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/05_derivation_globale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/05_exercices/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/05_loi_binomiale/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/05_notion_limite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/05_suites_arithmetico_geometriques/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/05_tvi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/05_tvi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/06_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/06_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/06_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/06_fonction_exponentielle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/06_fonction_logarithme/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/06_loi_geometrique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/06_variations_extremums/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/07_calcul_vectoriel_produit_scalaire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/07_convexite_fonctions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/07_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/07_primitives_equations_differentielles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/09_equations_droites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/seconde/12_echantillonnage/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/3eme/</loc>
   </url><url>

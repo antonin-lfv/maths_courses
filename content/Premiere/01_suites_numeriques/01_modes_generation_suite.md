@@ -71,14 +71,14 @@ On dit que 50 est le terme de rang 0 ; 25 est le terme de rang 1 ; 12,5 est le t
 >   
 > 2. Soit la suite \((v_n)\) définie par \(v_0 = 1\) et, pour tout entier naturel \(n\),  
 > \[
-> v_{n+1} = 0,5v_n + 4.
-> \]  
+v_{n+1} = 0,5v_n + 4.
+\]  
 > Calculer \(v_3\).  
 >   
 > 3. Soit la suite \((w_n)\) définie par \(w_0 = \tfrac{3}{2}\) et, pour tout entier naturel \(n\),  
 > \[
-> w_{n+1} = 2w_n(1 - w_n) + 2.
-> \]  
+w_{n+1} = 2w_n(1 - w_n) + 2.
+\]  
 > Calculer \(w_2\).  
 
 {{% details title="Solution commentée" closed="true" %}}  

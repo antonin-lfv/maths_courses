@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Fonctions carré &amp; cube</title>
+    <link>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/</link>
+    <description>Recent content in Fonctions carré &amp; cube on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Fonction carré</title>
+      <link>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/01_fonction_carre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/01_fonction_carre/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fonction cube</title>
+      <link>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/02_fonction_cube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/02_fonction_cube/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Équations et inéquations</title>
+      <link>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/03_equations_inequations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/03_equations_inequations/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Inéquations produit</title>
+      <link>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/04_inequations_produit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/04_inequations_produit/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
