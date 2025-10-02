@@ -8,6 +8,7 @@ weight: 3
   {{< card link="./02_limite_reel" title="Limite en un réel" icon="paper-clip">}}
   {{< card link="./03_limites_operations" title="Limites et opérations" icon="paper-clip">}}
   {{< card link="./04_limites_comparaison" title="Limites et comparaison" icon="paper-clip">}}
+  {{< card link="./05_exercices" title="Exercices" icon="pencil">}}
 {{< /cards >}}
 
 #### Carte mentale du chapitre
