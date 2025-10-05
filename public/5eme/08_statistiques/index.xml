@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Statistiques</title>
+    <link>http://localhost:1313/maths_courses/5eme/08_statistiques/</link>
+    <description>Recent content in Statistiques on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/08_statistiques/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Calculer des effectifs et des fréquences</title>
+      <link>http://localhost:1313/maths_courses/5eme/08_statistiques/01_calculer_effectifs_frequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/08_statistiques/01_calculer_effectifs_frequences/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Représenter graphiquement des données</title>
+      <link>http://localhost:1313/maths_courses/5eme/08_statistiques/02_representer_graphiquement_donnees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/08_statistiques/02_representer_graphiquement_donnees/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculer une moyenne</title>
+      <link>http://localhost:1313/maths_courses/5eme/08_statistiques/03_calculer_moyenne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/08_statistiques/03_calculer_moyenne/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/08_statistiques/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/08_statistiques/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

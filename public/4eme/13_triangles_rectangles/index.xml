@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Triangles rectangles</title>
+    <link>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/</link>
+    <description>Recent content in Triangles rectangles on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Calculer la longueur d’un côté d’un triangle rectangle</title>
+      <link>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/01_calculer_cote_triangle_rectangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/01_calculer_cote_triangle_rectangle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculer une racine carrée</title>
+      <link>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/02_calculer_racine_carree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/02_calculer_racine_carree/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre si un triangle est rectangle</title>
+      <link>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/03_reconnaitre_triangle_rectangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/03_reconnaitre_triangle_rectangle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Déterminer un angle dans un triangle rectangle</title>
+      <link>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/04_determiner_angle_triangle_rectangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/04_determiner_angle_triangle_rectangle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

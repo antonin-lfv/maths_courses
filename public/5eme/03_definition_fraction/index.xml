@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Définition d&#39;une fraction</title>
+    <link>http://localhost:1313/maths_courses/5eme/03_definition_fraction/</link>
+    <description>Recent content in Définition d&#39;une fraction on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/03_definition_fraction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Connaitre la notion de fraction</title>
+      <link>http://localhost:1313/maths_courses/5eme/03_definition_fraction/01_connaitre_notion_fraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/03_definition_fraction/01_connaitre_notion_fraction/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre des fractions égales</title>
+      <link>http://localhost:1313/maths_courses/5eme/03_definition_fraction/02_reconnaitre_fractions_egales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/03_definition_fraction/02_reconnaitre_fractions_egales/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Diviser par un nombre décimal</title>
+      <link>http://localhost:1313/maths_courses/5eme/03_definition_fraction/03_diviser_par_nombre_decimal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/03_definition_fraction/03_diviser_par_nombre_decimal/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exprimer une proportion</title>
+      <link>http://localhost:1313/maths_courses/5eme/03_definition_fraction/04_exprimer_proportion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/03_definition_fraction/04_exprimer_proportion/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/03_definition_fraction/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/03_definition_fraction/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Nombres rationnels : addition, soustraction, comparaison</title>
+    <link>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/</link>
+    <description>Recent content in Nombres rationnels : addition, soustraction, comparaison on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Déterminer les diviseurs d’un nombre entier</title>
+      <link>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/01_determiner_diviseurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/01_determiner_diviseurs/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre un nombre décimal ou rationnel</title>
+      <link>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/02_reconnaitre_decimal_rationnel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/02_reconnaitre_decimal_rationnel/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Comparer des fractions</title>
+      <link>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/03_comparer_fractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/03_comparer_fractions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Additionner et soustraire des fractions</title>
+      <link>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/04_additionner_soustraire_fractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/04_additionner_soustraire_fractions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

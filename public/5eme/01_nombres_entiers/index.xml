@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Nombres entiers</title>
+    <link>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/</link>
+    <description>Recent content in Nombres entiers on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/01_nombres_entiers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Déterminer les diviseurs d’un nombre entier</title>
+      <link>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/01_determiner_diviseurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/01_determiner_diviseurs/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre un nombre premier</title>
+      <link>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/02_reconnaitre_nombre_premier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/02_reconnaitre_nombre_premier/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Décomposer un entier en produit de facteurs premiers</title>
+      <link>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/03_decomposer_produit_facteurs_premiers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/03_decomposer_produit_facteurs_premiers/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

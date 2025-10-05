@@ -2,9 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/maths_courses/5eme/06_operations_nombres_relatifs/01_additionner_nombres_relatifs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/01_nombres_relatifs/01_addition_soustraction_relatifs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/04_operations_fractions/01_additionner_soustraire_fractions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/01_calculer_nombres_relatifs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/08_statistiques/01_calculer_effectifs_frequences/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/01_calculer_longueurs_thales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/12_theoreme_thales/01_calculer_longueurs_thales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/01_calculer_cote_triangle_rectangle/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/01_colinearite/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/01_conditionnement_independance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/06_equations/01_notion_equation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/03_definition_fraction/01_connaitre_notion_fraction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/01_connaitre_parallelogramme/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/05_definition_nombres_relatifs/01_connaitre_nombres_relatifs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/01_construire_triangle/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/07_convexite_fonctions/01_convexite/</loc>
   </url><url>
@@ -12,17 +38,29 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/01_dans_z/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/09_probabilites/01_decrire_experience_aleatoire/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/01_definition_limites/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/06_fonction_exponentielle/01_definition_proprietes_algebriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/01_derivation/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/06_fonctions/01_images_antecedents/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/01_nombres_entiers/01_determiner_diviseurs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/01_determiner_diviseurs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/01_determiner_diviseurs/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/01_diviseurs_communs/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/12_echantillonnage/01_echantillon/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/02_equations_inequations/01_egalite_equations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/01_enchainer_operations/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/01_ensemble_complexes/</loc>
   </url><url>
@@ -68,15 +106,31 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/01_limites_en_infini/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/04_puissances/01_grands_nombres/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/09_probabilites/01_modeliser_experience_aleatoire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/09_probabilites/01_modeliser_experience_aleatoire/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/01_modes_generation_suite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/01_multiplier_fractions/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/01_nombres_decimaux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/01_nombres_entiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/01_nombres_entiers/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/01_nombres_premiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/01_nombres_relatifs/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/01_notion_densite/</loc>
   </url><url>
@@ -102,9 +156,35 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/03_derivabilite_fonctions/01_rappels_fonctions_derivables/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/14_solides_espace/01_reconnaitre_solides/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/11_triangles_quadrilateres/01_triangles_egaux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/07_fonctions_affines/01_reconnaitre_utiliser_fonction_affine/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/01_reconnaitre_situation_proportionnalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/01_reconnaitre_situation_proportionnalite/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/01_representations_parametriques_droites/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/08_statistiques/01_representer_graphiquement_donnees/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/08_statistiques/01_representer_graphiquement_donnees/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/01_representer_graphiquement_grandeur/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/04_equations/01_equation_premier_degre/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/14_solides_espace/01_se_reperer_parallelepipede/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/13_solides_espace/01_se_reperer_sphere/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/01_series_statistiques_doubles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/03_calcul_litteral/01_simplifier_expression_litterale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/05_calcul_litteral/01_simplifier_expression_litterale/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/01_succession_epreuves_independantes/</loc>
   </url><url>
@@ -120,6 +200,16 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/01_transformations_variables_aleatoires/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/10_construction_transformation_figures/01_symetrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/10_construction_transformation_figures/01_transformer_symetrie_axiale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/01_symetrie_translation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/11_angles/01_angles_alternes_internes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/12_triangles_rectangles/01_egalite_pythagore/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/10_variables_aleatoires_reelles/01_variable_aleatoire_ensemble_fini/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/08_geometrie_reperee/01_vecteur_normal_droite/</loc>
@@ -130,19 +220,53 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/02_arbres_ponderes/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/02_calculer_puissances/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/12_triangles_rectangles/02_calculs_rapports_trigonometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/08_statistiques/02_calculer_moyenne/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/08_statistiques/02_calculer_moyenne/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/02_calculer_quatrieme_proportionnelle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/02_calculer_racine_carree/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/02_calculs_probabilites/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/02_chaines_markov/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/01_suites_numeriques_recurrence/02_comportement_global_suite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/14_solides_espace/02_representer_parallelepipede_rectangle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/14_solides_espace/02_pyramide/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/02_connaitre_inverse/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/11_triangles_quadrilateres/02_parallelogramme/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/02_construire_hauteurs_mediatrices/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/02_convexite_graphique/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/09_probabilites/02_probabilite_evenement/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/09_probabilites/02_probabilite_evenement/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/02_deux_theoremes_fondamentaux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/03_calcul_litteral/02_developper_produit/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/05_calcul_litteral/02_developper_produit/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/02_division_euclidienne/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/02_droites_plans_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/02_ecrire_utiliser_expression_litterale/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/02_enroulement_droite_reels/</loc>
   </url><url>
@@ -155,6 +279,10 @@
     <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/02_equations_cartesiennes_plans/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/06_fonction_exponentielle/02_etude_fonction_exponentielle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/02_exploiter_situation_proportionnalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/09_probabilites/02_exprimer_probabilite_evenement/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/02_factorisation_trinome_recherche_zeros/</loc>
   </url><url>
@@ -184,6 +312,8 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/02_integrales_fonction_continue/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/07_fonctions_affines/02_interpreter_parametres_affine/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/02_k_uplets_ensemble_fini/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/03_limites_fonctions/02_limite_reel/</loc>
@@ -198,7 +328,11 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/02_loi_uniforme_discrete/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/04_puissances/02_petits_nombres/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/02_module_nombre_complexe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/01_nombres_relatifs/02_multiplier_relatifs/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/04_derivation_locale/02_nombre_derive_en_un_point/</loc>
   </url><url>
@@ -206,9 +340,15 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/02_nombres_premiers_entre_eux/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/02_nombres_reels/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/02_limite_en_un_reel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/02_operations_decimaux/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/07_vecteurs/02_operations_vecteurs/</loc>
   </url><url>
@@ -232,11 +372,51 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/02_racines_nieme_unite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/02_reconnaitre_droites_paralleles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/12_theoreme_thales/02_reconnaitre_droites_paralleles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/03_definition_fraction/02_reconnaitre_fractions_egales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/06_operations_nombres_relatifs/02_reconnaitre_nombres_opposes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/02_reconnaitre_decimal_rationnel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/01_nombres_entiers/02_reconnaitre_nombre_premier/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/02_reconnaitre_nombre_premier/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/02_reconnaitre_parallelogramme/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/02_reconnaitre_situation_proportionnalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/05_definition_nombres_relatifs/02_reperer_point_droite_graduee/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/13_solides_espace/02_representer_solides_volumes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/08_statistiques/02_representer_graphiquement_donnees/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/06_equations/02_resoudre_equation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/04_equations/02_equation_produit/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/02_schema_bernoulli_loi_binomiale/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/02_suites_arithmetiques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/01_nombres_complexes_algebrique/02_techniques_operatoires/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/06_fonctions/02_tracer_representation_graphique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/02_rotation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/10_construction_transformation_figures/02_transformer_symetrie_centrale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/10_construction_transformation_figures/02_translation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/11_angles/02_angles_correspondants/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/04_operations_fractions/02_utiliser_proportion/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/06_variations_extremums/02_variation_extremums/</loc>
   </url><url>
@@ -250,6 +430,8 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/03_fonctions_affines/02_variations_signe_fonction_affine/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/10_construction_transformation_figures/03_agrandir_reduire/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/08_calcul_integral/03_application/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/03_applications/</loc>
@@ -258,11 +440,31 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/02_nombres_complexes_geometrique/03_arguments_nombre_complexe/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/03_calcul_litteral/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/08_statistiques/03_calculer_moyenne/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/03_representation_chaine_markov_suite_matrices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/03_comparer_fractions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/04_operations_fractions/03_comparer_fractions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/05_definition_nombres_relatifs/03_comparer_nombres_relatifs/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/03_congruence_z/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/14_solides_espace/03_cone_revolution/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/14_solides_espace/03_representer_cylindre_revolution/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/11_triangles_quadrilateres/03_parallelogrammes_particuliers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/03_connaitre_triangles_particuliers/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/03_consequences_bezout/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/13_solides_espace/03_construire_sections_planes/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/03_convexite_fonctions_derivables/</loc>
   </url><url>
@@ -270,9 +472,29 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/10_series_statistiques_deux_variables/03_correlation_ajustements/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/01_nombres_entiers/03_decomposer_facteurs_premiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/03_decomposer_produit_facteurs_premiers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/03_definition_fraction/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/03_denombrement/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/03_derivabilite_fonctions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/03_forme_irreductible_fraction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/04_puissances/03_notation_scientifique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/08_statistiques/03_determiner_mediane/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/08_statistiques/03_mediane_etendue/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/01_nombres_relatifs/03_diviser_relatifs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/03_definition_fraction/03_diviser_par_nombre_decimal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/03_diviser_par_fraction/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/03_equations_differentielles_ordre_1/</loc>
   </url><url>
@@ -286,7 +508,13 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/03_etude_fonction_logarithme_neperien/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/09_probabilites/03_experiences_deux_epreuves/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/03_evolutions_quantite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/12_theoreme_thales/03_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/09_probabilites/03_exercices/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/04_derivation_locale/03_exercices/</loc>
   </url><url>
@@ -326,11 +554,21 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/03_exercices/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/06_fonctions/03_exploiter_representation_graphique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/03_exploiter_situation_proportionnalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/03_calcul_litteral/03_factoriser_somme_difference/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/05_calcul_litteral/03_factoriser_somme_difference/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/03_fonctions_affines/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/03_formules_moivre_euler/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/03_fractions/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/03_graphes_orientes/</loc>
   </url><url>
@@ -354,7 +592,11 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/03_matrice_inverse/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/06_equations/03_modeliser_situation/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/03_nombres_complexes_trigonometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/03_operations_sur_les_limites/</loc>
   </url><url>
@@ -364,15 +606,51 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/03_positions_relatives_droites_plans/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/03_reconnaitre_triangles_semblables/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/07_fonctions_affines/03_fonction_lineaire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/03_reconnaitre_triangle_rectangle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/10_construction_transformation_figures/03_reconnaitre_axe_centre_symetrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/03_reconnaitre_parallelogramme_particulier/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/04_equations/03_equation_x2_egal_a/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/03_signe_trinome_second_degre/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/03_sinus_cosinus_nombre_reel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/06_operations_nombres_relatifs/03_soustraire_nombres_relatifs/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/03_suites_geometriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/09_equations_droites/03_systemes_equations/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/03_tester_egalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/03_homothetie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/11_angles/03_angles_opposes_par_sommet/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/09_probabilites/03_evenements_contraires/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/03_utiliser_pourcentages/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/12_triangles_rectangles/03_utiliser_rapports_trigonometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/03_utiliser_pourcentage_echelle/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/03_vecteur_normal_projete_orthogonal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/04_additionner_soustraire_fractions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/04_calculer_avec_fractions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/04_puissances/04_calculer_avec_puissances/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/04_calculer_aire_parallelogramme/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/04_calculs_distances/</loc>
   </url><url>
@@ -384,11 +662,63 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/11_angles/04_determiner_mesure_angle_triangle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/04_determiner_angle_triangle_rectangle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/06_operations_nombres_relatifs/04_enchainer_additions_soustractions_relatifs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/04_equations/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/05_fonctions_racinecarree_inverse/04_equations_inequations_fonction_inverse/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/04_equation_inequation_sinus/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/04_equations_polynomiales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/01_nombres_entiers/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/03_calcul_litteral/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/06_fonctions/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/08_statistiques/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/09_probabilites/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/12_triangles_rectangles/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/13_solides_espace/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/01_nombres_relatifs/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/05_calcul_litteral/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/06_equations/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/08_statistiques/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/09_probabilites/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/10_construction_transformation_figures/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/01_nombres_entiers/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/04_operations_fractions/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/08_statistiques/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/04_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/14_solides_espace/04_exercices/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/02_fonctions_polynomes_second_degre/04_exercices/</loc>
   </url><url>
@@ -430,6 +760,8 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/04_exercices/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/03_definition_fraction/04_exprimer_proportion/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/04_fonction_logarithme_neperien/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/04_fonctions_carre_cube/</loc>
@@ -437,6 +769,8 @@
     <loc>http://localhost:1313/maths_courses/terminale/specialite/04_derivation_convexite_continuite/04_fonctions_continues/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/04_fonctions_sinus_cosinus/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/04_grandeurs_mesures/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/10_information_chiffree_statistique_descriptive/04_indicateurs_series_statistiques/</loc>
   </url><url>
@@ -446,23 +780,77 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/09_lois_probabilites_densite/04_loi_exponentielle/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/04_equations/04_modeliser_situation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/07_fonctions_affines/04_modeliser_proportionnalite_fonction_lineaire/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/02_limites_continuite_fonctions/04_notion_continuite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/04_operations_fractions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/04_partager_quantite_ratio/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/04_proprietes_combinaisons/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/04_puissances/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/01_nombres_entiers_reels/04_puissances/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/05_definition_nombres_relatifs/04_reperer_point_plan/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/04_reperes_espace/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/04_sens_variation_suite/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/04_simplifier_expression_litterale/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/01_suites_limites/04_suites_arithmetiques_geometriques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/02_limites_suites/04_suites_geometriques_monotones/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/04_grandeurs_quotient_produit/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/10_construction_transformation_figures/04_utiliser_proprietes_symetrie_centrale/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/05_calcul_litteral/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/05_definition_nombres_relatifs/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/05_derivation_globale/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/05_distances_symetries/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/05_equations_differentielles_primitives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/04_equations/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/07_fonctions_affines/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/02_nombres_rationnels_add_soustr_comp/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/04_puissances/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/03_definition_fraction/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/05_definition_nombres_relatifs/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/06_operations_nombres_relatifs/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/10_construction_transformation_figures/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/11_angles/05_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/05_exercices/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/03_fonctions_trigonometriques/05_exercices/</loc>
   </url><url>
@@ -492,6 +880,8 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/05_fonctions_trigo/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/05_loi_binomiale/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/05_notion_limite/</loc>
@@ -504,7 +894,11 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/05_utilisation_nombres_complexes/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/06_angles/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/06_divisibilite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/06_equations/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/01_suites_numeriques/06_exercices/</loc>
   </url><url>
@@ -516,17 +910,29 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/06_fonction_logarithme/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/06_fonctions/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/06_integration/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/06_loi_geometrique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/06_operations_nombres_relatifs/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/06_variations_extremums/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/07_calcul_vectoriel_produit_scalaire/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/07_configurations_geometriques/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/07_convexite_fonctions/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/08_lois_probabilites_discretes/07_exercices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/07_fonctions_affines/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/07_pgcd/</loc>
   </url><url>
@@ -542,7 +948,15 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/08_nombres_premiers/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/08_organisation_gestion_donnees/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/08_problemes_geometrie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/08_statistiques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/08_statistiques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/08_statistiques/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/09_combinatoire_denombrement/</loc>
   </url><url>
@@ -552,7 +966,21 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/09_matrices_operations_elementaires/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/09_probabilites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/09_probabilites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/09_probabilites/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/premiere/09_probabilites_conditionnelles_independance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/6eme/09_proportionnalite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/10_construction_transformation_figures/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/10_construction_transformation_figures/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/10_graphes/</loc>
   </url><url>
@@ -564,9 +992,15 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/10_vecteurs_droites_plans_espace/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/11_angles/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/11_orthogonalite_distances_espace/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/11_probabilites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/11_triangles_quadrilateres/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/11_utilisation_matrices/</loc>
   </url><url>
@@ -574,9 +1008,29 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/12_representations_parametriques_equations_cartesiennes/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/12_theoreme_thales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/12_triangles_rectangles/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/13_loi_binomiale/</loc>
   </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/3eme/13_solides_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/13_triangles_rectangles/</loc>
+  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/specialite/14_loi_grands_nombres/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/4eme/14_solides_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/5eme/14_solides_espace/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/3eme/</loc>
   </url><url>
@@ -586,11 +1040,9 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/6eme/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/</loc>
-  </url><url>
-    <loc>http://localhost:1313/maths_courses/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/complementaires/</loc>
+  </url><url>
+    <loc>http://localhost:1313/maths_courses/terminale/specialite/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/terminale/expertes/</loc>
   </url><url>
@@ -598,10 +1050,8 @@
   </url><url>
     <loc>http://localhost:1313/maths_courses/seconde/</loc>
   </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/specialite/</loc>
+    <loc>http://localhost:1313/maths_courses/terminale/</loc>
   </url><url>
     <loc>http://localhost:1313/maths_courses/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/maths_courses/terminale/</loc>
   </url>
 </urlset>

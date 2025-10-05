@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Équations</title>
+    <link>http://localhost:1313/maths_courses/3eme/04_equations/</link>
+    <description>Recent content in Équations on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/3eme/04_equations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Résoudre une équation du premier degré</title>
+      <link>http://localhost:1313/maths_courses/3eme/04_equations/01_equation_premier_degre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/04_equations/01_equation_premier_degre/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Résoudre une équation produit</title>
+      <link>http://localhost:1313/maths_courses/3eme/04_equations/02_equation_produit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/04_equations/02_equation_produit/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Résoudre une équation du type x^2 = a</title>
+      <link>http://localhost:1313/maths_courses/3eme/04_equations/03_equation_x2_egal_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/04_equations/03_equation_x2_egal_a/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Modéliser une situation</title>
+      <link>http://localhost:1313/maths_courses/3eme/04_equations/04_modeliser_situation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/04_equations/04_modeliser_situation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/3eme/04_equations/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/04_equations/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

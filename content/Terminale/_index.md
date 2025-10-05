@@ -1,5 +1,5 @@
 ---
-title: 'Terminale'
+title: "Cours de terminale"
 ---
 
 Vous trouverez ici les cours de mathématiques pour la terminale. Découpés en plusieurs section.

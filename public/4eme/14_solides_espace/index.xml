@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Solides de l&#39;espace</title>
+    <link>http://localhost:1313/maths_courses/4eme/14_solides_espace/</link>
+    <description>Recent content in Solides de l&#39;espace on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/4eme/14_solides_espace/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Se repérer dans un parallélépipède rectangle</title>
+      <link>http://localhost:1313/maths_courses/4eme/14_solides_espace/01_se_reperer_parallelepipede/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/14_solides_espace/01_se_reperer_parallelepipede/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connaitre et représenter une pyramide</title>
+      <link>http://localhost:1313/maths_courses/4eme/14_solides_espace/02_pyramide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/14_solides_espace/02_pyramide/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connaitre et représenter un cône de révolution</title>
+      <link>http://localhost:1313/maths_courses/4eme/14_solides_espace/03_cone_revolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/14_solides_espace/03_cone_revolution/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Théorème de Thalès</title>
+    <link>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/</link>
+    <description>Recent content in Théorème de Thalès on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/3eme/11_theoreme_thales/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Calculer des longueurs avec le théorème de Thalès</title>
+      <link>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/01_calculer_longueurs_thales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/01_calculer_longueurs_thales/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre des droites parallèles</title>
+      <link>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/02_reconnaitre_droites_paralleles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/02_reconnaitre_droites_paralleles/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre des triangles semblables</title>
+      <link>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/03_reconnaitre_triangles_semblables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/03_reconnaitre_triangles_semblables/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/11_theoreme_thales/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

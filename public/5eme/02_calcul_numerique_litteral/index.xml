@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Calcul numérique et littéral</title>
+    <link>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/</link>
+    <description>Recent content in Calcul numérique et littéral on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Enchainer des opérations</title>
+      <link>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/01_enchainer_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/01_enchainer_operations/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Écrire et utiliser une expression littérale</title>
+      <link>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/02_ecrire_utiliser_expression_litterale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/02_ecrire_utiliser_expression_litterale/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tester une égalité</title>
+      <link>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/03_tester_egalite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/03_tester_egalite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Simplifier une expression littérale</title>
+      <link>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/04_simplifier_expression_litterale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/04_simplifier_expression_litterale/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/02_calcul_numerique_litteral/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

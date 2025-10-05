@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Grandeurs et proportionnalités</title>
+    <link>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/</link>
+    <description>Recent content in Grandeurs et proportionnalités on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Représenter graphiquement une grandeur en fonction d’une autre</title>
+      <link>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/01_representer_graphiquement_grandeur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/01_representer_graphiquement_grandeur/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre une situation de proportionnalité</title>
+      <link>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/02_reconnaitre_situation_proportionnalite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/02_reconnaitre_situation_proportionnalite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exploiter une situation de proportionnalité</title>
+      <link>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/03_exploiter_situation_proportionnalite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/03_exploiter_situation_proportionnalite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Utiliser des grandeurs quotient et des grandeurs produit</title>
+      <link>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/04_grandeurs_quotient_produit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/04_grandeurs_quotient_produit/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/07_grandeurs_proportionnalites/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

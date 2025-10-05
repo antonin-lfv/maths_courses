@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Nombres rationnels : multiplication et division</title>
+    <link>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/</link>
+    <description>Recent content in Nombres rationnels : multiplication et division on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Multiplier avec des fractions</title>
+      <link>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/01_multiplier_fractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/01_multiplier_fractions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connaitre l’inverse d’un nombre</title>
+      <link>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/02_connaitre_inverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/02_connaitre_inverse/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Diviser par une fraction</title>
+      <link>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/03_diviser_par_fraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/03_diviser_par_fraction/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/4eme/03_nombres_rationnels_mult_div/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

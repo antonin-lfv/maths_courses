@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Grandeurs et proportionnalités</title>
+    <link>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/</link>
+    <description>Recent content in Grandeurs et proportionnalités on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reconnaitre une situation de proportionnalité</title>
+      <link>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/01_reconnaitre_situation_proportionnalite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/01_reconnaitre_situation_proportionnalite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exploiter une situation de proportionnalité</title>
+      <link>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/02_exploiter_situation_proportionnalite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/02_exploiter_situation_proportionnalite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Utiliser des pourcentages</title>
+      <link>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/03_utiliser_pourcentages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/03_utiliser_pourcentages/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/05_grandeurs_proportionnalites/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

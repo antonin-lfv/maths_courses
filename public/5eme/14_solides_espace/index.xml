@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Solides de l&#39;espace</title>
+    <link>http://localhost:1313/maths_courses/5eme/14_solides_espace/</link>
+    <description>Recent content in Solides de l&#39;espace on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/14_solides_espace/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reconnaitre des solides</title>
+      <link>http://localhost:1313/maths_courses/5eme/14_solides_espace/01_reconnaitre_solides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/14_solides_espace/01_reconnaitre_solides/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connaitre et représenter un parallélépipède rectangle</title>
+      <link>http://localhost:1313/maths_courses/5eme/14_solides_espace/02_representer_parallelepipede_rectangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/14_solides_espace/02_representer_parallelepipede_rectangle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connaitre et représenter un cylindre de révolution</title>
+      <link>http://localhost:1313/maths_courses/5eme/14_solides_espace/03_representer_cylindre_revolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/14_solides_espace/03_representer_cylindre_revolution/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/14_solides_espace/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/14_solides_espace/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

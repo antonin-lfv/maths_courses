@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Grandeurs et proportionnalité</title>
+    <link>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/</link>
+    <description>Recent content in Grandeurs et proportionnalité on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reconnaitre une situation de proportionnalité</title>
+      <link>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/01_reconnaitre_situation_proportionnalite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/01_reconnaitre_situation_proportionnalite/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculer une quatrième proportionnelle</title>
+      <link>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/02_calculer_quatrieme_proportionnelle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/02_calculer_quatrieme_proportionnelle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Utiliser un pourcentage ou une échelle</title>
+      <link>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/03_utiliser_pourcentage_echelle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/03_utiliser_pourcentage_echelle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Partager une quantité selon un ratio</title>
+      <link>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/04_partager_quantite_ratio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/04_partager_quantite_ratio/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/07_grandeurs_proportionnalite/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

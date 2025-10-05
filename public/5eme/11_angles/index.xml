@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Angles</title>
+    <link>http://localhost:1313/maths_courses/5eme/11_angles/</link>
+    <description>Recent content in Angles on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/11_angles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Utiliser des angles alternes-internes</title>
+      <link>http://localhost:1313/maths_courses/5eme/11_angles/01_angles_alternes_internes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/11_angles/01_angles_alternes_internes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Utiliser des angles correspondants</title>
+      <link>http://localhost:1313/maths_courses/5eme/11_angles/02_angles_correspondants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/11_angles/02_angles_correspondants/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Utiliser des angles opposés par le sommet</title>
+      <link>http://localhost:1313/maths_courses/5eme/11_angles/03_angles_opposes_par_sommet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/11_angles/03_angles_opposes_par_sommet/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Déterminer la mesure d’un angle dans un triangle</title>
+      <link>http://localhost:1313/maths_courses/5eme/11_angles/04_determiner_mesure_angle_triangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/11_angles/04_determiner_mesure_angle_triangle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/11_angles/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/11_angles/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

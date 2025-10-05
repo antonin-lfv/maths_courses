@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Opérations sur les fractions</title>
+    <link>http://localhost:1313/maths_courses/5eme/04_operations_fractions/</link>
+    <description>Recent content in Opérations sur les fractions on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/04_operations_fractions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Additionner et soustraire des fractions</title>
+      <link>http://localhost:1313/maths_courses/5eme/04_operations_fractions/01_additionner_soustraire_fractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/04_operations_fractions/01_additionner_soustraire_fractions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Utiliser une proportion</title>
+      <link>http://localhost:1313/maths_courses/5eme/04_operations_fractions/02_utiliser_proportion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/04_operations_fractions/02_utiliser_proportion/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Comparer des fractions</title>
+      <link>http://localhost:1313/maths_courses/5eme/04_operations_fractions/03_comparer_fractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/04_operations_fractions/03_comparer_fractions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/04_operations_fractions/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/04_operations_fractions/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

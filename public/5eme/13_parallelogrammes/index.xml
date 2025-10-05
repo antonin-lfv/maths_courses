@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Parallélogrammes</title>
+    <link>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/</link>
+    <description>Recent content in Parallélogrammes on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/13_parallelogrammes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Connaitre le parallélogramme</title>
+      <link>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/01_connaitre_parallelogramme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/01_connaitre_parallelogramme/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre un parallélogramme</title>
+      <link>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/02_reconnaitre_parallelogramme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/02_reconnaitre_parallelogramme/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Reconnaitre un parallélogramme particulier</title>
+      <link>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/03_reconnaitre_parallelogramme_particulier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/03_reconnaitre_parallelogramme_particulier/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculer l’aire d’un parallélogramme</title>
+      <link>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/04_calculer_aire_parallelogramme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/04_calculer_aire_parallelogramme/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/13_parallelogrammes/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

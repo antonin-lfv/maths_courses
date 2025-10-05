@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Construction et transformation de figures</title>
+    <link>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/</link>
+    <description>Recent content in Construction et transformation de figures on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Transformer une figure par symétrie ou translation</title>
+      <link>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/01_symetrie_translation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/01_symetrie_translation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Transformer une figure par rotation</title>
+      <link>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/02_rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/02_rotation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Transformer une figure par homothétie</title>
+      <link>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/03_homothetie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/03_homothetie/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/10_construction_transformation_figures/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

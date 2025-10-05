@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Nombres rationnels</title>
+    <link>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/</link>
+    <description>Recent content in Nombres rationnels on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Calculer avec des nombres relatifs</title>
+      <link>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/01_calculer_nombres_relatifs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/01_calculer_nombres_relatifs/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculer avec des puissances</title>
+      <link>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/02_calculer_puissances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/02_calculer_puissances/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Déterminer la forme irréductible d’une fraction</title>
+      <link>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/03_forme_irreductible_fraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/03_forme_irreductible_fraction/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculer avec des fractions</title>
+      <link>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/04_calculer_avec_fractions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/04_calculer_avec_fractions/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/05_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/3eme/02_nombres_rationnels/05_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

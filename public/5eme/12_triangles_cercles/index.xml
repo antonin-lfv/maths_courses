@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathématiques – Triangles et cercles</title>
+    <link>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/</link>
+    <description>Recent content in Triangles et cercles on Mathématiques</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	  <atom:link href="http://localhost:1313/maths_courses/5eme/12_triangles_cercles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Construire un triangle</title>
+      <link>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/01_construire_triangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/01_construire_triangle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Construire des hauteurs et des médiatrices</title>
+      <link>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/02_construire_hauteurs_mediatrices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/02_construire_hauteurs_mediatrices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connaitre les triangles particuliers</title>
+      <link>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/03_connaitre_triangles_particuliers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/03_connaitre_triangles_particuliers/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/04_exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/maths_courses/5eme/12_triangles_cercles/04_exercices/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
