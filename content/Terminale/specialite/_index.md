@@ -1,5 +1,5 @@
 ---
-title: "Cours de mathématiques de spécialité de terminale"
+title: "Spécialité"
 ---
 
 Vous trouverez ici les cours de la **spécialité** mathématiques de terminale.

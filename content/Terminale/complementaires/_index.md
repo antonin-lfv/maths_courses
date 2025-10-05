@@ -1,5 +1,5 @@
 ---
-title: "Cours de mathématiques complémentaires de terminale"
+title: "Complémentaires"
 ---
 
 Ressources de la voie Mathématiques complémentaires.

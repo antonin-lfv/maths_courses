@@ -1,5 +1,5 @@
 ---
-title: "Cours de mathématiques expertes de terminale"
+title: "Expertes"
 ---
 Ressources de la voie Mathématiques expertes.
 
