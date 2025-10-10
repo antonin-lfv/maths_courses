@@ -190,7 +190,7 @@ g'(x) = u'(x)e^{u(x)} = 2x e^{x^2 - 3}.
 
 > [!NOTE] **Méthode 3 — Calculer une dérivée seconde**  
 > On admet que \(f : x \mapsto x^2 + x - 2\) est deux fois dérivable sur son ensemble de définition \(\mathbb{R}\).  
-> • Calculer sa dérivée seconde \(f''\).  
+>- Calculer sa dérivée seconde \(f''\).  
 
 {{% details title="Solution commentée" closed="true" %}}
 

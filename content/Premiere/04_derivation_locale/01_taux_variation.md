@@ -40,8 +40,8 @@ En effet, pour tous réels \( a \) et \( b \) distincts, on a :
 
 > [!TIP] **Propriétés**  
 > Soient \( f \) une fonction définie sur un intervalle \( I \), et \( a \) et \( b \) deux nombres réels distincts appartenant à \( I \).  
-> • Si \( f \) est **croissante** sur \( I \), alors le taux de variation de \( f \) entre \( a \) et \( b \) est **positif**.  
-> • Si \( f \) est **décroissante** sur \( I \), alors le taux de variation de \( f \) entre \( a \) et \( b \) est **négatif**.
+>- Si \( f \) est **croissante** sur \( I \), alors le taux de variation de \( f \) entre \( a \) et \( b \) est **positif**.  
+>- Si \( f \) est **décroissante** sur \( I \), alors le taux de variation de \( f \) entre \( a \) et \( b \) est **négatif**.
 
 > [!IMPORTANT] **Remarque**  
 > Les réciproques des propriétés précédentes sont fausses.
