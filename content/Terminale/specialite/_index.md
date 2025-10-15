@@ -9,7 +9,7 @@ Vous trouverez ici les cours de la **spécialité** mathématiques de terminale.
   {{< card link="./02_limites_suites" title="Limites de suites" icon="paper-clip">}}
   {{< card link="./03_limites_fonctions" title="Limites de fonctions" icon="paper-clip">}}
   {{< card link="./04_derivation_convexite_continuite" title="Dérivation, convexité et continuité" icon="paper-clip">}}
-  {{< card link="./05_fonctions_trigo" title="Fonctions trigonométriques" icon="paper-clip">}}
+  {{< card link="./05_fonctions_trigo/" title="Fonctions trigonométriques" icon="paper-clip">}}
   {{< card link="./06_fonction_logarithme/" title="Fonction logarithme" icon="paper-clip">}}
   {{< card link="./07_primitives_equations_differentielles/" title="Primitives & équations différentielles" icon="paper-clip">}}
   {{< card link="./08_calcul_integral/" title="Calcul intégral" icon="paper-clip">}}
