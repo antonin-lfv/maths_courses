@@ -64,8 +64,8 @@ On dit que 50 est le terme de rang 0 ; 25 est le terme de rang 1 ; 12,5 est le t
 > [!NOTE] **Exercice résolu 1 — Calculer des termes d’une suite**  
 > 1. Soit la suite \((u_n)\) définie pour tout entier naturel \(n\) par :  
 > \[
-> u_n = 3n^2 - 2n + 1
-> \]  
+u_n = 3n^2 - 2n + 1
+\]  
 > a. Calculer le terme de rang 5, puis le 10e terme.  
 > b. Déterminer l’expression en fonction de \(n\) des termes \(u_{n+1}\) et \(u_{2n}\).  
 >   

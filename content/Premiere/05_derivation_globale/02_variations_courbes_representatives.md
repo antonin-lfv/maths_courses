@@ -30,8 +30,8 @@ cascade:
 > Soient \( f \) une fonction dérivable sur un intervalle ouvert \( I \subset \mathbb{R} \) et \( a \in I \) (non borne de \( I \)).  
 > Si \( f \) admet un extremum en \( a \), alors  
 > \[
-> f'(a) = 0.
-> \]
+f'(a) = 0.
+\]
 
 > [!IMPORTANT] **Remarque**  
 > La réciproque de cette propriété est **fausse**.
