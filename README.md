@@ -8,7 +8,7 @@ Run locally with:
 hugo server --buildDrafts --disableFastRender
 ```
 
-and open [http://localhost:1313](http://localhost:1313) in your browser.
+and open [http://localhost:1313/maths_courses/](http://localhost:1313/maths_courses/) in your browser.
 
 Pour mettre à jour les modules Hugo:
 
@@ -21,4 +21,3 @@ Pour mettre à jour Hextra:
 ```bash
 hugo mod get -u github.com/imfing/hextra
 ```
-
