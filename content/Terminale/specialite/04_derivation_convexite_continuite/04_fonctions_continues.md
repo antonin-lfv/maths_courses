@@ -9,130 +9,127 @@ cascade:
 
 > [!TIP] **Définition**  
 > Soit \( f \) une fonction définie sur un intervalle \( I \).  
-> - Soit \( a \in I \). On dit que \( f \) est continue en \( a \) lorsque \( \lim_{x \to a} f(x) = f(a) \).  
-> - La fonction \( f \) est continue sur \( I \) si, pour tout réel \( a \) appartenant à \( I \), \( f \) est continue en \( a \).
+> - Soit \( a \in I \). On dit que \( f \) est **continue en \( a \)** si \( \lim\limits_{x \to a} f(x) = f(a) \).  
+> - On dit que \( f \) est **continue sur \( I \)** si elle est continue en tout réel \( a \) de \( I \).
+
+> [!IMPORTANT] **Remarque**  
+> Graphiquement, une fonction continue sur un intervalle a une courbe « d’un seul tenant » : on peut la tracer sans lever le crayon.
 
 {{% details title="Exemples" closed="true" %}}
-- \( f \) est définie sur \(\mathbb{R}\) par :  
-\( f(x) = x^3 - 3x + 2 \).  
-![](/images/image49.png)  
-\( f \) est continue sur \(\mathbb{R}\).
+- La fonction \( f \) définie sur \(\mathbb{R}\) par \( f(x) = -x^3 + 2x \) est continue sur \(\mathbb{R}\) : sa courbe se trace sans lever le crayon.  
+![](/images/image256.png)  
 
-- \( f \) est définie sur \(\mathbb{R}\) par :  
+- La fonction \( f \) définie sur \(\mathbb{R}\) par  
 \[
 f(x) = 
 \begin{cases} 
-3 - x^2 & \text{si } x \leq 1 \\ 
-x^2 - 2x + 2 & \text{si } x > 1 
+x + 1 & \text{si } x \leq 2 \\ 
+-x + 1 & \text{si } x > 2 
 \end{cases}
 \]  
-![](/images/image50.png)  
-\( f \) n’est pas continue en 1, donc elle n’est pas continue sur \(\mathbb{R}\).
+vérifie \( f(2) = 3 \), alors que \( \lim\limits_{x \to 2^+} f(x) = -1 \). Elle n’est pas continue en 2, donc pas continue sur \(\mathbb{R}\) : sa courbe présente un « saut ».  
+![](/images/image257.png)  
 
-- \( f \) est définie sur \(\mathbb{R}\) par :  
-\( f(x) = E(x) \), où \( E(x) \) désigne la partie entière de \( x \).  
-![](/images/image51.png)  
-Quel que soit \( n \) entier, \( f \) n’est pas continue en \( n \), donc \( f \) n’est pas continue sur \(\mathbb{R}\).
+- La fonction **partie entière**, notée \( E \), associe à tout réel \( x \) le plus grand entier inférieur ou égal à \( x \) (par exemple \( E(2{,}7) = 2 \) et \( E(-1{,}3) = -2 \)). Elle n’est continue en aucun entier \( n \) (sa courbe est « en escalier »), donc elle n’est pas continue sur \(\mathbb{R}\).  
+![](/images/image258.png)  
 {{% /details %}}
-
 
 ## Propriétés
 
 > [!TIP] **Propriété (admise) : continuité des fonctions usuelles**  
 > - Les fonctions affines, les fonctions polynômes, la fonction racine carrée et la fonction exponentielle sont continues sur leur ensemble de définition.  
-> - Les sommes, produits, quotients et composées de fonctions continues sont des fonctions continues sur chacun des intervalles formant leur ensemble de définition.
+> - Une somme, un produit, un quotient ou une composée de fonctions continues est une fonction continue sur chacun des intervalles qui forment son ensemble de définition.
 
 {{% details title="Exemple" closed="true" %}}
-La fonction \( f \), définie sur \( ]-\infty ; 1[ \cup ]1 ; +\infty[ \) par  
+La fonction \( f \) définie sur \( ]-\infty ; -3[ \cup ]-3 ; +\infty[ \) par  
 \[
-f(x) = \frac{x^2 - 3x + 5}{x - 1},
+f(x) = \frac{2x^2 + 1}{x + 3}
 \]  
-est continue sur chacun des intervalles \( ]-\infty ; 1[ \) et \( ]1 ; +\infty[ \) en tant que quotient de fonctions polynômes.  
-![](/images/image47.png)
+est un quotient de fonctions polynômes : elle est continue sur chacun des intervalles \( ]-\infty ; -3[ \) et \( ]-3 ; +\infty[ \).  
+![](/images/image259.png)
 {{% /details %}}
 
 > [!TIP] **Propriété (admise) : continuité et dérivabilité**  
-> Une fonction dérivable sur un intervalle \( I \) est continue sur \( I \).
+> Toute fonction dérivable sur un intervalle \( I \) est continue sur \( I \).
 
 > [!IMPORTANT] **Remarque**  
-> La réciproque de cette propriété est fausse. Par exemple, la fonction valeur absolue est continue sur \(\mathbb{R}\), mais elle n’est pas dérivable en 0.
-> ![](/images/image52.png)
+> La réciproque est fausse : la fonction valeur absolue est continue sur \(\mathbb{R}\), mais elle n’est pas dérivable en 0 (sa courbe présente un « point anguleux » à l’origine).
+> ![](/images/image260.png)
 
 > [!TIP] **Propriété (admise) : continuité et suites convergentes**  
-> Soient \( f \) une fonction continue sur un intervalle \( I \), \( a \) un réel appartenant à \( I \) et \((u_n)\) une suite à valeurs dans \( I \).  
+> Soit \( f \) une fonction continue sur un intervalle \( I \), \( a \) un réel de \( I \), et \((u_n)\) une suite dont tous les termes sont dans \( I \).  
 > Si \((u_n)\) converge vers \( a \), alors la suite \((f(u_n))\) converge vers \( f(a) \).
-
 
 ## Méthode : Étudier une fonction définie par morceaux
 
 > [!NOTE] **Méthode**  
-> Soit \( f \) la fonction définie sur \(\mathbb{R}\) par :  
+> On considère la fonction \( f \) définie sur \(\mathbb{R}\) par :  
 > \[
 f(x) = 
 \begin{cases} 
--x^2 - 2x & \text{si } x \leq -1 \\ 
--x & \text{si } x > -1 
+x^2 - 4x & \text{si } x \leq 1 \\ 
+-3x & \text{si } x > 1 
 \end{cases}
 \]  
-> 1. Tracer la courbe représentative de la fonction \( f \) dans un repère.  
-> 2. Étudier la continuité de la fonction \( f \) :  
-> a. sur l’intervalle \( ]-\infty ; -1] \) ;  
-> b. sur l’intervalle \( ]-1 ; +\infty[ \) ;  
-> c. en \(-1\).  
-> 3. Que peut-on en conclure ?
+> 1. Tracer la courbe représentative de \( f \).  
+> 2. Étudier la continuité de \( f \) :  
+> a. sur l’intervalle \( ]-\infty ; 1] \) ;  
+> b. sur l’intervalle \( ]1 ; +\infty[ \) ;  
+> c. en 1.  
+> 3. Conclure.
 
 {{% details title="Solution commentée" closed="true" %}}
 1. Voir le graphique ci-dessous.  
-![](/images/image53.png)
+![](/images/image261.png)
 
-2. a. La fonction \( x \mapsto -x^2 - 2x \) est un polynôme, donc elle est continue sur \(\mathbb{R}\) et donc sur \( ]-\infty ; -1] \).  
+2. a. Sur \( ]-\infty ; 1] \), \( f(x) = x^2 - 4x \) : c’est une fonction polynôme, continue sur \(\mathbb{R}\), donc en particulier sur \( ]-\infty ; 1] \).  
 
-b. La fonction \( x \mapsto -x \) est affine, donc elle est continue sur \(\mathbb{R}\) et donc sur \( ]-1 ; +\infty[ \).  
+b. Sur \( ]1 ; +\infty[ \), \( f(x) = -3x \) : fonction affine, donc continue sur \( ]1 ; +\infty[ \).  
 
-c. D’une part, \( f \) est continue sur \( ]-\infty ; -1] \), avec \( f(-1) = 1 \). On a donc :  
+c. D’une part, \( f(1) = 1 - 4 = -3 \), et comme \( f \) est continue sur \( ]-\infty ; 1] \) :  
 \[
-\lim_{x \to -1^-} f(x) = f(-1) = 1.
+\lim_{x \to 1^-} f(x) = f(1) = -3.
 \]  
 D’autre part :  
 \[
-\lim_{x \to -1^+} f(x) = \lim_{x \to -1^+} (-x) = 1.
+\lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (-3x) = -3.
 \]  
-Finalement :  
-\[
-\lim_{x \to -1^-} f(x) = \lim_{x \to -1^+} f(x) = f(-1) = 1.
-\]  
-La fonction \( f \) est donc continue en \(-1\).
+Les limites à gauche et à droite sont égales à \( f(1) \) : \( \lim\limits_{x \to 1} f(x) = f(1) \). La fonction \( f \) est donc continue en 1.
 
-3. La fonction \( f \) est continue sur \(\mathbb{R}\).
+3. \( f \) est continue sur \( ]-\infty ; 1] \), sur \( ]1 ; +\infty[ \) et en 1 : elle est continue sur \(\mathbb{R}\). Sa courbe se trace bien sans lever le crayon.
 {{% /details %}}
-
 
 ## Méthode : Calculer la limite d’une suite définie par une relation de récurrence
 
 > [!NOTE] **Méthode**  
-> On considère la suite \((u_n)\) définie par son premier terme \( u_0 = 1 \) et par la relation de récurrence, pour tout entier naturel \( n \),  
+> On considère la suite \((u_n)\) définie par \( u_0 = 0 \) et, pour tout entier naturel \( n \),  
 > \[
 u_{n+1} = f(u_n),
 \]  
-> où \( f \) est la fonction définie sur \(\mathbb{R}\) par \( f(x) = \tfrac{1}{2}x + 2 \).  
-> On admet que \((u_n)\) converge et on note \( \ell \) la limite de \((u_n)\).  
+> où \( f \) est la fonction définie sur \(\mathbb{R}\) par \( f(x) = 0{,}6x + 2 \).  
+> On admet que \((u_n)\) converge, et on note \( \ell \) sa limite.  
 > 1. Justifier que \( f \) est continue sur \(\mathbb{R}\).  
-> 2. À l’aide d’un tableur ou d’une calculatrice, conjecturer la valeur de \( \ell \).  
-> 3. Démontrer qu’il existe un unique réel \( \alpha \) tel que \( f(\alpha) = \alpha \).  
+> 2. À l’aide d’une calculatrice ou d’un tableur, conjecturer la valeur de \( \ell \).  
+> 3. Démontrer que l’équation \( f(x) = x \) admet une unique solution réelle.  
 > 4. Démontrer la conjecture de la question 2 en utilisant la continuité de \( f \).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. La fonction \( f \) est affine, donc elle est continue sur \(\mathbb{R}\).  
+1. \( f \) est une fonction affine, donc continue sur \(\mathbb{R}\).  
 
-2. À l’aide d’une calculatrice (voir ci-dessous), on conjecture que la limite de la suite \((u_n)\) est 4.  
-![](/images/image54.png)
+2. Avec la calculatrice, on obtient (valeurs arrondies) :
 
-3. On résout l’équation \( f(x) = x \).  
+| \( n \)   | 0 | 1 | 2   | 3    | 4     | 5      | 10     | 20      |
+|-----------|---|---|-----|------|-------|--------|--------|---------|
+| \( u_n \) | 0 | 2 | 3,2 | 3,92 | 4,352 | 4,6112 | 4,9698 | 4,99982 |
+
+On conjecture que \( \ell = 5 \).
+
+3. On résout l’équation :  
 \[
-f(x) = x \iff \tfrac{1}{2}x + 2 = x \iff x = 4.
+f(x) = x \iff 0{,}6x + 2 = x \iff 2 = 0{,}4x \iff x = 5.
 \]  
-Le nombre 4 est donc l’unique réel égal à sa propre image par \( f \).  
+L’équation \(f(x) = x\) a une unique solution : 5.  
 
-4. \( f \) est une fonction continue sur \(\mathbb{R}\), donc, puisque \((u_n)\) converge vers \( \ell \), la suite \((f(u_n))\) converge vers \( f(\ell) \). Or la suite \((f(u_n))\) est la suite \((u_{n+1})\), qui a la même limite que \((u_n)\). Donc la limite \( \ell \) vérifie \( \ell = f(\ell) \).  
-D’après la question 3, l’unique solution de cette équation est 4. La suite \((u_n)\) converge donc vers 4.
+4. Comme \((u_n)\) converge vers \( \ell \) et que \( f \) est continue en \(\ell\), la suite \((f(u_n))\) converge vers \( f(\ell) \). Or \( f(u_n) = u_{n+1} \), et la suite \((u_{n+1})\) a la même limite \(\ell\) que \((u_n)\). Par unicité de la limite, \( \ell = f(\ell) \).  
+D’après la question 3, on en déduit \(\ell = 5\) : la suite \((u_n)\) converge vers 5.
 {{% /details %}}

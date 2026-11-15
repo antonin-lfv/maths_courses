@@ -9,22 +9,22 @@ cascade:
 
 > [!TIP] **Définition**  
 > Soit \(u_0\) un nombre réel.  
-> Une suite \((u_n)\) de premier terme \(u_0\) est **arithmétique** s’il existe un nombre réel \(r\) tel que, pour tout entier naturel \(n\),  
+> La suite \((u_n)\) de premier terme \(u_0\) est **arithmétique** s’il existe un réel \(r\) tel que, pour tout entier naturel \(n\),  
 > \[
  u_{n+1} = u_n + r.
  \]  
-> Le nombre \(r\) est appelé **raison** de la suite \((u_n)\).  
+> Le réel \(r\) est la **raison** de la suite \((u_n)\).  
 
 > [!IMPORTANT] **Remarque**  
-> Une suite \((u_n)\) est arithmétique si, pour passer d’un terme au suivant, on ajoute toujours le même nombre ou encore si la différence \(u_{n+1} - u_n\) ne dépend pas de \(n\).  
+> Autrement dit, une suite est arithmétique quand on passe de chaque terme au suivant en ajoutant toujours le même nombre, c’est-à-dire quand la différence \(u_{n+1} - u_n\) est constante (elle ne dépend pas de \(n\)).  
 
 {{% details title="Exemple" closed="true" %}}  
-Soit la suite \((u_n)\) définie par \(u_0 = 3\) et, pour tout entier naturel \(n\),  
+On définit \((u_n)\) par \(u_0 = -2\) et, pour tout entier naturel \(n\),  
 \[
-u_{n+1} = u_n + 5
+u_{n+1} = u_n + 3
 \]  
-On passe d’un terme au suivant en ajoutant 5. Ainsi \(u_1 = 8\), \(u_2 = 13\), \(u_3 = 18 \ldots\)  
-La suite \((u_n)\) est arithmétique de premier terme 3 et de raison 5.  
+Chaque terme s’obtient en ajoutant 3 au précédent : \(u_1 = 1\), \(u_2 = 4\), \(u_3 = 7 \ldots\)  
+La suite \((u_n)\) est arithmétique, de premier terme \(-2\) et de raison 3.  
 {{% /details %}}  
 
 > [!TIP] **Propriété**  
@@ -34,116 +34,113 @@ La suite \((u_n)\) est arithmétique de premier terme 3 et de raison 5.
  \]  
 
 > [!IMPORTANT] **Remarques**  
-> - La propriété précédente peut être utilisée avec d’autres termes que \(u_0\) :  
+> - La formule s’adapte si l’on part d’un autre terme que \(u_0\) :  
 >  $$
   u_n = u_1 + (n-1)r = u_2 + (n-2)r = \ldots
    $$  
->   et, de façon générale pour \(p\) entier naturel,  
+>   et plus généralement, pour tout entier naturel \(p\),  
 >  $$
   u_n = u_p + (n-p)r.
    $$  
-> - De la relation de récurrence \(u_{n+1} = u_n + r\), on peut passer à la formule explicite \(u_n = u_0 + nr\).  
-> - Pour une suite arithmétique, on a \(u_n = f(n)\), où \(f\) est la fonction affine \(f(x) = u_0 + xr\).  
->   Dans un repère, les points de coordonnées \((n ; u_n)\) sont alignés.  
+> - Cette propriété permet de passer de la relation de récurrence \(u_{n+1} = u_n + r\) à la formule explicite \(u_n = u_0 + nr\).  
+> - On a \(u_n = f(n)\) avec \(f\) la fonction affine définie par \(f(x) = u_0 + rx\).  
+>   Les points de coordonnées \((n\,;u_n)\) sont donc alignés (sur la droite représentant \(f\)).  
 
 {{% details title="Exemple" closed="true" %}}  
-Soit la suite \((u_n)\) définie par \(u_0 = -1\) et, pour tout entier naturel \(n\) :  
+On définit \((u_n)\) par \(u_0 = 10\) et, pour tout entier naturel \(n\) :  
 \[
-u_{n+1} = u_n + 1,5
+u_{n+1} = u_n - 2,5
 \]  
-La suite \((u_n)\) est arithmétique de premier terme \(u_0 = -1\) et de raison 1,5.  
-Donc, pour tout entier naturel \(n\), on a :  
+La suite \((u_n)\) est arithmétique de premier terme \(u_0 = 10\) et de raison \(-2,5\).  
+Par conséquent, pour tout entier naturel \(n\) :  
 \[
-u_n = u_0 + nr = -1 + 1,5n
+u_n = u_0 + nr = 10 - 2,5n
 \]  
 {{% /details %}}
-
 
 ## Somme des premiers entiers
 
 > [!TIP] **Propriété**  
-> Pour tout entier naturel \(n\) non nul, on a :  
+> Pour tout entier naturel \(n\) non nul :  
 > \[
   1 + 2 + 3 + \ldots + n = \frac{n(n+1)}{2}.
   \]  
 
 > [!IMPORTANT] **Remarque**  
-> Il s’agit de la somme des \(n\) premiers termes de la suite arithmétique \((u_n)\) de premier terme \(u_0 = 1\) et de raison 1.  
-
+> Cette somme est celle des \(n\) premiers termes de la suite arithmétique de premier terme \(u_0 = 1\) et de raison 1.  
 
 ## Reconnaître une suite arithmétique
 
 > [!NOTE] **Exercice résolu 1 — Reconnaître une suite arithmétique**  
-> 1. La suite \((u_n)\), définie par \(u_n = n^2\) pour tout entier naturel \(n\), est-elle arithmétique ?  
-> 2. La suite \((v_n)\), définie par \(v_n = n^2 - (n+1)^2\) pour tout entier naturel \(n\), est-elle arithmétique ?  
+> 1. La suite \((u_n)\) définie pour tout entier naturel \(n\) par \(u_n = n^2 + 1\) est-elle arithmétique ?  
+> 2. La suite \((v_n)\) définie pour tout entier naturel \(n\) par \(v_n = (n+2)^2 - n^2\) est-elle arithmétique ?  
 
 {{% details title="Solution commentée" closed="true" %}}  
-**1.** On commence par calculer les premiers termes de la suite \((u_n)\) :  
+**1.** On calcule les premiers termes :  
 \[
-u_0 = 0 \ ; \ u_1 = 1 \ ; \ u_2 = 4
+u_0 = 1 \ ; \ u_1 = 2 \ ; \ u_2 = 5
 \]  
-On a \(u_1 - u_0 = 1\) et \(u_2 - u_1 = 3\), donc \(u_1 - u_0 \neq u_2 - u_1\).  
-La suite \((u_n)\) n’est donc **pas arithmétique**.  
+On obtient \(u_1 - u_0 = 1\) et \(u_2 - u_1 = 3\) : ces deux différences ne sont pas égales.  
+La suite \((u_n)\) n’est donc **pas arithmétique** (un seul contre-exemple suffit).  
 
 ---
 
-**2.** On commence par calculer les premiers termes de la suite \((v_n)\) :  
+**2.** On calcule les premiers termes :  
 \[
-v_0 = 0^2 - (0+1)^2 = -1 \ ; \ v_1 = 1^2 - (1+1)^2 = -3 \ ; \ v_2 = 2^2 - (2+1)^2 = -5
+v_0 = 2^2 - 0^2 = 4 \ ; \ v_1 = 3^2 - 1^2 = 8 \ ; \ v_2 = 4^2 - 2^2 = 12
 \]  
-Il semble que la suite \((v_n)\) soit arithmétique de raison \(-2\).  
+On conjecture que \((v_n)\) est arithmétique de raison 4.  
 
-Pour le prouver, on montre que la différence entre deux termes consécutifs quelconques est égale à \(-2\).  
-Pour tout entier naturel \(n\), on a :  
+Pour le démontrer, on calcule la différence de deux termes consécutifs quelconques. Pour tout entier naturel \(n\) :  
 \[
-v_{n+1} - v_n = [(n+1)^2 - (n+2)^2] - [n^2 - (n+1)^2]
+v_{n+1} - v_n = [(n+3)^2 - (n+1)^2] - [(n+2)^2 - n^2]
 \]  
 \[
-= (n^2 + 2n + 1 - n^2 - 4n - 4) - (n^2 - n^2 - 2n - 1)
+= (n^2 + 6n + 9 - n^2 - 2n - 1) - (n^2 + 4n + 4 - n^2)
 \]  
 \[
-= (-2n - 3) - (-2n - 1) = -2n - 3 + 2n + 1 = -2
+= (4n + 8) - (4n + 4) = 4
 \]  
 
-Ainsi, pour tout entier naturel \(n\), \(v_{n+1} - v_n = -2\).  
-Donc la suite \((v_n)\) est **arithmétique de raison -2**.  
+Pour tout entier naturel \(n\), \(v_{n+1} - v_n = 4\) : la suite \((v_n)\) est **arithmétique de raison 4**.  
 
-*Remarque* : on peut également prouver que \((v_n)\) est arithmétique en montrant que  
-\[
-v_n = n^2 - (n+1)^2 = -2n - 1 = f(n)
-\]  
-avec \(f\) affine.  
+*Remarque* : on peut aussi développer directement \(v_n = n^2 + 4n + 4 - n^2 = 4n + 4 = f(n)\), avec \(f\) affine, ce qui prouve également que \((v_n)\) est arithmétique.  
 {{% /details %}}
-
 
 ## Étudier une suite arithmétique
 
 > [!NOTE] **Exercice résolu 2 — Étudier une suite arithmétique**  
-> Soit la suite \((u_n)\) définie par \(u_0 = -7\) et, pour tout entier naturel \(n\),  
+> On définit la suite \((u_n)\) par \(u_0 = 5\) et, pour tout entier naturel \(n\),  
 > \[
- u_{n+1} = u_n + 4.
+ u_{n+1} = u_n - 3.
  \]  
-> 1. Donner la formule explicite de \(u_n\). En déduire la valeur de \(u_{21}\).  
-> 2. Un terme de la suite vaut-il 2019 ?  
+> 1. Donner la formule explicite de \(u_n\), puis calculer \(u_{30}\).  
+> 2. Les nombres \(-1000\) et \(-2027\) sont-ils des termes de la suite ?  
 
 {{% details title="Solution commentée" closed="true" %}}  
-**1.** La suite \((u_n)\) est arithmétique de premier terme \(u_0 = -7\) et de raison 4.  
-Donc, pour tout entier naturel \(n\), on a :  
+**1.** La suite \((u_n)\) est arithmétique de premier terme \(u_0 = 5\) et de raison \(-3\).  
+Donc, pour tout entier naturel \(n\) :  
 \[
-u_n = u_0 + nr = -7 + 4n.
+u_n = u_0 + nr = 5 - 3n.
 \]  
 En particulier :  
 \[
-u_{21} = -7 + 4 \times 21 = 77.
+u_{30} = 5 - 3 \times 30 = -85.
 \]  
 
 ---
 
-**2.** On cherche s’il existe un entier naturel \(n\) tel que \(u_n = 2019\).  
-On résout l’équation :  
-\[
-u_n = 2019 \iff -7 + 4n = 2019 \iff 4n = 2026 \iff n = \frac{2026}{4} = 506,5.
-\]  
+**2.** On cherche s’il existe un entier naturel \(n\) vérifiant l’égalité.  
 
-Or \(n\) doit être un entier naturel, donc **aucun terme de la suite n’est égal à 2019**.  
+- Pour \(-1000\) :  
+\[
+u_n = -1000 \iff 5 - 3n = -1000 \iff -3n = -1005 \iff n = 335.
+\]  
+335 est un entier naturel : **\(-1000\) est un terme de la suite**, c’est \(u_{335}\).  
+
+- Pour \(-2027\) :  
+\[
+u_n = -2027 \iff 5 - 3n = -2027 \iff -3n = -2032 \iff n = \frac{2032}{3} \approx 677,33.
+\]  
+Ce nombre n’est pas entier : **\(-2027\) n’est pas un terme de la suite**.  
 {{% /details %}}

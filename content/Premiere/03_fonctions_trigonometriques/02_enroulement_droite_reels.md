@@ -8,85 +8,78 @@ cascade:
 ## Point-image d’un réel
 
 > [!TIP] **Définition**  
-> Dans un repère orthonormé \((O; I, J)\), on considère le **cercle trigonométrique** et la tangente \(\mathcal{D}\) au cercle au point \(I\).  
-> On définit sur cette droite un repère d’origine \(I\).  
-> On imagine que la droite \(\mathcal{D}\) s’enroule autour du cercle.
+> Le plan est muni d’un repère orthonormé \((O; I, J)\) et du **cercle trigonométrique**. On note \(\mathcal{D}\) la tangente au cercle au point \(I\), munie d’un repère d’origine \(I\) (et de même unité que le repère du plan).  
+> On imagine que l’on **enroule** la droite \(\mathcal{D}\) autour du cercle : la partie positive dans le sens direct, la partie négative dans le sens indirect.
 
-![](/images/image72.png)
+![](/images/image159.png)
 
 > [!TIP] **Propriété (admise)**  
-> - Pour tout réel \( \alpha \), le point d’abscisse \( \alpha \) sur \(\mathcal{D}\) correspond à un **unique point \(M\)** sur le cercle trigonométrique.  
->   Ce point \(M\) est appelé **point-image** de \( \alpha \).  
-> - Réciproquement, à tout point \(M\) du cercle correspond une infinité de réels dont les abscisses diffèrent de multiples de \(2\pi\).  
-> - Si \( \alpha \) est une abscisse d’un point de \(\mathcal{D}\), alors toutes les autres sont :  
+> - Pour tout réel \( \alpha \), le point d’abscisse \( \alpha \) de \(\mathcal{D}\) vient se placer sur un **unique point \(M\)** du cercle trigonométrique, appelé **point-image** de \( \alpha \).  
+> - Réciproquement, chaque point \(M\) du cercle est le point-image d’une infinité de réels, qui diffèrent deux à deux d’un multiple de \(2\pi\).  
+> - Si \( \alpha \) est l’un de ces réels, tous les autres sont de la forme \( \alpha + 2k\pi \) avec \( k \in \mathbb{Z} \) :  
 >   \[
-\alpha + 2\pi, \ \alpha + 4\pi, ... \ \alpha - 2\pi, \ \alpha - 4\pi, \dots
+\dots, \ \alpha - 4\pi, \ \alpha - 2\pi, \ \alpha + 2\pi, \ \alpha + 4\pi, \ \dots
 \]
 
 {{% details title="Exemples" closed="true" %}}
-- Si \( \alpha = \pi \), le point-image est \( I' \), symétrique de \( I \) par rapport à \( O \).  
-- Le point \( J \) correspond à une infinité de valeurs d’abscisses :  
+- Le point-image de \( \alpha = -\dfrac{\pi}{2} \) est \( J'(0;-1) \) : on parcourt un quart de cercle dans le sens indirect.  
+- Le point \( I' \) est le point-image d’une infinité de réels :  
   \[
-  \frac{\pi}{2}, \ \frac{\pi}{2} + 2\pi, \ \frac{\pi}{2} - 2\pi, \dots
+  \pi, \ \pi + 2\pi = 3\pi, \ \pi - 2\pi = -\pi, \ 5\pi, \dots
   \]
 {{% /details %}}
-
 
 ## Points-images remarquables du cercle trigonométrique
 
 > [!TIP] **Propriété (admise)**  
-> Les points \( I, A, B, C, J \) du cercle sont appelés **points remarquables** et sont définis par :
+> Dans le premier quart de cercle, les points \( I, A, B, C, J \) sont appelés **points remarquables**. Ce sont les points-images des réels suivants, pour tout \( k \in \mathbb{Z} \) :
 > \[
 \begin{align*}
-\widehat{IOI} &= 2k\pi, \\
-\widehat{IOA} &= \frac{\pi}{6} + 2k\pi, \\
-\widehat{IOB} &= \frac{\pi}{4} + 2k\pi, \\
-\widehat{IOC} &= \frac{\pi}{3} + 2k\pi, \\
-\widehat{IOJ} &= \frac{\pi}{2} + 2k\pi, \quad k \in \mathbb{Z}.
+I &: \ 0 + 2k\pi, \\
+A &: \ \frac{\pi}{6} + 2k\pi, \\
+B &: \ \frac{\pi}{4} + 2k\pi, \\
+C &: \ \frac{\pi}{3} + 2k\pi, \\
+J &: \ \frac{\pi}{2} + 2k\pi.
 \end{align*}
 \]
 
-![](/images/image73.png)
-
+![](/images/image160.png)
 
 ## Exercice résolu 1 : Se repérer sur le cercle trigonométrique
 
 > [!NOTE] **Énoncé**  
-> Pour chacun des points \( A \) et \( B \) du cercle ci-dessous, donner deux réels dont il est le point-image.
-> ![](/images/image74.png)
+> Sur le cercle trigonométrique ci-dessous, \(A\) est le point d’abscisse \(-\tfrac12\) situé au-dessus de l’axe des abscisses, et \(B\) le point d’abscisse \(\tfrac12\) situé au-dessous.  
+> Pour chacun des points \( A \) et \( B \), donner deux réels dont il est le point-image.
+> ![](/images/image161.png)
 
 {{% details title="Solution commentée" closed="true" %}}
-- Pour aller de \( I \) à \( A \) dans le sens trigonométrique, on parcourt un arc égal à \(\frac{\pi}{4}\).  
-  Donc \( A \) est le point-image du réel \(\frac{\pi}{4}\).  
-  En ajoutant ou retranchant \( 2\pi \), on obtient d’autres réels :  
+- \(A\) est le symétrique du point remarquable \(C\) (image de \(\frac{\pi}{3}\)) par rapport à l’axe des ordonnées. Pour aller de \( I \) à \( A \) dans le sens direct, on parcourt donc \( \pi - \frac{\pi}{3} = \frac{2\pi}{3} \).  
+  \( A \) est le point-image de \(\frac{2\pi}{3}\).  
+  En retranchant \( 2\pi \), on en obtient un autre :  
   \[
-  \frac{\pi}{4} - 2\pi = -\frac{7\pi}{4}.
+  \frac{2\pi}{3} - 2\pi = -\frac{4\pi}{3}.
   \]
-  \( A \) est donc aussi le point-image de \(-\frac{7\pi}{4}\).
+  \( A \) est donc aussi le point-image de \(-\frac{4\pi}{3}\).
 
-- \( B \) est le point-image de \(-\frac{\pi}{4}\).  
-  En ajoutant \( 2\pi \), on obtient :  
+- \(B\) est le symétrique de \(C\) par rapport à l’axe des abscisses : on l’atteint en parcourant \(\frac{\pi}{3}\) dans le sens indirect. \( B \) est le point-image de \(-\frac{\pi}{3}\).  
+  En ajoutant \( 2\pi \) :  
   \[
-  -\frac{\pi}{4} + 2\pi = \frac{7\pi}{4}.
+  -\frac{\pi}{3} + 2\pi = \frac{5\pi}{3}.
   \]
-  Donc \( B \) est aussi le point-image de \(\frac{7\pi}{4}\).
+  \( B \) est donc aussi le point-image de \(\frac{5\pi}{3}\).
 {{% /details %}}
-
 
 ## Exercice résolu 2 : Placer des points sur le cercle trigonométrique
 
 > [!NOTE] **Énoncé**  
-> Sur le cercle ci-dessous, on a placé les points \( A(\frac{\pi}{6}) \), \( B(\frac{\pi}{4}) \) et \( C(\frac{\pi}{3}) \).  
-> Placer les points \( E(\frac{3\pi}{4}) \) et \( F(-\frac{4\pi}{3}) \).
-> ![](/images/image75.png)
+> Sur le cercle ci-dessous, on a placé les points \( A\left(\frac{\pi}{6}\right) \), \( B\left(\frac{\pi}{4}\right) \) et \( C\left(\frac{\pi}{3}\right) \).  
+> Placer les points \( E\left(\frac{5\pi}{6}\right) \) et \( F\left(-\frac{3\pi}{4}\right) \).
+> ![](/images/image162.png)
 
 {{% details title="Solution commentée" closed="true" %}}
-- \( B \) est le point-image de \(\frac{\pi}{4}\).  
-  En reportant deux fois cet arc à partir de \( I \), on arrive sur \( J \), le point-image de \( \frac{2\pi}{4} \).  
-  En reportant encore une fois l’arc, on obtient \( E \), le point-image de \(\frac{3\pi}{4}\).
+- \( A \) est le point-image de \(\frac{\pi}{6}\). Comme \( \frac{5\pi}{6} = 5 \times \frac{\pi}{6} \), on reporte cinq fois l’arc \( \overset{\frown}{IA} \) à partir de \( I \), dans le sens direct : on passe par \(C\left(\frac{2\pi}{6}\right)\), \(J\left(\frac{3\pi}{6}\right)\), puis on arrive en \( E \).
 
-- \( C \) est le point-image de \(\frac{\pi}{3}\).  
-  En reportant quatre fois l’arc \( \widehat{OC} \) dans le sens contraire du sens trigonométrique, on obtient \( F \), point-image de \(-\frac{4\pi}{3}\).
+- \( B \) est le point-image de \(\frac{\pi}{4}\). Comme \( -\frac{3\pi}{4} = -3 \times \frac{\pi}{4} \), on reporte trois fois l’arc \( \overset{\frown}{IB} \) à partir de \( I \), dans le sens indirect (sens des aiguilles d’une montre) : on passe par \(J'\left(-\frac{2\pi}{4}\right)\) puis on arrive en \( F \).
 
-![](/images/image76.png)
+![](/images/image163.png)
 {{% /details %}}

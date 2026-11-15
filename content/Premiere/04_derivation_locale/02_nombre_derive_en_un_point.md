@@ -8,104 +8,104 @@ cascade:
 ## Point de vue algébrique
 
 > [!TIP] **Définition**  
-> Soit \( f \) une fonction définie sur un intervalle \( I \) et \( a \) un nombre appartenant à \( I \).  
-> Soit \( h \) un nombre réel non nul tel que \( a + h \) appartienne à \( I \).  
-> On dit que \( f \) est **dérivable en \( a \)** lorsque le taux de variation  
+> Soit \( f \) une fonction définie sur un intervalle \( I \), et \( a \) un réel de \( I \).  
+> Pour tout réel \( h \neq 0 \) tel que \( a + h \in I \), on considère le taux de variation de \(f\) entre \(a\) et \(a + h\) :  
 > \[
-\frac{f(a + h) - f(a)}{h}
+\frac{f(a + h) - f(a)}{h}.
 \]
-> tend vers un unique nombre réel lorsque \( h \) tend vers zéro.  
-> Ce nombre limite est appelé **nombre dérivé de \( f \) en \( a \)**.  
-> On le note \( f'(a) \).
+> On dit que \( f \) est **dérivable en \( a \)** si ce taux de variation tend vers un nombre réel lorsque \( h \) tend vers 0.  
+> Cette limite est alors appelée **nombre dérivé de \( f \) en \( a \)**, et notée \( f'(a) \) :
+> \[
+f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}.
+\]
 
 > [!IMPORTANT] **Remarque**  
-> Une fonction peut ne pas être dérivable en un réel \( a \).  
-> Les fonctions \( x \mapsto \sqrt{x} \) et \( x \mapsto |x| \) ne sont pas dérivables en 0.
-
+> Une fonction n’est pas forcément dérivable en tout point.  
+> Par exemple, la fonction racine carrée \( x \mapsto \sqrt{x} \) et la fonction valeur absolue \( x \mapsto |x| \) ne sont pas dérivables en 0.
 
 ## Tangente à une courbe
 
-Soit \( f \) une fonction définie sur un intervalle \( I \), \( a \) un réel appartenant à \( I \) et \( h \) un nombre réel non nul tel que \( a + h \) appartienne à \( I \). Soit \( A \) le point de la courbe représentative de \( f \) d’abscisse \( a \) et \( H \) le point de la courbe représentative de \( f \) d’abscisse \( a + h \).
+Soit \( f \) une fonction définie sur un intervalle \( I \), \( a \in I \), et \( h \neq 0 \) tel que \( a + h \in I \). On note \( A \) et \( H \) les points de la courbe de \( f \) d’abscisses respectives \( a \) et \( a + h \).
 
-![](/images/image93.png)
+![](/images/image179.png)
 
-Lorsque \( h \) tend vers zéro, le point \( H \) se rapproche de \( A \) et la sécante \( (AH) \) de coefficient directeur \(\frac{f(a + h) - f(a)}{h}\) se rapproche d’une position limite (en rouge sur le dessin). Si \(f\) est dérivable en \( a \), \( \frac{f(a + h) - f(a)}{h} \) tend vers \( f'(a) \) lorsque \( h \) tend vers zéro. On admet alors que ce nombre dérivé est le coefficient directeur de la droite qui correspond à la position limite de la sécante \( (AH) \). 
+La sécante \( (AH) \) a pour coefficient directeur \(\dfrac{f(a + h) - f(a)}{h}\). Quand \( h \) se rapproche de 0, le point \( H \) glisse le long de la courbe vers \( A \), et la sécante pivote autour de \(A\) jusqu’à une position limite (en rouge). Si \(f\) est dérivable en \( a \), le coefficient directeur de la sécante tend vers \( f'(a) \) : on admet que \( f'(a) \) est le coefficient directeur de cette droite limite.
 
 > [!TIP] **Définition**  
-> Soient \( f \) une fonction dérivable en un réel \( a \) et \( A \) le point de coordonnées \( A(a ; f(a)) \).  
-> La **tangente** à la courbe représentative de \( f \) au point d’abscisse \( a \) est la droite de coefficient directeur \( f'(a) \) passant par \( A \).
+> Soit \( f \) une fonction dérivable en un réel \( a \), et \( A(a ; f(a)) \).  
+> La **tangente** à la courbe représentative de \( f \) au point d’abscisse \( a \) est la droite passant par \( A \) et de coefficient directeur \( f'(a) \).
 
 > [!TIP] **Propriété**  
-> Soient \( f \) une fonction dérivable en un réel \( a \) et \( A \) le point de coordonnées \( A(a ; f(a)) \).  
+> Soit \( f \) une fonction dérivable en un réel \( a \), et \( A(a ; f(a)) \).  
 > La tangente à la courbe représentative de \( f \) au point \( A \) a pour **équation réduite** :  
 > \[
 y = f'(a)(x - a) + f(a).
 \]
 
 > [!IMPORTANT] **Remarque**  
-> Localement, la courbe représentative de \( f \) au voisinage du point \( A \) est presque confondue avec sa tangente.  
-> Autrement dit, lorsque \( x \approx a \), on a \( f(x) \approx f'(a)(x - a) + f(a) \).
-
+> Au voisinage de \( A \), la courbe de \( f \) et sa tangente sont presque confondues.  
+> Autrement dit, pour \( x \) proche de \( a \) : \( f(x) \approx f'(a)(x - a) + f(a) \) (approximation affine de \(f\) en \(a\)).
 
 > [!NOTE] **Exercice résolu**  
 > On considère la fonction \( f \) définie sur \( \mathbb{R}^* \) par :  
 > \[
-f(x) = 1 + \frac{3}{x}.
+f(x) = 2 - \frac{4}{x}.
 \]  
-> Montrer que \( f \) est dérivable en 5 et donner la valeur de \( f'(5) \).
+> Démontrer que \( f \) est dérivable en 2 et déterminer \( f'(2) \).
 
 {{% details title="Solution commentée" closed="true" %}}
-Pour étudier la dérivabilité de \( f \) en 5, on calcule le taux de variation de \( f \) entre 5 et \( 5 + h \) (\( h \neq -5 \) et \( h \neq 0 \)) :  
+On calcule le taux de variation de \( f \) entre 2 et \( 2 + h \), pour \( h \neq 0 \) et \( h \neq -2 \) :  
 \[
-\frac{f(5 + h) - f(5)}{h} = \frac{\left(1 + \frac{3}{5 + h}\right) - \left(1 + \frac{3}{5}\right)}{h}
+\frac{f(2 + h) - f(2)}{h} = \frac{\left(2 - \frac{4}{2 + h}\right) - \left(2 - \frac{4}{2}\right)}{h} = \frac{2 - \frac{4}{2 + h}}{h}.
 \]
+On réduit le numérateur au même dénominateur :
 \[
-  = \frac{-3h}{5(5 + h)} \times \frac{1}{h} = \frac{-3}{5(5 + h)}.
+2 - \frac{4}{2 + h} = \frac{2(2 + h) - 4}{2 + h} = \frac{2h}{2 + h}.
 \]
-Lorsque \( h \) tend vers zéro, \( 5(5 + h) \) tend vers 25 et donc le taux de variation tend vers le nombre réel  
+D’où :
 \[
--\frac{3}{25}.
-\]  
-La fonction \( f \) est donc dérivable en 5 avec \( f'(5) = -\frac{3}{25} \).
+\frac{f(2 + h) - f(2)}{h} = \frac{2h}{2 + h} \times \frac{1}{h} = \frac{2}{2 + h}.
+\]
+Quand \( h \) tend vers 0, \( 2 + h \) tend vers 2, donc le taux de variation tend vers le réel \( \dfrac{2}{2} = 1 \).  
+La fonction \( f \) est donc dérivable en 2, et \( f'(2) = 1 \).
 {{% /details %}}
 
 > [!NOTE] **Exercice résolu**  
 > On considère la fonction \( f \) définie sur \( \mathbb{R} \) par :  
 > \[
-f(x) = x^2 + 4x - 3.
+f(x) = 3x^2 - 2x + 1.
 \]  
-> 1. Montrer que la fonction \( f \) est dérivable en tout réel \( a \) et exprimer \( f'(a) \) en fonction de \( a \).  
-> 2. En déduire \( f'(3) \).
+> 1. Démontrer que \( f \) est dérivable en tout réel \( a \), et exprimer \( f'(a) \) en fonction de \( a \).  
+> 2. En déduire \( f'(-1) \).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. Pour étudier la dérivabilité de \( f \) en \( a \), on calcule le taux de variation de \( f \) entre \( a \) et \( a + h \) :  
+1. Soit \(a\) un réel et \(h \neq 0\). On calcule le taux de variation de \( f \) entre \( a \) et \( a + h \) :  
 \[
-\frac{f(a + h) - f(a)}{h} = \frac{(a + h)^2 + 4(a + h) - 3 - (a^2 + 4a - 3)}{h}
+\frac{f(a + h) - f(a)}{h} = \frac{3(a + h)^2 - 2(a + h) + 1 - (3a^2 - 2a + 1)}{h}.
 \]  
+En développant \(3(a+h)^2 = 3a^2 + 6ah + 3h^2\), le numérateur se simplifie :
 \[
-= \frac{2ah + h^2 + 4h}{h} = 2a + 4 + h.
+\frac{6ah + 3h^2 - 2h}{h} = \frac{h(6a + 3h - 2)}{h} = 6a - 2 + 3h.
 \]
-Lorsque \( h \) tend vers zéro, le taux de variation tend vers le nombre réel \( 2a + 4 \).  
-La fonction \( f \) est donc dérivable en tout réel \( a \) avec \( f'(a) = 2a + 4 \).  
+Quand \( h \) tend vers 0, ce taux tend vers le réel \( 6a - 2 \).  
+La fonction \( f \) est donc dérivable en tout réel \( a \), avec \( f'(a) = 6a - 2 \).  
 
-1. \( f'(3) = 2 \times 3 + 4 = 10. \)
+2. \( f'(-1) = 6 \times (-1) - 2 = -8. \)
 {{% /details %}}
 
 > [!NOTE] **Exercice résolu**  
-> La fonction \( f \) est définie sur \( \mathbb{R} \) par \( f(x) = x^2 + 3x - 7 \).  
-> On admet que \( f'(3) = 9 \).  
-> 1. Donner l’équation de la tangente à la courbe de \( f \) au point d’abscisse 3.  
-> 2. Le point \( S(10 ; 80) \) appartient-il à cette droite ?
+> La fonction \( f \) est définie sur \( \mathbb{R} \) par \( f(x) = x^2 - 5x + 2 \). On admet que \( f'(1) = -3 \).  
+> 1. Déterminer l’équation réduite de la tangente à la courbe de \( f \) au point d’abscisse 1.  
+> 2. Les points \( T(4 ; -11) \) et \( U(-2 ; 6) \) appartiennent-ils à cette tangente ?
 
 {{% details title="Solution commentée" closed="true" %}}
-1. \( f(3) = 3^2 + 3 \times 3 - 7 = 11. \)  
-On a aussi \( f'(3) = 9 \).  
-On obtient donc :  
+1. On calcule \( f(1) = 1 - 5 + 2 = -2 \), et on sait que \( f'(1) = -3 \).  
+D’après la formule \( y = f'(a)(x - a) + f(a) \) avec \(a = 1\) :  
 \[
-y = 9(x - 3) + 11 \quad \Rightarrow \quad y = 9x - 16.
+y = -3(x - 1) + (-2) \quad \Longleftrightarrow \quad y = -3x + 1.
 \]
 
-2. Un point appartient à la tangente si et seulement si ses coordonnées vérifient l’équation réduite.  
-\( 9 \times 10 - 16 = 74 \), or \( 80 \neq 74 \).  
-Les coordonnées de \( S \) ne vérifient pas l’équation, donc \( S \) n’appartient pas à la tangente.
+2. Un point appartient à la tangente si et seulement si ses coordonnées vérifient son équation.  
+- Pour \(T\) : \( -3 \times 4 + 1 = -11 \), qui est bien l’ordonnée de \(T\). Donc \( T \) **appartient** à la tangente.  
+- Pour \(U\) : \( -3 \times (-2) + 1 = 7 \neq 6 \). Donc \( U \) **n’appartient pas** à la tangente.
 {{% /details %}}

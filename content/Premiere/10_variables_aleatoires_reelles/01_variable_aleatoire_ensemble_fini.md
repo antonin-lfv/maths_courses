@@ -8,128 +8,130 @@ cascade:
 ## Modélisation du résultat numérique d’une expérience aléatoire
 
 {{% details title="Exemples" closed="false" %}}
-On considère l’expérience aléatoire suivante.  
-Un joueur lance un dé cubique équilibré : si le résultat est 6, le joueur gagne 9 €, sinon il perd 3 €.  
+On considère le jeu suivant.  
+Un joueur tire au hasard une boule dans une urne contenant dix boules numérotées de 1 à 10. Si le numéro est un multiple de 5, il gagne 8 € ; sinon, il perd 2 €.  
 
-On peut considérer le « gain algébrique » du joueur : ce gain est donc une variable pouvant prendre deux valeurs selon le résultat de l’expérience.  
-On modélise cette expérience en associant à chaque issue du dé une valeur du gain :
+Ce qui intéresse le joueur, c’est son **gain algébrique** (positif s’il gagne, négatif s’il perd) : c’est une quantité qui prend deux valeurs possibles selon le résultat du tirage.  
+On associe donc à chaque issue la valeur correspondante du gain :
 
-| Résultat du dé | 1 | 2 | 3 | 4 | 5 | 6 |
-|----------------|---|---|---|---|---|---|
-| Valeur du gain | -3 | -3 | -3 | -3 | -3 | 9 |
+| Numéro tiré    | 1  | 2  | 3  | 4  | 5 | 6  | 7  | 8  | 9  | 10 |
+|----------------|----|----|----|----|---|----|----|----|----|----|
+| Valeur du gain | -2 | -2 | -2 | -2 | 8 | -2 | -2 | -2 | -2 | 8  |
 {{% /details %}}
-
 
 ## Variable aléatoire
 
 > [!TIP] **Définition**  
-> On considère une expérience aléatoire dont l’univers est un ensemble fini noté \(\Omega\).  
-> Une **variable aléatoire** \(X\) est une fonction définie sur \(\Omega\) et à valeurs dans \(\mathbb{R}\).
+> On considère une expérience aléatoire dont l’univers \(\Omega\) est un ensemble fini.  
+> Une **variable aléatoire** \(X\) est une fonction définie sur \(\Omega\) et à valeurs réelles.
 
 > [!IMPORTANT] **Remarque**  
-> Définir une variable aléatoire \(X\) consiste donc à associer, à chaque issue de l’expérience aléatoire, un nombre réel.
+> Définir une variable aléatoire \(X\), c’est associer un nombre réel à chaque issue de l’expérience. Pour un réel \(a\), on note \(\{X = a\}\) l’évènement formé des issues auxquelles \(X\) associe \(a\) ; on définit de même \(\{X < a\}\), \(\{X \geq a\}\), etc.
 
 {{% details title="Exemple" closed="true" %}}
-On reprend le jeu précédent et on note \(X\) le gain algébrique du joueur.  
-\(X\) est une variable aléatoire définie sur \(\Omega = \{1,2,3,4,5,6\}\) pouvant prendre les valeurs \(-3\) et \(9\).
+Dans le jeu précédent, on note \(X\) le gain algébrique du joueur.  
+\(X\) est une variable aléatoire définie sur \(\Omega = \{1, 2, \dots, 10\}\), qui prend les valeurs \(8\) et \(-2\) :
 
-- Si le résultat du dé est 1, 2, 3, 4 ou 5, alors \(X = -3\).  
-- Si le résultat du dé est 6, alors \(X = 9\).
+- si le numéro tiré est 5 ou 10, alors \(X = 8\) ;  
+- sinon, \(X = -2\).
 
-On note donc les évènements :
+Autrement dit :
 \[
-\{X = -3\} = \{1, 2, 3, 4, 5\}, \quad \{X = 9\} = \{6\}.
+\{X = 8\} = \{5, 10\}, \quad \{X = -2\} = \{1, 2, 3, 4, 6, 7, 8, 9\}.
 \]
 
-![](/images/image132.png)
+![](/images/image216.png)
 {{% /details %}}
-
 
 ## Loi de probabilité d’une variable aléatoire
 
 > [!TIP] **Définition**  
-> Donner la **loi de probabilité** d’une variable aléatoire \(X\), c’est donner, pour chaque valeur \(x_i\) que peut prendre \(X\), la probabilité de l’évènement \(\{X = x_i\}\), notée \(P(X = x_i)\).
+> Soit \(X\) une variable aléatoire prenant les valeurs \(x_1, x_2, \dots, x_n\). Donner la **loi de probabilité** de \(X\), c’est donner la probabilité \(P(X = x_i)\) de chacun des évènements \(\{X = x_i\}\).
 
 {{% details title="Exemples" closed="true" %}}
-Dans l’exemple précédent :
-- \(\{X = 9\}\) correspond à une seule issue : 6, donc \(P(X = 9) = \frac{1}{6}\).  
-- \(\{X = -3\}\) correspond aux issues 1, 2, 3, 4, 5, donc \(P(X = -3) = \frac{5}{6}\).
+Dans l’exemple précédent, les dix boules ont la même probabilité d’être tirées :
+- \(\{X = 8\}\) contient deux issues (5 et 10), donc \(P(X = 8) = \frac{2}{10} = \frac{1}{5}\) ;  
+- \(\{X = -2\}\) contient les huit autres issues, donc \(P(X = -2) = \frac{8}{10} = \frac{4}{5}\).
 
-| \(x_i\)         | -3  | 9  |
-|-----------------|-----|----|
-| \(P(X = x_i)\)  | 5/6 | 1/6 |
+On présente la loi dans un tableau :
+
+| \(x_i\)         | -2  | 8   |
+|-----------------|-----|-----|
+| \(P(X = x_i)\)  | 4/5 | 1/5 |
+{{% /details %}}
 
 > [!IMPORTANT] **Remarque**  
 > Pour une variable aléatoire \(X\) prenant les valeurs \(x_1, x_2, \dots, x_n\), on a toujours :
 > \[
 P(X = x_1) + P(X = x_2) + \dots + P(X = x_n) = 1.
 \]
-{{% /details %}}
-
 
 > [!NOTE] **Exercice résolu 1 – Modéliser une situation à l’aide d’une variable aléatoire**  
-> On lance un dé équilibré à 6 faces deux fois de suite.  
-> - Un résultat pair fait gagner 2 €.  
-> - Un résultat impair fait perdre 1 €.  
-> On appelle \(X\) la variable aléatoire égale au gain algébrique en fin de partie.  
+> On lance trois fois de suite une pièce équilibrée.  
+> - Chaque « pile » fait gagner 3 €.  
+> - Chaque « face » fait perdre 2 €.  
+> On note \(X\) la variable aléatoire égale au gain algébrique à la fin des trois lancers.  
 > 
-> 1. Quelles sont les valeurs prises par cette variable aléatoire \(X\) ?  
-> 2. Quelle(s) issue(s) réalise(nt) l’évènement \(\{X = 4\}\) ?  
-> 3. Quelle(s) issue(s) réalise(nt) l’évènement \(\{X < 0\}\) ?
+> 1. Quelles valeurs la variable aléatoire \(X\) peut-elle prendre ?  
+> 2. Quelles issues réalisent l’évènement \(\{X = 4\}\) ?  
+> 3. Quelles issues réalisent l’évènement \(\{X < 0\}\) ?
 
 {{% details title="Solution commentée" closed="true" %}}
-1. On peut avoir :  
-   - deux résultats pairs → gain de 4 € ;  
-   - deux résultats impairs → perte de 2 € ;  
-   - un pair et un impair → gain de 1 €.  
+On note P pour « pile » et F pour « face » ; une issue est une suite de trois lettres, comme PFP.
 
-   Les valeurs possibles pour \(X\) sont donc \(4, -2, 1\).
+1. Le gain ne dépend que du nombre de « pile » obtenus :  
+   - trois « pile » : \(3 \times 3 = 9\) € ;  
+   - deux « pile » et une « face » : \(2 \times 3 - 2 = 4\) € ;  
+   - une « pile » et deux « face » : \(3 - 2 \times 2 = -1\) € ;  
+   - trois « face » : \(-3 \times 2 = -6\) €.  
 
-2. L’évènement \(\{X = 4\}\) correspond à deux résultats pairs.  
-   Issues : (2,2), (2,4), (2,6), (4,2), (4,4), (4,6), (6,2), (6,4), (6,6).
+   \(X\) peut donc prendre les valeurs \(-6\), \(-1\), \(4\) et \(9\).
 
-3. L’évènement \(\{X < 0\}\) correspond à deux résultats impairs.  
-   Issues : (1,1), (1,3), (1,5), (3,1), (3,3), (3,5), (5,1), (5,3), (5,5).
+2. \(\{X = 4\}\) correspond à exactement deux « pile » :  
+   issues PPF, PFP, FPP.
+
+3. \(\{X < 0\}\) correspond à \(X = -1\) ou \(X = -6\), c’est-à-dire à au plus une « pile » :  
+   issues PFF, FPF, FFP, FFF.
 {{% /details %}}
 
-
 > [!NOTE] **Exercice résolu 2 – Déterminer la loi de probabilité d’une variable aléatoire**  
-> On rappelle qu’un jeu de 32 cartes contient 4 familles (cœur, carreau, trèfle, pique), chacune avec trois figures (roi, dame, valet), un as et les cartes de 7 à 10.  
->  
-> Dans ce jeu, on tire successivement et avec remise deux cartes.  
-> On définit la variable aléatoire \(Y\) ainsi :  
-> - Si on tire deux figures, \(Y = 30\) ;  
-> - Si on tire une figure et une autre carte, \(Y = 25\) ;  
-> - Sinon, \(Y = 5\).  
+> Une urne contient dix boules indiscernables au toucher : quatre rouges et six blanches.  
+> On tire successivement et avec remise deux boules. On définit la variable aléatoire \(Y\) ainsi :  
+> - si les deux boules sont rouges, \(Y = 20\) ;  
+> - si une seule boule est rouge, \(Y = 10\) ;  
+> - sinon, \(Y = 0\).  
 >
 > 1. Déterminer la loi de probabilité de \(Y\).  
-> 2. Déterminer \(P(Y \geq 25)\).
+> 2. Calculer \(P(Y \geq 10)\).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. On note \(F_1\) : « figure au premier tirage », \(F_2\) : « figure au second tirage ».  
+1. On note \(R_1\) : « La première boule est rouge » et \(R_2\) : « La seconde boule est rouge ». Le tirage étant avec remise, les deux tirages sont indépendants et :  
 
    \[
-   P(F_1) = P(F_2) = \frac{12}{32} = \frac{3}{8}, \quad P(\overline{F_1}) = P(\overline{F_2}) = \frac{20}{32} = \frac{5}{8}.
+   P(R_1) = P(R_2) = \frac{4}{10} = 0{,}4, \quad P(\overline{R_1}) = P(\overline{R_2}) = 0{,}6.
    \]
 
+   ![](/images/image217.png)
+
    \[
-   P(Y = 30) = \frac{12}{32} \times \frac{12}{32} = \frac{9}{64}
+   P(Y = 20) = P(R_1 \cap R_2) = 0{,}4 \times 0{,}4 = 0{,}16
    \]
-    \[
-   P(Y = 25) = 2 \times \frac{12}{32} \times \frac{20}{32} = \frac{15}{32}
+   \[
+   P(Y = 10) = P(R_1 \cap \overline{R_2}) + P(\overline{R_1} \cap R_2) = 2 \times 0{,}4 \times 0{,}6 = 0{,}48
    \]  
    \[
-   P(Y = 5) = \frac{20}{32} \times \frac{20}{32} = \frac{25}{64}
+   P(Y = 0) = P(\overline{R_1} \cap \overline{R_2}) = 0{,}6 \times 0{,}6 = 0{,}36
    \]
 
-   ![](/images/image133.png)
-
-   | \(y_i\) | 30 | 25 | 5 |
+   | \(y_i\) | 0 | 10 | 20 |
    |----------|----|----|---|
-   | \(P(Y = y_i)\) | 9/64 | 15/32 | 25/64 |
+   | \(P(Y = y_i)\) | 0,36 | 0,48 | 0,16 |
+
+   Vérification : \(0{,}36 + 0{,}48 + 0{,}16 = 1\).
 
 2.  
    \[
-   P(Y \geq 25) = P(Y = 30) + P(Y = 25) = \frac{9}{64} + \frac{15}{32} = \frac{39}{64}.
+   P(Y \geq 10) = P(Y = 10) + P(Y = 20) = 0{,}48 + 0{,}16 = 0{,}64.
    \]
+   (On peut aussi calculer \(1 - P(Y = 0) = 1 - 0{,}36\).)
 {{% /details %}}

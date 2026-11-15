@@ -9,8 +9,8 @@ cascade:
 
 > [!TIP] **Définitions**  
 > Soit \( f \) une fonction définie sur un intervalle \( I \).  
->- On dit que \( f \) est **dérivable sur \( I \)** lorsque \( f \) admet un **nombre dérivé** pour tout réel \( x \in I \), noté \( f'(x) \).  
->- On appelle **fonction dérivée** de \( f \) sur \( I \), notée \( f' \), la fonction définie sur \( I \) par \( f' : x \mapsto f'(x) \).
+>- \( f \) est **dérivable sur \( I \)** si elle est dérivable en tout réel \( x \) de \( I \), c’est-à-dire si le nombre dérivé \( f'(x) \) existe pour tout \( x \in I \).  
+>- La **fonction dérivée** de \( f \) sur \( I \), notée \( f' \), est alors la fonction définie sur \( I \) par \( f' : x \mapsto f'(x) \).
 
 ## Fonction dérivée des fonctions de référence
 
@@ -19,96 +19,104 @@ cascade:
 | \(f(x)=k\) (constante) | \(\mathbb{R}\) | \(\mathbb{R}\) | \(f'(x)=0\) |
 | \(f(x)=mx+p\) (affine) | \(\mathbb{R}\) | \(\mathbb{R}\) | \(f'(x)=m\) |
 | \(f(x)=x^{2}\) (carré) | \(\mathbb{R}\) | \(\mathbb{R}\) | \(f'(x)=2x\) |
-| \(f(x)=x^{n}\), \(n\in\mathbb{Z}\setminus\{0\}\) (puissance) | \(\mathbb{R}\) | \(\mathbb{R}\) | \(f'(x)=n x^{\,n-1}\) |
+| \(f(x)=x^{n}\), \(n\) entier, \(n \geq 1\) (puissance) | \(\mathbb{R}\) | \(\mathbb{R}\) | \(f'(x)=n x^{\,n-1}\) |
+| \(f(x)=x^{n}\), \(n\) entier, \(n \leq -1\) | \(\mathbb{R}^*\) | \(\mathbb{R}^*\) | \(f'(x)=n x^{\,n-1}\) |
 | \(f(x)=\dfrac{1}{x}\) (inverse) | \(\mathbb{R}^*\) | \(\mathbb{R}^*\) | \(f'(x)=-\dfrac{1}{x^{2}}\) |
 | \(f(x)=\sqrt{x}\) (racine carrée) | \([0;+\infty[\) | \(]0;+\infty[\) | \(f'(x)=\dfrac{1}{2\sqrt{x}}\) |
 | \(f(x)=\lvert x \rvert\) (valeur absolue) | \(\mathbb{R}\) | \(\mathbb{R}\setminus\{0\}\) | \(f'(x)=\begin{cases}-1 & \text{si }x<0 \\ 1 & \text{si }x>0\end{cases}\) |
+
+> [!IMPORTANT] **Remarque**  
+> La fonction inverse est le cas \(n = -1\) de la fonction puissance : \(\frac{1}{x} = x^{-1}\) et \(f'(x) = -1 \times x^{-2} = -\frac{1}{x^2}\).
 
 ## Opérations sur les fonctions dérivables
 
 > [!TIP] **Théorème**  
 > Soient \(u\) et \(v\) deux fonctions dérivables sur un intervalle \(I\).  
 > 1. La fonction \(u+v\) est dérivable sur \(I\) et \((u+v)'=u'+v'\).  
-> 2. Soit \(k\in\mathbb{R}\). La fonction \(ku\) est dérivable sur \(I\) et \((ku)'=ku'\).  
+> 2. Pour tout réel \(k\), la fonction \(ku\) est dérivable sur \(I\) et \((ku)'=ku'\).  
 > 3. La fonction \(uv\) est dérivable sur \(I\) et \((uv)'=u'v+uv'\).  
-> 4. Si la fonction \(u\) ne s’annule pas sur \(I\) alors la fonction \(\dfrac{1}{u}\) est dérivable sur \(I\) et  
+> 4. Si \(u\) ne s’annule pas sur \(I\), la fonction \(\dfrac{1}{u}\) est dérivable sur \(I\) et  
 > \(\left(\dfrac{1}{u}\right)'=-\dfrac{u'}{u^{2}}\).  
-> 5. Si la fonction \(v\) ne s’annule pas sur \(I\), alors la fonction \(\dfrac{u}{v}\) est dérivable sur \(I\) et  
+> 5. Si \(v\) ne s’annule pas sur \(I\), la fonction \(\dfrac{u}{v}\) est dérivable sur \(I\) et  
 > \(\left(\dfrac{u}{v}\right)'=\dfrac{u'v-uv'}{v^{2}}\).
 
 > [!TIP] **Théorème (admis) : Dérivée de \(f:x\mapsto g(mx+p)\)**  
-> Soit \(g\) une fonction dérivable sur un intervalle \(J\).  
-> Pour tout réel \(x\) tel que \(mx+p\in J\), la fonction \(f(x)=g(mx+p)\) est dérivable et  
-> \(f'(x)=m\cdot g'(mx+p)\).
+> Soit \(g\) une fonction dérivable sur un intervalle \(J\), et \(m\), \(p\) deux réels.  
+> La fonction \(f : x \mapsto g(mx+p)\) est dérivable en tout réel \(x\) tel que \(mx+p\in J\), et  
+> \(f'(x)=m\, g'(mx+p)\).
 
 {{% details title="Exemple" closed="true" %}}
-On considère \(f(x)=(5x+8)^4\).  
-On écrit \(f(x)=g(mx+p)\) avec \(g(x)=x^4\), \(m=5\), \(p=8\).  
-Comme \(g'(x)=4x^3\), on obtient :
+On considère \(f(x)=(3-2x)^5\).  
+On a \(f(x)=g(mx+p)\) avec \(g(x)=x^5\), \(m=-2\) et \(p=3\).  
+Comme \(g'(x)=5x^4\) :
 \[
-f'(x)=m\,g'(mx+p)=5\cdot 4(5x+8)^3=20(5x+8)^3.
+f'(x)=m\,g'(mx+p)=-2 \times 5(3-2x)^4=-10(3-2x)^4.
 \]
 {{% /details %}}
 
 ## Exercice résolu — Étudier la dérivabilité d’une fonction
 
 > [!NOTE] **Exercice résolu**  
-> Soit \(a\) un nombre réel quelconque. À l’aide du taux de variation, montrer que la fonction \(f:x\mapsto x^2\) est dérivable en \(a\) puis retrouver l’expression de la dérivée de la fonction carré.
+> Soit \(a\) un réel non nul. À l’aide du taux de variation, démontrer que la fonction inverse \(f:x\mapsto \dfrac{1}{x}\) est dérivable en \(a\), et retrouver l’expression de sa fonction dérivée.
 
 {{% details title="Solution commentée" closed="true" %}}
+Pour \(h \neq 0\) tel que \(a + h \neq 0\) :
 \[
-\frac{f(a+h)-f(a)}{h}=\frac{(a+h)^2-a^2}{h}=2a+h \xrightarrow[h\to 0]{} 2a.
+\frac{f(a+h)-f(a)}{h}=\frac{\frac{1}{a+h}-\frac{1}{a}}{h}=\frac{\frac{a-(a+h)}{a(a+h)}}{h}=\frac{-h}{a(a+h)} \times \frac{1}{h}=\frac{-1}{a(a+h)}.
 \]  
-La limite existe et vaut \(2a\). Donc \(f\) est dérivable en \(a\) et \(f'(a)=2a\), soit \(f'(x)=2x\).
+Quand \(h\) tend vers 0, \(a(a+h)\) tend vers \(a^2\), donc le taux tend vers \(-\dfrac{1}{a^2}\).  
+La limite existe : \(f\) est dérivable en tout réel \(a \neq 0\), avec \(f'(a)=-\dfrac{1}{a^2}\). Autrement dit, sur \(\mathbb{R}^*\), \(f'(x)=-\dfrac{1}{x^2}\).
 {{% /details %}}
 
 ## Exercice résolu — Déterminer la fonction dérivée
 
 > [!NOTE] **Exercice résolu**  
-> Déterminer la fonction dérivée des fonctions suivantes (sans se soucier du domaine de dérivabilité).  
-> 1) \(f(x)=3x+5\) 
-> 2) \(f(x)=\sqrt{x}\) 
-> 3) \(f(x)=x^7\) 
-> 4) \(f(x)=\sqrt{2}\) 
-> 5) \(f(x)=-3+2x\)
+> Déterminer la fonction dérivée de chacune des fonctions suivantes (on ne se préoccupe pas ici du domaine de dérivabilité).  
+> 1) \(f(x)=-4x+1\) 
+> 2) \(f(x)=\dfrac{1}{x}\) 
+> 3) \(f(x)=x^5\) 
+> 4) \(f(x)=\pi\) 
+> 5) \(f(x)=x^{-2}\)
 
 {{% details title="Solution commentée" closed="true" %}}
-1) \(f'(x)=3\).  
-2) \(f'(x)=\dfrac{1}{2\sqrt{x}}\).  
-3) \(f'(x)=7x^6\).  
-4) \(f'(x)=0\).  
-5) \(f'(x)=2\).
+1) Fonction affine de coefficient \(-4\) : \(f'(x)=-4\).  
+2) Fonction inverse : \(f'(x)=-\dfrac{1}{x^2}\).  
+3) Fonction puissance avec \(n = 5\) : \(f'(x)=5x^4\).  
+4) \(\pi\) est une constante : \(f'(x)=0\).  
+5) Fonction puissance avec \(n = -2\) : \(f'(x)=-2x^{-3}=-\dfrac{2}{x^3}\).
 {{% /details %}}
 
 ## Exercice résolu — Déterminer la dérivabilité et la dérivée d’une fonction
 
 > [!NOTE] **Exercice résolu**  
-> Pour chacune des fonctions suivantes, déterminer le ou les intervalles où elle est dérivable et donner sa dérivée.  
-> 1) \(f(x)=7x^{2}-5x\)  
-> 2) \(g(x)=\dfrac{3}{x}\)  
-> 3) \(h(x)=\dfrac{3x+1}{2x^{2}+5}\)  
-> 4) \(m(x)=\sqrt{x}\,(6x^{3}-2)\)
+> Pour chacune des fonctions suivantes, préciser sur quel(s) intervalle(s) elle est dérivable, puis calculer sa dérivée.  
+> 1) \(f(x)=4x^{3}-3x^{2}+x\)  
+> 2) \(g(x)=-\dfrac{5}{x}\)  
+> 3) \(h(x)=\dfrac{2x-1}{x^{2}+1}\)  
+> 4) \(m(x)=\sqrt{x}\,(2x^{2}+1)\)
 
 {{% details title="Solution commentée" closed="true" %}}
-1) Somme de polynômes \(\Rightarrow\) dérivable sur \(\mathbb{R}\).  
-\(f'(x)=14x-5\).
+1) \(f\) est une fonction polynôme (somme de fonctions puissances multipliées par des constantes) : elle est dérivable sur \(\mathbb{R}\).  
+\(f'(x)=4 \times 3x^2 - 3 \times 2x + 1 = 12x^{2}-6x+1\).
 
-2) \(x\mapsto \dfrac{3}{x}\) est dérivable sur \(\mathbb{R}^*\).  
-\(g'(x)=-\dfrac{3}{x^{2}}\).
+2) \(g = -5 \times \dfrac{1}{x}\) est dérivable sur \(]-\infty ; 0[\) et sur \(]0 ; +\infty[\).  
+\(g'(x)=-5 \times \left(-\dfrac{1}{x^{2}}\right)=\dfrac{5}{x^{2}}\).
 
-3) Quotient de \(u=3x+1\) et \(v=2x^{2}+5\), avec \(v(x)>0\) pour tout \(x\).  
+3) \(h=\dfrac{u}{v}\) avec \(u(x)=2x-1\) et \(v(x)=x^{2}+1\). On a \(v(x) \geq 1 > 0\) pour tout \(x\) : \(v\) ne s’annule pas, donc \(h\) est dérivable sur \(\mathbb{R}\). Avec \(u'(x)=2\) et \(v'(x)=2x\) :  
 \[
 h'(x)=\frac{u'v-uv'}{v^{2}}
-=\frac{3(2x^{2}+5)-(3x+1)\,4x}{(2x^{2}+5)^{2}}
-=\frac{-6x^{2}-4x+15}{(2x^{2}+5)^{2}}.
+=\frac{2(x^{2}+1)-(2x-1)\times 2x}{(x^{2}+1)^{2}}
+=\frac{2x^2+2-4x^2+2x}{(x^{2}+1)^{2}}
+=\frac{-2x^{2}+2x+2}{(x^{2}+1)^{2}}.
 \]  
-Donc \(h\) est dérivable sur \(\mathbb{R}\).
 
-4) Produit de \(u=\sqrt{x}\) (dérivable sur \(]0,+\infty[\)) et \(v=6x^{3}-2\) (dérivable sur \(\mathbb{R}\)).  
+4) \(m=uv\) avec \(u(x)=\sqrt{x}\), dérivable sur \(]0;+\infty[\), et \(v(x)=2x^{2}+1\), dérivable sur \(\mathbb{R}\). Donc \(m\) est dérivable sur \(]0;+\infty[\).  
+Avec \(u'(x)=\dfrac{1}{2\sqrt{x}}\) et \(v'(x)=4x\) :  
 \[
-m'(x)=u'v+uv'=\frac{6x^{3}-2}{2\sqrt{x}}+18x^{2}\sqrt{x}
-=\frac{3x^{3}-1}{\sqrt{x}}+18x^{2}\sqrt{x}
-=\frac{21x^{3}-1}{\sqrt{x}}
+m'(x)=u'v+uv'=\frac{2x^{2}+1}{2\sqrt{x}}+4x\sqrt{x}.
 \]  
-Donc \(m\) est dérivable sur \(]0,+\infty[\).
+En écrivant \(4x\sqrt{x} = \dfrac{4x \times 2x}{2\sqrt{x}} = \dfrac{8x^2}{2\sqrt{x}}\) (car \(\sqrt{x} \times \sqrt{x} = x\)) :
+\[
+m'(x)=\frac{2x^{2}+1+8x^{2}}{2\sqrt{x}}=\frac{10x^{2}+1}{2\sqrt{x}}.
+\]  
 {{% /details %}}

@@ -7,124 +7,134 @@ cascade:
 
 ## Espérance, variance et écart type
 
-On considère une expérience aléatoire d'univers fini Ω et une loi de probabilité P associée à cette expérience.  
-Soit X une variable aléatoire définie sur Ω et qui prend n valeurs \(x_1, x_2, ..., x_n\) de probabilités respectives \(p_1, p_2, ..., p_n\).
+On considère une expérience aléatoire d’univers fini \(\Omega\), munie d’une loi de probabilité \(P\).  
+Soit \(X\) une variable aléatoire définie sur \(\Omega\), prenant les \(n\) valeurs \(x_1, x_2, \dots, x_n\) avec les probabilités respectives \(p_1, p_2, \dots, p_n\) :
 
 | \(x_i\) | \(x_1\) | \(x_2\) | ... | \(x_n\) |
 |---------|---------|---------|-----|---------|
 | \(P(X = x_i)\) | \(p_1\) | \(p_2\) | ... | \(p_n\) |
 
 > [!TIP] **Définition**
-> L'espérance de X est le nombre noté \(E(X)\) défini par :  
-> \(E(X) = x_1 p_1 + x_2 p_2 + ... + x_n p_n\)
+> L’**espérance** de \(X\) est le nombre noté \(E(X)\) défini par :  
+> \[
+E(X) = x_1 p_1 + x_2 p_2 + \dots + x_n p_n.
+\]
 
 > [!TIP] **Définition**
-> La variance de X est le nombre noté \(V(X)\) défini par :  
-> \(V(X) = p_1 (x_1 - E(X))^2 + ... + p_n (x_n - E(X))^2\).
+> La **variance** de \(X\) est le nombre noté \(V(X)\) défini par :  
+> \[
+V(X) = p_1 (x_1 - E(X))^2 + p_2 (x_2 - E(X))^2 + \dots + p_n (x_n - E(X))^2.
+\]
 
 > [!TIP] **Définition**
-> L'écart type de X est le nombre noté \(\sigma(X)\) défini par :  
-> \(\sigma(X) = \sqrt{V(X)}\).
+> L’**écart type** de \(X\) est le nombre noté \(\sigma(X)\) défini par :  
+> \[
+\sigma(X) = \sqrt{V(X)}.
+\]
 
 > [!IMPORTANT] **Remarque**
-> On peut également noter :  
-> \(E(X) = \sum_{i=1}^n x_i p_i\) et \(V(X) = \sum_{i=1}^n p_i (x_i - E(X))^2\).
+> Avec le symbole somme, ces définitions s’écrivent :  
+> \(E(X) = \displaystyle\sum_{i=1}^n x_i p_i\) et \(V(X) = \displaystyle\sum_{i=1}^n p_i (x_i - E(X))^2\).  
+> La variance est une somme de termes positifs : elle est toujours positive, ce qui permet d’en prendre la racine carrée.
 
-> [!TIP] **Exemple**
-> Soit X une variable aléatoire dont la loi de probabilité est la suivante.
->
-> | \(x_i\) | \(-3\) | \(9\) |
-> |---------|--------|-------|
-> | \(P(X = x_i)\) | \(\frac{5}{6}\) | \(\frac{1}{6}\) |
->
-> On a :  
-> \(E(X) = -3 \times \frac{5}{6} + 9 \times \frac{1}{6} = -1\)  
-> \(V(X) = \frac{5}{6} (-3 - 1)^2 + \frac{1}{6} (9 + 1)^2 = 20\)  
-> \(\sigma(X) = \sqrt{20} = 2\sqrt{5}\)
+{{% details title="Exemple" closed="true" %}}
+On reprend le jeu de l’urne du paragraphe précédent : \(X\) est le gain algébrique, de loi
+
+| \(x_i\) | \(-2\) | \(8\) |
+|---------|--------|-------|
+| \(P(X = x_i)\) | \(\frac{4}{5}\) | \(\frac{1}{5}\) |
+
+On calcule :  
+\[
+E(X) = -2 \times \frac{4}{5} + 8 \times \frac{1}{5} = -\frac{8}{5} + \frac{8}{5} = 0
+\]
+\[
+V(X) = \frac{4}{5} (-2 - 0)^2 + \frac{1}{5} (8 - 0)^2 = \frac{16}{5} + \frac{64}{5} = 16
+\]
+\[
+\sigma(X) = \sqrt{16} = 4
+\]
+{{% /details %}}
 
 > [!IMPORTANT] **Interprétation**
-> - De façon générale, l'espérance d'une variable aléatoire X peut être interprétée comme la moyenne des valeurs prises par X sur un grand nombre de répétitions de cette même expérience aléatoire.  
-> Dans cet exemple, cette moyenne est égale à -1 €.  
-> Si la variable aléatoire X désigne le gain d'un jeu, on dit que ce jeu est équitable lorsque \(E(X) = 0\).  
-> - Par analogie avec les statistiques, de la même façon que \(E(X)\) représente une moyenne, \(V(X)\) et \(\sigma(X)\) sont des indicateurs de dispersion des valeurs de X autour de \(E(X)\).  
-> Plus la variance et l'écart type sont grands, plus les valeurs sont dispersées autour de la moyenne (espérance).
+> - L’espérance de \(X\) s’interprète comme la **moyenne** des valeurs prises par \(X\) lorsqu’on répète l’expérience un très grand nombre de fois.  
+> Dans l’exemple, le gain moyen par partie est de 0 €.  
+> Lorsque \(X\) représente le gain à un jeu, on dit que le jeu est **équitable** si \(E(X) = 0\) ; c’est le cas ici. Il est favorable au joueur si \(E(X) > 0\), défavorable si \(E(X) < 0\).  
+> - Comme en statistiques, la variance \(V(X)\) et l’écart type \(\sigma(X)\) mesurent la **dispersion** des valeurs de \(X\) autour de l’espérance : plus ils sont grands, plus les valeurs sont éloignées, en moyenne, de \(E(X)\).
 
 > [!NOTE] **Exercice résolu 1 — Calculer une espérance, une variance et un écart type**  
-> Soit \(X\) une variable aléatoire dont la loi de probabilité est donnée ci-dessous.  
-> Calculer l’espérance de \(X\), sa variance et son écart type.
+> La loi de probabilité d’une variable aléatoire \(X\) est donnée ci-dessous.  
+> Calculer l’espérance, la variance et l’écart type de \(X\).
 >
-> | \(x_i\) | -1 | 2 | 3 | 5 |
+> | \(x_i\) | -2 | 0 | 1 | 4 |
 > |---------|----|---|---|---|
-> | \(P(X = x_i)\) | 0,4 | 0,1 | 0,2 | 0,3 |
+> | \(P(X = x_i)\) | 0,3 | 0,2 | 0,4 | 0,1 |
 
 {{% details title="Solution commentée" closed="true" %}}
 \[
 \begin{align*}
 E(X) &= x_1p_1 + x_2p_2 + x_3p_3 + x_4p_4 \\
-&= (-1)\times0{,}4 + 2\times0{,}1 + 3\times0{,}2 + 5\times0{,}3 = 1{,}9
+&= (-2)\times0{,}3 + 0\times0{,}2 + 1\times0{,}4 + 4\times0{,}1 \\
+&= -0{,}6 + 0 + 0{,}4 + 0{,}4 = 0{,}2
 \end{align*}
 \]
 
 \[
 \begin{align*}
 V(X) &= p_1(x_1 - E(X))^2 + p_2(x_2 - E(X))^2 + p_3(x_3 - E(X))^2 + p_4(x_4 - E(X))^2 \\
-&= 0{,}4(-1 - 1{,}9)^2 + 0{,}1(2 - 1{,}9)^2 + 0{,}2(3 - 1{,}9)^2 + 0{,}3(5 - 1{,}9)^2 \\
-&= 6{,}49
+&= 0{,}3(-2 - 0{,}2)^2 + 0{,}2(0 - 0{,}2)^2 + 0{,}4(1 - 0{,}2)^2 + 0{,}1(4 - 0{,}2)^2 \\
+&= 0{,}3 \times 4{,}84 + 0{,}2 \times 0{,}04 + 0{,}4 \times 0{,}64 + 0{,}1 \times 14{,}44 \\
+&= 1{,}452 + 0{,}008 + 0{,}256 + 1{,}444 = 3{,}16
 \end{align*}
 \]
 
 \[
-\sigma(X) = \sqrt{6{,}49} \approx 2{,}548
+\sigma(X) = \sqrt{3{,}16} \approx 1{,}778
 \]
 {{% /details %}}
 
-
 > [!NOTE] **Exercice résolu 2 — Interpréter la notion d’espérance**  
-> Dans un jeu, une partie se déroule en deux étapes, chacune consistant à tourner la roue de loterie ci-contre.  
-> À chaque étape, on gagne le nombre de chamallows indiqué par la flèche rouge.  
+> Une partie de jeu consiste à faire tourner deux fois la roue ci-dessous. Le secteur « 1 » occupe la moitié de la roue, le secteur « 3 » un tiers et le secteur « 6 » un sixième. À chaque tour, on marque le nombre de points indiqué par la flèche ; le score d’une partie est la somme des deux tours.  
 >
-> Si on joue un très grand nombre de parties, combien peut-on espérer gagner en moyenne de chamallows par partie ?  
-> ![](/images/image134.png)
+> Sur un très grand nombre de parties, quel score moyen par partie peut-on espérer ?  
+> ![](/images/image218.png)
 
 {{% details title="Solution commentée" closed="true" %}}
-On définit la variable aléatoire \(X\) égale au nombre de chamallows gagnés lors d’une partie.  
-On sait que \(E(X)\) représente la moyenne recherchée.  
+On note \(X\) le score d’une partie : le score moyen cherché est \(E(X)\).  
 
-On note :
-- \(A_1\) : « On gagne 2 chamallows à la première étape »  
-- \(B_1\) : « On gagne 4 chamallows à la première étape »  
-- \(C_1\) : « On gagne 7 chamallows à la première étape »  
+À chaque tour, on obtient 1, 3 ou 6 points avec les probabilités \(\frac{1}{2}\), \(\frac{1}{3}\) et \(\frac{1}{6}\), et les deux tours sont indépendants. On représente la partie par un arbre :
 
-et de même \(A_2, B_2, C_2\) pour la deuxième étape.
+![](/images/image219.png)
 
+On regroupe les chemins selon le score :
 \[
-P(X=4) = P(A_1 \cap A_2) = \frac{1}{4}\times\frac{1}{4} = \frac{1}{16}
+P(X=2) = P(1 \text{ puis } 1) = \frac{1}{2}\times\frac{1}{2} = \frac{1}{4} = \frac{9}{36}
 \]
 \[
-P(X=6) = P(A_1 \cap B_2) + P(B_1 \cap A_2) = 2\times\frac{1}{4}\times\frac{1}{2} = \frac{1}{4}
+P(X=4) = P(1 \text{ puis } 3) + P(3 \text{ puis } 1) = 2\times\frac{1}{2}\times\frac{1}{3} = \frac{1}{3} = \frac{12}{36}
 \]
 \[
-P(X=8) = P(B_1 \cap B_2) + P(C_1 \cap A_2) = 2\times\frac{1}{2}\times\frac{1}{4} = \frac{1}{8}
+P(X=6) = P(3 \text{ puis } 3) = \frac{1}{3}\times\frac{1}{3} = \frac{1}{9} = \frac{4}{36}
 \]
 \[
-P(X=9) = P(A_1 \cap C_2) + P(C_1 \cap A_2) = 2\times\frac{1}{4}\times\frac{1}{4} = \frac{1}{8}
+P(X=7) = P(1 \text{ puis } 6) + P(6 \text{ puis } 1) = 2\times\frac{1}{2}\times\frac{1}{6} = \frac{1}{6} = \frac{6}{36}
 \]
 \[
-P(X=11) = P(B_1 \cap C_2) + P(C_1 \cap B_2) = 2\times\frac{1}{4}\times\frac{1}{4} = \frac{1}{4}
+P(X=9) = P(3 \text{ puis } 6) + P(6 \text{ puis } 3) = 2\times\frac{1}{3}\times\frac{1}{6} = \frac{1}{9} = \frac{4}{36}
 \]
 \[
-P(X=14) = P(C_1 \cap C_2) = \frac{1}{4}\times\frac{1}{4} = \frac{1}{16}
+P(X=12) = P(6 \text{ puis } 6) = \frac{1}{6}\times\frac{1}{6} = \frac{1}{36}
 \]
 
-![](/images/image135.png)
-
-| \(x_i\) | 4 | 6 | 8 | 9 | 11 | 14 |
+| \(x_i\) | 2 | 4 | 6 | 7 | 9 | 12 |
 |---------|---|---|---|---|----|----|
-| \(P(X = x_i)\) | 1/16 | 1/4 | 1/8 | 1/8 | 1/4 | 1/16 |
+| \(P(X = x_i)\) | 9/36 | 12/36 | 4/36 | 6/36 | 4/36 | 1/36 |
+
+Vérification : \(9 + 12 + 4 + 6 + 4 + 1 = 36\).
 
 \[
-E(X) = 4\times\frac{1}{16} + 6\times\frac{1}{4} + 8\times\frac{1}{8} + 9\times\frac{1}{8} + 11\times\frac{1}{4} + 14\times\frac{1}{16} = 8{,}5
+E(X) = \frac{2\times9 + 4\times12 + 6\times4 + 7\times6 + 9\times4 + 12\times1}{36} = \frac{18 + 48 + 24 + 42 + 36 + 12}{36} = \frac{180}{36} = 5
 \]
 
-Ainsi, si l’on joue un très grand nombre de parties, on peut espérer gagner **en moyenne 8,5 chamallows par partie**.
+Sur un très grand nombre de parties, on peut donc espérer marquer **en moyenne 5 points par partie**.
 {{% /details %}}

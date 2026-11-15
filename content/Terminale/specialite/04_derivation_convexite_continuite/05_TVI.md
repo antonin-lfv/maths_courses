@@ -9,84 +9,79 @@ cascade:
 
 > [!TIP] **Théorème des valeurs intermédiaires (admis)**  
 > Soit \( f \) une fonction continue sur un intervalle \([a ; b]\).  
-> Pour tout réel \( k \) compris entre \( f(a) \) et \( f(b) \), l’équation \( f(x)=k \) admet au moins une solution dans l’intervalle \([a ; b]\).
-> ![](/images/image55.png)
+> Pour tout réel \( k \) compris entre \( f(a) \) et \( f(b) \), l’équation \( f(x) = k \) admet **au moins une** solution dans l’intervalle \([a ; b]\).
+> ![](/images/image262.png)
 
 > [!IMPORTANT] **Remarque**  
-> Cela signifie que, quand \( x \) varie de \( a \) à \( b \), \( f(x) \) prend toutes les valeurs intermédiaires comprises entre \( f(a) \) et \( f(b) \).
+> Autrement dit, lorsque \( x \) parcourt \([a ; b]\), une fonction continue prend **toutes** les valeurs comprises entre \( f(a) \) et \( f(b) \) (sa courbe ne peut pas « sauter » par-dessus la droite d’équation \(y = k\)). La solution n’est pas forcément unique : sur la figure, il y en a trois.
 
-> [!TIP] **Cas particulier du théorème des valeurs intermédiaires (admis)**  
+> [!TIP] **Cas particulier : fonction strictement monotone (admis)**  
 > Soit \( f \) une fonction **continue et strictement monotone** sur un intervalle \([a ; b]\).  
-> Pour tout réel \( k \) compris entre \( f(a) \) et \( f(b) \), l’équation \( f(x)=k \) admet **une unique** solution dans \([a ; b]\).  
+> Pour tout réel \( k \) compris entre \( f(a) \) et \( f(b) \), l’équation \( f(x) = k \) admet **une unique** solution dans \([a ; b]\).  
 > - **Cas où \( f \) est strictement croissante :**  
-> ![](/images/image56.png)  
+> ![](/images/image263.png)  
 > - **Cas où \( f \) est strictement décroissante :**  
-> ![](/images/image57.png)
+> ![](/images/image264.png)
 
 > [!IMPORTANT] **Remarque**  
-> Dans un tableau de variation, les flèches obliques indiquent que la fonction est continue et strictement monotone sur l’intervalle considéré.
-
+> Par convention, dans un tableau de variation, une flèche oblique signifie que la fonction est continue et strictement monotone sur l’intervalle correspondant.
 
 ## Extension à d’autres intervalles
 
 > [!TIP] **Théorème (admis)**  
-> \( a \) désigne soit un réel, soit \( -\infty \) ; \( b \) désigne soit un réel, soit \( +\infty \).  
-> Soit \( f \) une fonction **continue** sur l’intervalle \( ]a ; b[ \).  
-> - Pour tout réel \( k \) **strictement** compris entre \( \displaystyle \lim_{x\to a} f(x) \) et \( \displaystyle \lim_{x\to b} f(x) \), l’équation \( f(x)=k \) admet **au moins une** solution dans \( ]a ; b[ \).  
-> - Si, de plus, \( f \) est **strictement monotone** sur \( ]a ; b[ \), alors cette solution est **unique**.
+> Soit \( a \) un réel ou \( -\infty \), et \( b \) un réel ou \( +\infty \), avec \(a < b\). Soit \( f \) une fonction **continue** sur l’intervalle \( ]a ; b[ \), admettant des limites (finies ou infinies) en \(a\) et en \(b\).  
+> - Pour tout réel \( k \) **strictement** compris entre \( \displaystyle \lim_{x\to a} f(x) \) et \( \displaystyle \lim_{x\to b} f(x) \), l’équation \( f(x) = k \) admet **au moins une** solution dans \( ]a ; b[ \).  
+> - Si de plus \( f \) est **strictement monotone** sur \( ]a ; b[ \), cette solution est **unique**.
 
 > [!IMPORTANT] **Remarque**  
-> On peut étendre ce théorème à un intervalle semi-ouvert \([a ; b[\) ou \( ]a ; b]\).
+> Ce théorème s’adapte aux intervalles semi-ouverts \([a ; b[\) et \( ]a ; b]\) (en utilisant la valeur \(f(a)\) ou \(f(b)\) à la borne fermée).
 
-
-## Méthode : Prouver l’existence d’une solution d’une équation du type \( f(x)=k \)
+## Méthode : Prouver l’existence d’une solution d’une équation du type \( f(x) = k \)
 
 > [!NOTE] **Méthode**  
-> Soit \( f \) la fonction définie sur \([0 ; +\infty[\) par \( f(x)=x-2\sqrt{x}+3 \).  
-> - Prouver que l’équation \( f(x)=5 \) admet au moins une solution dans l’intervalle \([4 ; 9]\).
+> On considère la fonction \( f \) définie sur \(\mathbb{R}\) par \( f(x) = x^3 - 2x \).  
+> Démontrer que l’équation \( f(x) = 2 \) admet au moins une solution dans l’intervalle \([1 ; 2]\).
 
 {{% details title="Solution commentée" closed="true" %}}
-La fonction \( x \mapsto x+3 \) est une fonction affine continue sur \(\mathbb{R}\), donc sur \([0 ; +\infty[\), et la fonction racine carrée est continue sur \([0 ; +\infty[\). Donc, par **somme** de fonctions continues sur \([0 ; +\infty[\), \( f \) est continue sur \([0 ; +\infty[\).  
-La fonction \( f \) est donc continue sur \([4 ; 9]\).
+\( f \) est une fonction polynôme, donc continue sur \(\mathbb{R}\), et en particulier sur \([1 ; 2]\).
 
-On calcule \( f(4)=3 \) et \( f(9)=6 \), donc \( 5 \in [f(4) ; f(9)] \).  
-D’après le **théorème des valeurs intermédiaires**, l’équation \( f(x)=5 \) admet **au moins une solution** \( c \) dans l’intervalle \([4 ; 9]\).
+On calcule \( f(1) = 1 - 2 = -1 \) et \( f(2) = 8 - 4 = 4 \). Comme \( -1 \leq 2 \leq 4 \), le réel 2 est compris entre \( f(1) \) et \( f(2) \).  
+D’après le **théorème des valeurs intermédiaires**, l’équation \( f(x) = 2 \) admet **au moins une solution** \( c \) dans \([1 ; 2]\).
 
 Illustration graphique :  
-![](/images/image58.png)
+![](/images/image265.png)
 {{% /details %}}
 
-
-## Méthode : Prouver l’existence et l’unicité d’une solution d’une équation du type \( f(x)=k \)
+## Méthode : Prouver l’existence et l’unicité d’une solution d’une équation du type \( f(x) = k \)
 
 > [!NOTE] **Méthode**  
-> Soit \( f \) la fonction définie sur \(\mathbb{R}\) par \( f(x)=e^x + x - 2 \).  
-> 1. Tracer la courbe représentative de \( f \) dans un repère.  
-> 2. Démontrer que \( f \) est strictement croissante et continue sur \(\mathbb{R}\).  
-> 3. Démontrer que l’équation \( f(x)=0 \) admet une **unique** solution dans \(\mathbb{R}\).  
-> 4. Déterminer avec la calculatrice un encadrement décimal de \( \alpha \) à \(10^{-2}\) près.
+> On considère la fonction \( f \) définie sur \(\mathbb{R}\) par \( f(x) = e^x + 2x - 3 \).  
+> 1. Tracer la courbe représentative de \( f \).  
+> 2. Démontrer que \( f \) est continue et strictement croissante sur \(\mathbb{R}\).  
+> 3. Démontrer que l’équation \( f(x) = 0 \) admet une **unique** solution \(\alpha\) dans \(\mathbb{R}\).  
+> 4. À l’aide de la calculatrice, donner un encadrement de \( \alpha \) d’amplitude \(10^{-2}\).
 
 {{% details title="Solution commentée" closed="true" %}}
 1. Voir la figure ci-dessous.  
-![](/images/image59.png)
+![](/images/image266.png)
 
-2. La fonction \( f \) est dérivable sur \(\mathbb{R}\) comme somme de fonctions dérivables et on a \( f'(x)=e^x+1 \).  
-Pour tout réel \( x \), \( f'(x)>0 \), donc \( f \) est **strictement croissante** sur \(\mathbb{R}\). De plus, \( f \) est dérivable sur \(\mathbb{R}\), donc **continue** sur \(\mathbb{R}\).
+2. \( f \) est dérivable sur \(\mathbb{R}\) (somme de fonctions dérivables), avec \( f'(x) = e^x + 2 \).  
+Pour tout réel \( x \), \( e^x > 0 \), donc \( f'(x) > 0 \) : \( f \) est **strictement croissante** sur \(\mathbb{R}\). Étant dérivable, \( f \) est aussi **continue** sur \(\mathbb{R}\).
 
-3. \(\displaystyle \lim_{x\to-\infty}(x-2)=-\infty\) et \(\displaystyle \lim_{x\to-\infty} e^x=0\) donc, par somme de limites :  
-\(\displaystyle \lim_{x\to-\infty} f(x)=-\infty.\)  
-\(\displaystyle \lim_{x\to+\infty}(x-2)=+\infty\) et \(\displaystyle \lim_{x\to+\infty} e^x=+\infty\) donc, par somme de limites :  
-\(\displaystyle \lim_{x\to+\infty} f(x)=+\infty.\)
+3. On détermine les limites aux bornes :  
+- \(\displaystyle \lim_{x\to-\infty} e^x = 0\) et \(\displaystyle \lim_{x\to-\infty} (2x - 3) = -\infty\), donc, par somme, \(\displaystyle \lim_{x\to-\infty} f(x) = -\infty\) ;  
+- \(\displaystyle \lim_{x\to+\infty} e^x = +\infty\) et \(\displaystyle \lim_{x\to+\infty} (2x - 3) = +\infty\), donc, par somme, \(\displaystyle \lim_{x\to+\infty} f(x) = +\infty\).
 
-La fonction \( f \) est continue et **strictement croissante** sur \(\mathbb{R}\).  
-De plus, \( 0 \in \left]\displaystyle \lim_{x\to-\infty} f(x)\,;\, \displaystyle \lim_{x\to+\infty} f(x)\right[ \).  
-D’après le **cas particulier du TVI** pour les fonctions strictement monotones, l’équation \( f(x)=0 \) admet **une unique** solution dans \(\mathbb{R}\).
+\( f \) est continue et strictement croissante sur \(\mathbb{R}\), et \( 0 \) est strictement compris entre \(-\infty\) et \(+\infty\). D’après le théorème des valeurs intermédiaires (cas strictement monotone), l’équation \( f(x) = 0 \) admet **une unique** solution \(\alpha\) dans \(\mathbb{R}\).
 
-4. D’après le tableau de valeurs (pas de \(0{,}01\)), on obtient l’encadrement :  
+4. On calcule \(f(0) = -2 < 0\) et \(f(1) = e - 1 > 0\), donc \(0 < \alpha < 1\). On affine avec un tableau de valeurs de pas \(0{,}01\) (valeurs arrondies) :
+
+| \( x \)    | 0,57    | 0,58    | 0,59    | 0,60   | 0,61   |
+|------------|---------|---------|---------|--------|--------|
+| \( f(x) \) | −0,0917 | −0,0540 | −0,0160 | 0,0221 | 0,0604 |
+
+\(f\) change de signe entre 0,59 et 0,60, d’où :
 \[
-0{,}44<\alpha<0{,}45.
+0{,}59 < \alpha < 0{,}60.
 \]
-
-Extrait de l’écran de calculatrice :  
-![](/images/image60.png)
 {{% /details %}}

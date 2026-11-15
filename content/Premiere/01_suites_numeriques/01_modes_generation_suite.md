@@ -8,118 +8,114 @@ cascade:
 ## Définition d’une suite numérique
 
 > [!TIP] **Définition**  
-> Une **suite numérique** est une fonction \(u : n \mapsto u(n)\) définie sur \(\mathbb{N}\) (ou seulement pour \(n \geq k\) avec \(k\) entier naturel) et à valeurs dans \(\mathbb{R}\).  
-> Le nombre réel \(u(n)\), noté \(u_n\) (se lit « \(u\) indice \(n\) »), est appelé le terme de rang \(n\) ou le terme général de la suite. On note cette suite \((u_n)\).  
+> Une **suite numérique** \((u_n)\) est une fonction \(u : n \mapsto u(n)\) définie sur \(\mathbb{N}\) (ou seulement pour les entiers \(n \geq k\), avec \(k\) entier naturel) et à valeurs réelles.  
+> Le réel \(u(n)\) se note \(u_n\) (lire « \(u\) indice \(n\) ») : c’est le **terme de rang \(n\)**, aussi appelé **terme général** de la suite.  
 
-Une suite \((u_n)\) peut être représentée graphiquement par le nuage de points de coordonnées \((n;u_n)\).  
+Pour représenter une suite dans un repère, on place les points de coordonnées \((n\,;u_n)\) : on obtient un nuage de points isolés (on ne les relie pas).
 
-![](/images/image8.png)
+![](/images/image273.png)
 
 {{% details title="Exemple" closed="true" %}}  
-La liste \(50 ; 25 ; 12,5 ; 6,25 \ldots\) définit les premiers termes de la suite \((u_n)\) telle que \(u_0 = 50\), \(u_1 = 25\), \(u_2 = 12,5\), \(u_3 = 6,25 \ldots\).  
-On dit que 50 est le terme de rang 0 ; 25 est le terme de rang 1 ; 12,5 est le terme de rang 2, etc.  
+On considère la liste de nombres \(2 ; 6 ; 18 ; 54 \ldots\) Elle donne les premiers termes d’une suite \((u_n)\) avec \(u_0 = 2\), \(u_1 = 6\), \(u_2 = 18\), \(u_3 = 54\ldots\)  
+Le nombre 2 est le terme de rang 0, le nombre 6 le terme de rang 1, le nombre 18 le terme de rang 2, et ainsi de suite.  
 {{% /details %}}
 
 ## Suite définie par une formule explicite \(u_n = f(n)\)
 
 > [!TIP] **Définition**  
-> Une suite est définie par une **formule explicite** lorsque \(u_n\) s’exprime en fonction de l’entier \(n\).  
-> Dans ce cas, on peut calculer chaque terme \(u_n\) directement à partir de son rang \(n\).  
+> Une suite est définie par une **formule explicite** lorsque son terme général \(u_n\) est donné directement en fonction de \(n\), sous la forme \(u_n = f(n)\).  
+> On peut alors calculer n’importe quel terme à partir de son seul rang, sans connaître les termes précédents.  
 
 {{% details title="Exemples" closed="true" %}}  
-- Pour tout entier naturel \(n\), on donne \(u_n = 2n\).  
-\(u_0 = 2 \times 0 = 0 \ ; \ u_1 = 2 \times 1 = 2\).  
-\(u_2 = 2 \times 2 = 4 \ ; \ldots ; \ u_{20} = 2 \times 20 = 40\).  
+- Pour tout entier naturel \(n\), \(u_n = 5n - 3\).  
+\(u_0 = 5 \times 0 - 3 = -3 \ ; \ u_1 = 5 \times 1 - 3 = 2 \ ; \ u_2 = 5 \times 2 - 3 = 7 \ ; \ldots ; \ u_{10} = 5 \times 10 - 3 = 47\).  
 
-- Pour tout entier naturel \(n \geq 1\), on donne \(v_n = \sqrt{n - 1}\).  
-\(v_1 = \sqrt{1 - 1} = 0\) (le premier terme ici est \(v_1\) et non \(v_0\)) ;  
-\(v_2 = \sqrt{2 - 1} = 1 \ ; \ldots ; \ v_{17} = \sqrt{17 - 1} = 4\).  
+- Pour tout entier \(n \geq 2\), \(v_n = \dfrac{1}{n - 1}\).  
+La suite commence au rang 2 (le calcul est impossible pour \(n = 1\)) :  
+\(v_2 = \dfrac{1}{2-1} = 1 \ ; \ v_3 = \dfrac{1}{2} \ ; \ldots ; \ v_{11} = \dfrac{1}{10}\).  
 {{% /details %}}
 
 ## Suite définie par une relation de récurrence \(u_{n+1} = f(u_n)\)
 
 > [!TIP] **Définition**  
-> Une suite est définie par une **relation de récurrence** lorsqu’elle est définie par la donnée de :  
+> Une suite est définie par une **relation de récurrence** lorsqu’on donne :  
 > - son premier terme ;  
-> - une relation qui permet de calculer chaque terme à partir du précédent.  
+> - une relation permettant d’obtenir chaque terme à partir du terme précédent.  
 >   
-> Dans ce cas, pour calculer chaque terme \(u_n\), il faut avoir calculé tous les termes qui le précèdent.  
-
+> Pour calculer \(u_n\), il faut alors avoir calculé, de proche en proche, tous les termes de rang inférieur.  
 
 {{% details title="Exemples" closed="true" %}}  
-- On définit la suite \((u_n)\) par \(u_0 = 5\) et chaque terme est le triple de son précédent.  
-\(u_0 = 5 \ ; \ u_1 = 3u_0 = 3 \times 5 = 15\ ;\ u_2 = 3u_1 = 3 \times 15 = 45 \ldots\)  
+- La suite \((u_n)\) a pour premier terme \(u_0 = 4\), et chaque terme s’obtient en ajoutant 7 au précédent.  
+\(u_0 = 4 \ ; \ u_1 = u_0 + 7 = 11 \ ; \ u_2 = u_1 + 7 = 18 \ldots\)  
 
-- On définit la suite \((v_n)\) par \(v_0 = 3\) et, pour tout entier naturel \(n\),  
-\(v_{n+1} = 4v_n - 6\).  
-\(v_0 = 3 \ ; \ v_1 = 4v_0 - 6 = 4 \times 3 - 6 = 6 \ ; \ v_2 = 4v_1 - 6 = 4 \times 6 - 6 = 18 \ldots\)  
+- La suite \((v_n)\) est définie par \(v_0 = 2\) et, pour tout entier naturel \(n\), \(v_{n+1} = 3v_n - 1\).  
+\(v_0 = 2 \ ; \ v_1 = 3 \times 2 - 1 = 5 \ ; \ v_2 = 3 \times 5 - 1 = 14 \ldots\)  
 {{% /details %}}  
 
 > [!IMPORTANT] **Remarque**  
-> Il existe d’autres modes de génération d’une suite comme par exemple un algorithme ou encore un dénombrement lié à une suite de motifs géométriques.
-
+> Formule explicite et récurrence ne sont pas les seules façons de définir une suite : on peut aussi la décrire par un algorithme, ou par un comptage (par exemple le nombre d’allumettes nécessaires pour construire le \(n\)-ième motif d’une figure qui grandit).
 
 ## Calculer des termes d’une suite
 
 > [!NOTE] **Exercice résolu 1 — Calculer des termes d’une suite**  
-> 1. Soit la suite \((u_n)\) définie pour tout entier naturel \(n\) par :  
+> 1. On considère la suite \((u_n)\) définie pour tout entier naturel \(n\) par :  
 > \[
-u_n = 3n^2 - 2n + 1
+u_n = 2n^2 + n - 3
 \]  
-> a. Calculer le terme de rang 5, puis le 10e terme.  
-> b. Déterminer l’expression en fonction de \(n\) des termes \(u_{n+1}\) et \(u_{2n}\).  
+> a. Calculer le terme de rang 4, puis le 8e terme.  
+> b. Exprimer \(u_{n+1}\) et \(u_{2n}\) en fonction de \(n\).  
 >   
-> 2. Soit la suite \((v_n)\) définie par \(v_0 = 1\) et, pour tout entier naturel \(n\),  
+> 2. On considère la suite \((v_n)\) définie par \(v_0 = 4\) et, pour tout entier naturel \(n\),  
 > \[
-v_{n+1} = 0,5v_n + 4.
+v_{n+1} = 2v_n - 3.
 \]  
 > Calculer \(v_3\).  
 >   
-> 3. Soit la suite \((w_n)\) définie par \(w_0 = \tfrac{3}{2}\) et, pour tout entier naturel \(n\),  
+> 3. On considère la suite \((w_n)\) définie par \(w_0 = \tfrac{1}{3}\) et, pour tout entier naturel \(n\),  
 > \[
-w_{n+1} = 2w_n(1 - w_n) + 2.
+w_{n+1} = 3w_n(1 - w_n) + 1.
 \]  
 > Calculer \(w_2\).  
 
 {{% details title="Solution commentée" closed="true" %}}  
 **1.**  
-a. Le terme de rang 5 est \(u_5\). On remplace \(n\) par 5 :  
+a. Le terme de rang 4 est \(u_4\) : on remplace \(n\) par 4.  
 \[
-u_5 = 3 \times 5^2 - 2 \times 5 + 1 = 66
+u_4 = 2 \times 4^2 + 4 - 3 = 32 + 4 - 3 = 33
 \]  
-Le premier terme étant de rang 0, le 10e terme est de rang 9 :  
+Le premier terme est \(u_0\) : le 1er terme est de rang 0, donc le 8e terme est de rang 7.  
 \[
-u_9 = 3 \times 9^2 - 2 \times 9 + 1 = 226
-\]  
-
-b.  
-\[
-u_{n+1} = 3(n+1)^2 - 2(n+1) + 1 = 3n^2 + 6n + 3 - 2n - 2 + 1 = 3n^2 + 4n + 2
-\]  
-\[
-u_{2n} = 3(2n)^2 - 2(2n) + 1 = 12n^2 - 4n + 1
+u_7 = 2 \times 7^2 + 7 - 3 = 98 + 7 - 3 = 102
 \]  
 
----
-
-**2.** Pour obtenir \(v_3\), il faut calculer tous les termes qui le précèdent :  
+b. On remplace \(n\) par \(n+1\), puis par \(2n\), et on développe :  
 \[
-v_1 = v_0 \times 0,5 + 4 = 0,5 \times 1 + 4 = 4,5
+u_{n+1} = 2(n+1)^2 + (n+1) - 3 = 2n^2 + 4n + 2 + n + 1 - 3 = 2n^2 + 5n
 \]  
 \[
-v_2 = v_1 \times 0,5 + 4 = 0,5 \times 4,5 + 4 = 6,25
-\]  
-\[
-v_3 = v_2 \times 0,5 + 4 = 0,5 \times 6,25 + 4 = 7,125
+u_{2n} = 2(2n)^2 + 2n - 3 = 8n^2 + 2n - 3
 \]  
 
 ---
 
-**3.** Pour obtenir \(w_2\), il faut calculer tous les termes qui le précèdent :  
+**2.** La suite est définie par récurrence : on calcule les termes un par un jusqu’à \(v_3\).  
 \[
-w_1 = 2w_0(1 - w_0) + 2 = 2 \times \tfrac{3}{2}(1 - \tfrac{3}{2}) + 2 = 3 \times (-\tfrac{1}{2}) + 2 = -\tfrac{3}{2} + 2 = \tfrac{1}{2}
+v_1 = 2v_0 - 3 = 2 \times 4 - 3 = 5
 \]  
 \[
-w_2 = 2w_1(1 - w_1) + 2 = 2 \times \tfrac{1}{2}(1 - \tfrac{1}{2}) + 2 = 1 \times \tfrac{1}{2} + 2 = \tfrac{5}{2}
+v_2 = 2v_1 - 3 = 2 \times 5 - 3 = 7
+\]  
+\[
+v_3 = 2v_2 - 3 = 2 \times 7 - 3 = 11
+\]  
+
+---
+
+**3.** Même démarche : on calcule \(w_1\), puis \(w_2\).  
+\[
+w_1 = 3w_0(1 - w_0) + 1 = 3 \times \tfrac{1}{3} \times \left(1 - \tfrac{1}{3}\right) + 1 = \tfrac{2}{3} + 1 = \tfrac{5}{3}
+\]  
+\[
+w_2 = 3w_1(1 - w_1) + 1 = 3 \times \tfrac{5}{3} \times \left(1 - \tfrac{5}{3}\right) + 1 = 5 \times \left(-\tfrac{2}{3}\right) + 1 = -\tfrac{10}{3} + 1 = -\tfrac{7}{3}
 \]  
 {{% /details %}}

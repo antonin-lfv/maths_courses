@@ -8,90 +8,105 @@ cascade:
 ## Signe d’un trinôme du second degré
 
 > [!TIP] **Théorème**  
-> Soit \( f \) une fonction polynomiale du second degré, définie sur \(\mathbb{R}\) par \( f(x) = ax^2 + bx + c \), avec \( a \neq 0 \).  
-> - Si \(\Delta > 0\), alors \( f(x) \) s’annule en \( x_1 \) et \( x_2 \) et est du signe de \( a \) sur \( ]-\infty ; x_1[ \cup ]x_2 ; +\infty[ \), où \( x_1 \) et \( x_2 \) sont les racines (\( x_1 < x_2 \)).  
-> - Si \(\Delta = 0\), alors \( f(x) \) s’annule en son unique racine \( x_0 \) et est du signe de \( a \) sur \(\mathbb{R} \setminus \{x_0\}\).  
-> - Si \(\Delta < 0\), alors \( f(x) \) est du signe de \( a \) sur \(\mathbb{R}\).
+> Soit \( f \) la fonction polynôme du second degré définie sur \(\mathbb{R}\) par \( f(x) = ax^2 + bx + c \), avec \( a \neq 0 \), et \(\Delta\) son discriminant.  
+> - Si \(\Delta > 0\), \( f(x) \) s’annule en ses deux racines \( x_1 < x_2 \) ; \( f(x) \) est du signe de \( a \) sur \( ]-\infty ; x_1[ \cup ]x_2 ; +\infty[ \) et du signe de \( -a \) sur \( ]x_1 ; x_2[ \).  
+> - Si \(\Delta = 0\), \( f(x) \) s’annule en son unique racine \( x_0 \) et est du signe de \( a \) sur \(\mathbb{R} \setminus \{x_0\}\).  
+> - Si \(\Delta < 0\), \( f(x) \) est du signe de \( a \) sur \(\mathbb{R}\) (et ne s’annule jamais).
 
-**Illustration graphique :**
+**Illustration graphique :** position de la parabole par rapport à l’axe des abscisses selon le signe de \( a \) et de \(\Delta\).
 
-![](/images/image63.png)
+![](/images/image151.png)
+
+- \(\Delta > 0\) : la parabole coupe l’axe des abscisses en deux points d’abscisses \( x_1 \) et \( x_2 \).
+
+| \( x \)    | \( -\infty \) |              | \( x_1 \) |               | \( x_2 \) |              | \( +\infty \) |
+|------------|---------------|--------------|-----------|---------------|-----------|--------------|---------------|
+| \( f(x) \) |               | signe de \( a \) | 0     | signe de \( -a \) | 0     | signe de \( a \) |           |
+
+- \(\Delta = 0\) : la parabole touche l’axe des abscisses en un seul point, d’abscisse \( x_0 \).
+
+| \( x \)    | \( -\infty \) |                  | \( x_0 \) |                  | \( +\infty \) |
+|------------|---------------|------------------|-----------|------------------|---------------|
+| \( f(x) \) |               | signe de \( a \) | 0         | signe de \( a \) |               |
+
+- \(\Delta < 0\) : la parabole est entièrement au-dessus de l’axe des abscisses si \( a > 0 \), entièrement au-dessous si \( a < 0 \).
+
+| \( x \)    | \( -\infty \) |                  | \( +\infty \) |
+|------------|---------------|------------------|---------------|
+| \( f(x) \) |               | signe de \( a \) |               |
 
 > [!IMPORTANT] **Remarque**  
-> On peut retenir ce théorème sous la forme :  
-> Le trinôme \( ax^2 + bx + c \) est du signe de \(-a\) entre les racines quand elles existent ou du signe de \( a \) sauf entre les racines quand elles existent.  
+> Moyen mnémotechnique : un trinôme est **du signe de \( a \) sauf entre ses racines** (quand elles existent), où il est du signe de \( -a \).  
 
 {{% details title="Exemple" closed="true" %}}
-Le polynôme \( (1-x)(3x-2) \) a pour racines 1 et \(\tfrac{2}{3}\). Le coefficient \( a \) est le coefficient de \( x^2 \).  
-On a \( a = -3 < 0 \).  
-Le trinôme est du signe de \(-a\) donc positif sur l’intervalle \(\left[\tfrac{2}{3} ; 1\right]\) et du signe de \( a \) donc négatif sur \( ]-\infty ; \tfrac{2}{3}] \cup [1 ; +\infty[ \).
+Le trinôme \( (2-x)(4x+1) \) a pour racines 2 et \(-\tfrac{1}{4}\). En développant mentalement, le coefficient de \( x^2 \) est \( a = -1 \times 4 = -4 < 0 \).  
+Le trinôme est donc du signe de \(-a\), c’est-à-dire positif, entre les racines : sur \(\left[-\tfrac{1}{4} ; 2\right]\) ; et du signe de \( a \), donc négatif, sur \( \left]-\infty ; -\tfrac{1}{4}\right] \cup [2 ; +\infty[ \) (il est nul en \(-\tfrac14\) et en 2).
 {{% /details %}}
-
 
 ## Exercice résolu 1 : Étudier le signe d’un trinôme du second degré
 
 > [!NOTE] **Exercice résolu**  
-> Dresser le tableau de signes des fonctions \( f \) et \( g \) définies ci-dessous et les représenter graphiquement avec la calculatrice pour contrôler les résultats.  
-> 1. \( f(x) = -3x^2 - 5x + 2 \)  
-> 2. \( g(x) = 2x^2 - 4x + 2,4 \)
+> Dresser le tableau de signes des fonctions \( f \) et \( g \) ci-dessous, puis contrôler le résultat en traçant leur courbe à la calculatrice.  
+> 1. \( f(x) = -2x^2 + 3x + 2 \)  
+> 2. \( g(x) = x^2 - 2x + 3 \)
 
 {{% details title="Solution commentée" closed="true" %}}
-1. \(\Delta = b^2 - 4ac = (-5)^2 - 4 \times (-3) \times 2 = 25 + 24 = 49\).  
-\(\Delta > 0\), donc le trinôme \( f(x) \) admet deux racines réelles distinctes :  
+1. \(\Delta = b^2 - 4ac = 3^2 - 4 \times (-2) \times 2 = 9 + 16 = 25\), et \(\sqrt{\Delta} = 5\).  
+\(\Delta > 0\) : le trinôme \( f(x) \) a deux racines réelles distinctes :  
 \[
-x_1 = \frac{-b - \sqrt{\Delta}}{2a} = \frac{5 - 7}{-6} = \frac{-2}{-6} = \tfrac{1}{3}, 
-\quad x_2 = \frac{-b + \sqrt{\Delta}}{2a} = \frac{5 + 7}{-6} = \frac{12}{-6} = -2.
+x_1 = \frac{-b + \sqrt{\Delta}}{2a} = \frac{-3 + 5}{-4} = -\tfrac{1}{2}, 
+\quad x_2 = \frac{-b - \sqrt{\Delta}}{2a} = \frac{-3 - 5}{-4} = 2.
 \]  
-\( a < 0 \), donc on obtient le tableau de signes suivant :  
+Comme \( a = -2 < 0 \), \( f(x) \) est négatif à l’extérieur des racines et positif entre elles :  
 
-![](/images/image64.png)
+| \( x \)    | \( -\infty \) |     | \( -\tfrac12 \) |     | \( 2 \) |     | \( +\infty \) |
+|------------|---------------|-----|-----------------|-----|---------|-----|---------------|
+| \( f(x) \) |               | \(-\) | 0             | \(+\) | 0     | \(-\) |             |
 
-Sur la calculatrice, on constate que la parabole coupe l’axe des abscisses en -2 et \( \tfrac{1}{3} \), et qu’elle est au-dessus de cet axe sur \( ]-2 ; \tfrac{1}{3}[ \).  
+Graphiquement, la parabole coupe l’axe des abscisses en \(-\tfrac{1}{2}\) et 2, et elle est au-dessus de cet axe sur \( \left]-\tfrac{1}{2} ; 2\right[ \).  
 
-![](/images/image65.png)
+![](/images/image152.png)
 
-2. \(\Delta = b^2 - 4ac = (-4)^2 - 4 \times 2 \times 2,4 = 16 - 19,2 = -3,2\).  
-\(\Delta < 0\), donc le trinôme \( g(x) \) est du signe de \( a \) (ici \( a = 2 \)) sur \(\mathbb{R}\).  
-On obtient le tableau de signes suivant :  
+2. \(\Delta = b^2 - 4ac = (-2)^2 - 4 \times 1 \times 3 = 4 - 12 = -8\).  
+\(\Delta < 0\) : le trinôme \( g(x) \) est du signe de \( a = 1 \), donc strictement positif sur \(\mathbb{R}\).  
 
-![](/images/image66.png)
+| \( x \)    | \( -\infty \) |     | \( +\infty \) |
+|------------|---------------|-----|---------------|
+| \( g(x) \) |               | \(+\) |             |
 
-Sur la calculatrice, on constate que la parabole est strictement au-dessus de l’axe des abscisses.  
+Graphiquement, la parabole est entièrement située au-dessus de l’axe des abscisses.  
 
-![](/images/image67.png)
+![](/images/image153.png)
 
 {{% /details %}}
-
 
 ## Exercice résolu 2 : Résoudre une inéquation du second degré
 
 > [!NOTE] **Exercice résolu**  
-> Résoudre les inéquations suivantes :  
-> 1. \((2x + 1)(3 - x) > 0\)  
-> 2. \(-2x^2 + 5x \leq 4\)  
-> 3. \((x - 4)^2 \leq (-5x + 2)^2\)
+> Résoudre dans \(\mathbb{R}\) les inéquations suivantes :  
+> 1. \((3x - 2)(x + 4) < 0\)  
+> 2. \(3x^2 - x \geq -1\)  
+> 3. \((2x + 1)^2 \geq (x - 3)^2\)
 
 {{% details title="Solution commentée" closed="true" %}}
-1. Le trinôme \((2x + 1)(3 - x)\) admet deux racines \(-\tfrac{1}{2}\) et 3.  
-Le coefficient de \(x^2\) est \(a = -2\), donc l’ensemble des solutions de l’inéquation est :  
+1. Le trinôme \((3x - 2)(x + 4)\) a deux racines : \(\tfrac{2}{3}\) et \(-4\).  
+Le coefficient de \(x^2\) est \(a = 3 > 0\) : le trinôme est négatif strictement entre ses racines. L’ensemble des solutions est :  
 \[
-]-\tfrac{1}{2} ; 3[.
+\left]-4 ; \tfrac{2}{3}\right[.
 \]
 
-2. L’inéquation \(-2x^2 + 5x \leq 4\) est équivalente à \(-2x^2 + 5x - 4 \leq 0\).  
-\(\Delta = b^2 - 4ac = 25 - 32 = -7 < 0\).  
-\(\Delta < 0\), alors le trinôme est du signe de \( a \) (ici \( a = -2\)) sur \(\mathbb{R}\).  
-Donc l’ensemble des solutions est \(\mathbb{R}\).  
+2. On se ramène à une comparaison avec 0 : l’inéquation équivaut à \(3x^2 - x + 1 \geq 0\).  
+\(\Delta = (-1)^2 - 4 \times 3 \times 1 = 1 - 12 = -11 < 0\).  
+Le trinôme est donc du signe de \( a = 3 \), c’est-à-dire strictement positif, sur \(\mathbb{R}\).  
+L’ensemble des solutions est \(\mathbb{R}\).  
 
-3. L’inéquation \((x-4)^2 \leq (-5x+2)^2\) est équivalente à \((x-4)^2 - (-5x+2)^2 \leq 0\).  
-On reconnaît une identité remarquable : \((x-4)^2 - (-5x+2)^2 = (x-4-(-5x+2))(x-4+(-5x+2))\).  
-On obtient ainsi :  
+3. L’inéquation équivaut à \((2x+1)^2 - (x-3)^2 \geq 0\).  
+On factorise avec l’identité \(A^2 - B^2 = (A - B)(A + B)\) :  
 \[
-(x-4)^2 - (-5x+2)^2 = (6x-6)(-4x-2).
+(2x+1)^2 - (x-3)^2 = \big(2x + 1 - (x - 3)\big)\big(2x + 1 + (x - 3)\big) = (x + 4)(3x - 2).
 \]  
-Le trinôme \((6x-6)(-4x-2)\) admet deux racines 1 et \(-\tfrac{1}{2}\).  
-Le coefficient de \(x^2\) est \(a = -24\), donc l’ensemble des solutions est :  
+Ce trinôme a pour racines \(-4\) et \(\tfrac{2}{3}\), et son coefficient de \(x^2\) est \(a = 3 > 0\) : il est positif ou nul à l’extérieur des racines (racines comprises). L’ensemble des solutions est :  
 \[
-]-\infty ; -\tfrac{1}{2}] \cup [1 ; +\infty[.
+]-\infty ; -4] \cup \left[\tfrac{2}{3} ; +\infty\right[.
 \]
 {{% /details %}}
