@@ -23,7 +23,7 @@ On lance deux dés tétraédriques équilibrés (faces numérotées de \(1\) à 
 | \(3\) | \(4\) | \(5\) | \(6\) | \(7\) |
 | \(4\) | \(5\) | \(6\) | \(7\) | \(8\) |
 
-Les \(4 \times 4 = 16\) couples (rouge ; bleu) sont équiprobables. La somme \(5\) apparaît \(4\) fois : \(P(\text{« somme } = 5\text{ »}) = \frac{4}{16} = \frac{1}{4}\). En revanche, les sommes ne sont pas équiprobables : \(P(\text{« somme } = 2\text{ »}) = \frac{1}{16}\).
+Les \(4 \times 4 = 16\) couples (rouge ; bleu) sont équiprobables. La somme \(5\) apparaît \(4\) fois : la probabilité de l’événement « la somme vaut \(5\) » est \(\frac{4}{16} = \frac{1}{4}\). En revanche, les sommes ne sont pas équiprobables : la probabilité que la somme vaille \(2\) n’est que de \(\frac{1}{16}\).
 {{% /details %}}
 
 ## Arbre des possibles
