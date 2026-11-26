@@ -1,5 +1,5 @@
 ---
-title: 'Autres formules de trigonométrie'
+title: "D'autres formules de trigonométrie"
 weight: 1
 cascade:
   type: docs
