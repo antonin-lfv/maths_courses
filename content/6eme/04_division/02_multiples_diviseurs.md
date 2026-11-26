@@ -1,7 +1,6 @@
 ---
-title: 'Opérations sur les décimaux'
+title: 'Multiples et diviseurs'
 weight: 2
 cascade:
   type: docs
 ---
-

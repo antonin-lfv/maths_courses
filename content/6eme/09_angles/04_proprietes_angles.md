@@ -1,7 +1,6 @@
 ---
-title: 'Grandeurs et mesures'
+title: 'Propriétés des angles'
 weight: 4
 cascade:
   type: docs
 ---
-

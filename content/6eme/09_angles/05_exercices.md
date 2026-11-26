@@ -1,7 +1,6 @@
 ---
-title: 'Distances et symétries'
+title: 'Exercices'
 weight: 5
 cascade:
   type: docs
 ---
-

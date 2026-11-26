@@ -1,0 +1,6 @@
+---
+title: 'Utiliser la proportionnalité'
+weight: 2
+cascade:
+  type: docs
+---
