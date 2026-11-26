@@ -9,5 +9,17 @@ Cours du chapitre 9 : Lois de probabilités à densité.
   {{< card link="./02_indicateurs_variable_aleatoire_densite" title="Indicateurs d'une variable aléatoire à densité" icon="paper-clip">}}
   {{< card link="./03_loi_uniforme" title="Loi uniforme" icon="paper-clip">}}
   {{< card link="./04_loi_exponentielle" title="Loi exponentielle" icon="paper-clip">}}
-  {{< card link="./05_exercices" title="Exercices" icon="paper-clip">}}
+  {{< card link="./05_exercices" title="Exercices" icon="pencil">}}
 {{< /cards >}}
+
+#### Fiche résumé du chapitre
+
+**Densité** — \(f\) continue, positive sur le support \(I\), nulle ailleurs, d’aire totale 1 ; \(P(a \leq X \leq b) = \int_a^b f(x)\,\mathrm{d}x\) ; \(P(X = a) = 0\) (inégalités larges ou strictes équivalentes).
+
+**Fonction de répartition** — \(F(t) = P(X \leq t)\) ; \(P(a \leq X \leq b) = F(b) - F(a)\) ; \(F' = f\) là où \(f\) est continue.
+
+**Indicateurs** — \(E(X) = \int_a^b xf(x)\,\mathrm{d}x\), \(V(X) = \int_a^b (x - E(X))^2f(x)\,\mathrm{d}x\), \(\sigma = \sqrt{V}\) (limites si le support est non borné).
+
+**Loi uniforme** \(\mathcal{U}([a\,;\,b])\) — \(f(x) = \frac{1}{b - a}\) ; \(P(c \leq X \leq d) = \frac{d - c}{b - a}\) ; \(E = \frac{a + b}{2}\), \(V = \frac{(b - a)^2}{12}\).
+
+**Loi exponentielle** \(\mathcal{E}(\lambda)\) — \(f(x) = \lambda e^{-\lambda x}\) sur \([0\,;\,+\infty[\) ; \(F(t) = 1 - e^{-\lambda t}\), \(P(X > t) = e^{-\lambda t}\) ; sans mémoire ; \(E = \sigma = \frac{1}{\lambda}\), \(V = \frac{1}{\lambda^2}\).
