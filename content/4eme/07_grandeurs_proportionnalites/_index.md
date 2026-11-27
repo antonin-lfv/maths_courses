@@ -2,7 +2,7 @@
 title: 'Grandeurs et proportionnalités'
 weight: 7
 ---
-Cours du chapitre 7 : Grandeurs et proportionnalité.
+Cours du chapitre 7 : Grandeurs et proportionnalités.
 
 {{< cards >}}
   {{< card link="./01_representer_graphiquement_grandeur" title="Représenter graphiquement une grandeur en fonction d’une autre" icon="paper-clip">}}

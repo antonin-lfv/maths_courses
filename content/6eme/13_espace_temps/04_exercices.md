@@ -23,7 +23,7 @@ Cube, prisme droit et pyramide (faces planes polygonales). Le cylindre, la boule
 
 ### Exercice 3
 
-Un aquarium a la forme d’un pavé droit rempli de cubes d’eau imaginaires de \(1\) dm d’arête : \(6\) dans la longueur, \(3\) dans la largeur, \(4\) en hauteur. Combien de cubes d’\(1\) dm³ contient-il ?
+Un aquarium a la forme d’un pavé droit rempli de cubes d’eau imaginaires de \(1\) dm d’arête : \(6\) dans la longueur, \(3\) dans la largeur, \(4\) en hauteur. Combien de cubes de \(1\) dm³ contient-il ?
 
 {{% details title="Solution" closed="true" %}}
 \(6 \times 3 \times 4 = 72\) cubes, soit \(72\) dm³ (c’est-à-dire \(72\) litres).

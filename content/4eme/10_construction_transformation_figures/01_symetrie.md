@@ -47,7 +47,7 @@ Ci-dessous, un drapeau \(\mathcal{F}\) et son image \(\mathcal{F}'\) par une sym
 ![](/images/image429.png)
 
 {{% details title="Exemple" closed="true" %}}
-Sur la figure de gauche, la pointe \(A\) du fanion est à 2 carreaux de l’axe \((d)\) ; son symétrique \(A'\) est donc à 2 carreaux de l’autre côté, sur la perpendiculaire à \((d)\) passant par \(A\). Le fanion « regarde » vers la gauche dans \(\mathcal{F}'\) : la symétrie axiale retourne la figure.
+Sur la figure de gauche, la pointe \(A\) du fanion est à 1 carreau de l’axe \((d)\) ; son symétrique \(A'\) est donc à 1 carreau de l’autre côté, sur la perpendiculaire à \((d)\) passant par \(A\). Le fanion « regarde » vers la gauche dans \(\mathcal{F}'\) : la symétrie axiale retourne la figure.
 
 Sur la figure de droite, \(O\) est le milieu de \([AA']\) : le drapeau \(\mathcal{F}'\) est « la tête en bas », comme après un demi-tour.
 {{% /details %}}

@@ -28,7 +28,7 @@ cascade:
 
 > [!TIP] **Définition**
 >
-> La **bissectrice** d’un angle est la droite qui partage cet angle en deux angles adjacents de même mesure.
+> La **bissectrice** d’un angle est la demi-droite qui partage cet angle en deux angles adjacents de même mesure.
 
 ## Angles opposés par le sommet
 

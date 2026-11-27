@@ -27,7 +27,7 @@ cascade:
 
 > [!TIP] **Définition**
 >
-> La **bissectrice** d’un angle est la droite qui partage cet angle en deux angles adjacents égaux.
+> La **bissectrice** d’un angle est la demi-droite qui partage cet angle en deux angles adjacents égaux.
 
 {{% details title="Exemple" closed="true" %}}
 La bissectrice d’un angle de \(110^\circ\) le partage en deux angles adjacents de \(55^\circ\). Pour la tracer, on mesure l’angle au rapporteur, puis on construit un angle de moitié à partir d’un des côtés.

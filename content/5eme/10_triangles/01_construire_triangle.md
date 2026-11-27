@@ -40,7 +40,7 @@ Dans un triangle \(KLM\), \(\widehat{K} = 41^\circ\) et \(\widehat{L} = 93^\circ
 >
 > On peut construire un triangle dans les deux cas suivants :
 > - si on connaît la longueur de deux côtés et la mesure de l’angle formé par ces deux côtés ;
-> - si on connaît la longueur d’un côté et les mesures des deux angles dont la somme est inférieure à \(180^\circ\).
+> - si on connaît la longueur d’un côté et les mesures des deux angles adjacents à ce côté, à condition que leur somme soit inférieure à \(180^\circ\).
 
 ## S’entraîner
 

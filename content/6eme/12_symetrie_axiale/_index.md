@@ -18,6 +18,6 @@ Cours du chapitre 12 : Symétrie axiale.
 
 **Propriétés** — figures superposables par pliage ; conservation des longueurs, des angles, des alignements ; une droite a pour image une droite, un cercle un cercle de même rayon.
 
-**Axe de symétrie d’une figure** — segment : \(2\) (médiatrice et support) ; angle : la bissectrice. Triangle isocèle \(1\), équilatéral \(3\) ; rectangle \(2\) (médiatrices des côtés), losange \(2\) (diagonales), carré \(4\), cercle : une infinité.
+**Axe de symétrie d’une figure** — segment : \(2\) (médiatrice et support) ; angle : la droite portant sa bissectrice. Triangle isocèle \(1\), équilatéral \(3\) ; rectangle \(2\) (médiatrices des côtés), losange \(2\) (diagonales), carré \(4\), cercle : une infinité.
 
 **Diagonales** — rectangle : même milieu, même longueur ; losange : même milieu, perpendiculaires ; carré : les trois.

@@ -23,10 +23,10 @@ La lettre A (écrite simplement) a un axe de symétrie vertical ; la lettre H en
 
 > [!TIP] **Propriété**
 >
-> Un angle a **un** axe de symétrie : la bissectrice de cet angle.
+> Un angle a **un** axe de symétrie : la droite qui porte sa bissectrice.
 
 {{% details title="Exemple" closed="true" %}}
-La bissectrice d’un angle \(\widehat{xOy}\) de \(84^\circ\) est son axe de symétrie : elle le partage en deux angles adjacents de \(84 \div 2 = 42^\circ\).
+La droite qui porte la bissectrice d’un angle \(\widehat{xOy}\) de \(84^\circ\) est son axe de symétrie ; la bissectrice partage cet angle en deux angles adjacents de \(84 \div 2 = 42^\circ\).
 {{% /details %}}
 
 ## Compléter une figure

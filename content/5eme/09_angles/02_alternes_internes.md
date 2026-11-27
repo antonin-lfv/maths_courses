@@ -42,7 +42,7 @@ Deux droites \((u)\) et \((v)\) sont coupées par une sécante ; on mesure deux 
 
 > [!NOTE] **Exercice résolu**
 >
-> Les droites \((d)\) et \((d')\) sont parallèles, coupées par une sécante \((s)\) en \(A\) et \(B\). En \(A\), l’angle entre \((d)\) et \((s)\) situé « en haut à droite » mesure \(38^\circ\). Déterminer la mesure de l’angle alterne-interne correspondant, puis celle de l’angle qui lui est adjacent en \(B\) sur \((d')\).
+> Les droites \((d)\) et \((d')\) sont parallèles, coupées par une sécante \((s)\) en \(A\) et \(B\). En \(A\), l’un des deux angles situés entre les droites \((d)\) et \((d')\) mesure \(38^\circ\). Déterminer la mesure de l’angle qui lui est alterne-interne, puis celle de l’angle qui lui est adjacent en \(B\) sur \((d')\).
 
 {{% details title="Solution commentée" closed="true" %}}
 Les droites étant parallèles, les angles alternes-internes ont la même mesure : \(38^\circ\). L’angle adjacent en \(B\), qui forme avec lui un angle plat, mesure \(180^\circ - 38^\circ = 142^\circ\).

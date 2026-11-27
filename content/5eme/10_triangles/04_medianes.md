@@ -34,7 +34,7 @@ Soit \(ABC\) un triangle et \(I\) le milieu de \([BC]\). Les triangles \(ABI\) e
 > - la médiane issue de \(A\) ;
 > - la hauteur issue de \(A\) ;
 > - la médiatrice du côté \([BC]\) ;
-> - la bissectrice de l’angle \(\widehat{BAC}\).
+> - la droite qui porte la bissectrice de l’angle \(\widehat{BAC}\).
 >
 > Cette droite est l’axe de symétrie du triangle \(ABC\). Réciproquement, si deux de ces droites sont confondues, le triangle est isocèle en \(A\).
 

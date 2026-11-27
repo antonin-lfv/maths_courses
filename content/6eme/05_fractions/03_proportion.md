@@ -25,7 +25,7 @@ cascade:
 > Pour calculer une fraction d’une quantité, on multiplie la fraction par cette quantité.
 
 {{% details title="Exemple" closed="true" %}}
-Calcul des \(\dfrac{2}{3}\) d’un trajet de \(42\) km. On peut procéder de trois façons :
+Calcul des \(\dfrac{2}{3}\) d’un trajet de \(42\) km. On peut procéder de deux façons :
 - \(\dfrac{2}{3} \times 42 = \dfrac{2 \times 42}{3} = \dfrac{84}{3} = 28\) km ;
 - ou \(2 \times \dfrac{42}{3} = 2 \times 14 = 28\) km (on prend un tiers, puis le double).
 

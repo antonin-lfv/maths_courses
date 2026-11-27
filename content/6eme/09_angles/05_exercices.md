@@ -23,10 +23,10 @@ Les angles \(\widehat{MON}\) et \(\widehat{NOP}\) sont adjacents, avec \(\wideha
 
 ### Exercice 3
 
-Les points \(A\), \(O\), \(B\) sont alignés dans cet ordre, et \(C\) est un point extérieur à la droite \((AB)\) tel que \(\widehat{AOC} = 38^\circ\). Calculer \(\widehat{COB}\). Que représente la droite qui partage \(\widehat{AOC}\) en deux angles de \(19^\circ\) ?
+Les points \(A\), \(O\), \(B\) sont alignés dans cet ordre, et \(C\) est un point extérieur à la droite \((AB)\) tel que \(\widehat{AOC} = 38^\circ\). Calculer \(\widehat{COB}\). Que représente la demi-droite qui partage \(\widehat{AOC}\) en deux angles de \(19^\circ\) ?
 
 {{% details title="Solution" closed="true" %}}
-\(\widehat{AOB}\) est plat et \(\widehat{AOC}\), \(\widehat{COB}\) sont adjacents : \(\widehat{COB} = 180^\circ - 38^\circ = 142^\circ\). La droite qui partage \(\widehat{AOC}\) en deux angles égaux est sa bissectrice.
+\(\widehat{AOB}\) est plat et \(\widehat{AOC}\), \(\widehat{COB}\) sont adjacents : \(\widehat{COB} = 180^\circ - 38^\circ = 142^\circ\). La demi-droite qui partage \(\widehat{AOC}\) en deux angles égaux est sa bissectrice.
 {{% /details %}}
 
 ### Exercice 4

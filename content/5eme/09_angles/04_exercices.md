@@ -15,7 +15,7 @@ Opposé par le sommet : \(35^\circ\). Les deux autres : \(180^\circ - 35^\circ =
 
 ### Exercice 2
 
-Les droites \((d)\) et \((d')\) sont parallèles et coupées par une sécante. Un angle formé en \(A\) mesure \(73^\circ\). Donner la mesure de l’angle alterne-interne et de l’angle correspondant associés.
+Les droites \((d)\) et \((d')\) sont parallèles et coupées par une sécante. Un angle formé en \(A\), situé entre les deux droites, mesure \(73^\circ\). Donner la mesure de l’angle alterne-interne qui lui est associé et celle de l’angle correspondant.
 
 {{% details title="Solution" closed="true" %}}
 Les droites sont parallèles : l’angle alterne-interne et l’angle correspondant mesurent tous les deux \(73^\circ\).
