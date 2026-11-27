@@ -1,0 +1,14 @@
+{{- /*
+  Fiche résumé d'un chapitre, présentée comme une feuille de cahier.
+
+  @example {{% fiche %}}**Notion** - texte{{% /fiche %}}
+*/ -}}
+<section class="mx-fiche" aria-labelledby="fiche-resume">
+  <header class="mx-fiche__entete">
+    {{ partial "utils/icon.html" (dict "name" "document-text" "attributes" "height=20") }}
+    <h2 id="fiche-resume">Fiche résumé du chapitre</h2>
+  </header>
+  <div class="mx-fiche__corps">
+    {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
+  </div>
+</section>

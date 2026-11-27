@@ -2,10 +2,6 @@
 title: "Cours de terminale"
 ---
 
-Vous trouverez ici les cours de mathématiques pour la terminale. Découpés en plusieurs section.
+Les cours de Terminale sont répartis en trois parcours, selon les options suivies.
 
-{{< cards >}}
-  {{< card link="./specialite/" title="Spécialités mathématiques" icon="paper-clip">}}
-  {{< card link="./expertes/" title="Mathématiques expertes" icon="calculator">}}
-  {{< card link="./complementaires/" title="Mathématiques complémentaires" icon="academic-cap">}}
-{{< /cards >}}
+{{< sommaire numeros="false" >}}

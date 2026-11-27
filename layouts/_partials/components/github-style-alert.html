@@ -1,0 +1,39 @@
+{{- /*
+  Encadrés du cours (surcharge du thème) : « > [!TIP] **Définition** », etc.
+  La famille de l'encadré (définition, propriété, méthode, exercice,
+  remarque) est déduite du type d'alerte et du premier mot du titre.
+*/ -}}
+{{- $content := .content -}}
+{{- $alertType := .alertType -}}
+{{- $title := or .alertTitle (or (i18n $alertType) (title $alertType)) -}}
+{{- $mot := $title | plainify | strings.TrimSpace | lower -}}
+
+{{- $famille := "remarque" -}}
+{{- $icone := "exclamation-circle" -}}
+{{- if eq $alertType "tip" -}}
+  {{- if strings.HasPrefix $mot "définition" -}}
+    {{- $famille = "definition" -}}{{- $icone = "book-open" -}}
+  {{- else -}}
+    {{- $famille = "propriete" -}}{{- $icone = "sparkles" -}}
+  {{- end -}}
+{{- else if eq $alertType "note" -}}
+  {{- if or (strings.HasPrefix $mot "exercice") (strings.HasPrefix $mot "énoncé") -}}
+    {{- $famille = "exercice" -}}{{- $icone = "pencil" -}}
+  {{- else -}}
+    {{- $famille = "methode" -}}{{- $icone = "light-bulb" -}}
+  {{- end -}}
+{{- else if in (slice "warning" "caution") $alertType -}}
+  {{- $famille = "attention" -}}{{- $icone = "exclamation" -}}
+{{- end -}}
+
+<div class="mx-boite mx-boite--{{ $famille }}">
+  <p class="mx-boite__titre">
+    <span class="mx-boite__icone" aria-hidden="true">
+      {{- partial "utils/icon.html" (dict "name" $icone "attributes" `height=16`) -}}
+    </span>
+    <span>{{- $title -}}</span>
+  </p>
+  <div class="mx-boite__corps">
+    {{- $content -}}
+  </div>
+</div>

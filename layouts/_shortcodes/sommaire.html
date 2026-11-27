@@ -1,0 +1,46 @@
+{{- /*
+  Sommaire automatique d'une section : liste les sous-sections (chapitres)
+  ou les pages (leçons) dans l'ordre des « weight ».
+
+  @param {string} numeros "false" pour ne pas numéroter (voies de Terminale).
+  @example {{< sommaire >}}
+*/ -}}
+{{- $page := .Page -}}
+{{- $numeros := ne (.Get "numeros") "false" -}}
+{{- $items := $page.Pages.ByWeight -}}
+{{- $n := 0 -}}
+<ol class="mx-sommaire{{ if not $numeros }} mx-sommaire--voies{{ end }}">
+  {{- range $items -}}
+    {{- $estExo := and (not .IsSection) (strings.Contains .File.ContentBaseName "exercices") -}}
+    {{- if not $estExo }}{{ $n = add $n 1 }}{{ end -}}
+    <li>
+      <a class="mx-sommaire__item{{ if $estExo }} mx-sommaire__item--exos{{ end }}" href="{{ .RelPermalink }}">
+        {{- if $estExo -}}
+          <span class="mx-sommaire__num" aria-hidden="true">{{ partial "utils/icon.html" (dict "name" "pencil" "attributes" "height=18") }}</span>
+        {{- else if $numeros -}}
+          <span class="mx-sommaire__num">{{ $n }}</span>
+        {{- end -}}
+        <span class="mx-sommaire__texte">
+          <span class="mx-sommaire__titre">{{ .Title }}</span>
+          {{- if .IsSection -}}
+            {{- with .Description -}}
+              <span class="mx-sommaire__info">{{ . }}</span>
+            {{- else -}}
+              {{- $sous := .Pages -}}
+              {{- $nb := 0 -}}{{- $exos := false -}}
+              {{- range $sous -}}
+                {{- if and (not .IsSection) (strings.Contains .File.ContentBaseName "exercices") }}{{ $exos = true }}{{ else }}{{ $nb = add $nb 1 }}{{ end -}}
+              {{- end -}}
+              <span class="mx-sommaire__info">
+                {{- if .Sections }}{{ len .Sections }} chapitres{{ else }}{{ $nb }} leçon{{ if gt $nb 1 }}s{{ end }}{{ if $exos }} · exercices{{ end }}{{ end -}}
+              </span>
+            {{- end -}}
+          {{- else if $estExo -}}
+            <span class="mx-sommaire__info">S’entraîner avec corrections</span>
+          {{- end -}}
+        </span>
+        <span class="mx-sommaire__fleche" aria-hidden="true">{{ partial "utils/icon.html" (dict "name" "chevron-right" "attributes" "height=18") }}</span>
+      </a>
+    </li>
+  {{- end -}}
+</ol>

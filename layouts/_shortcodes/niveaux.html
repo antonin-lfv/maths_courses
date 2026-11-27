@@ -1,0 +1,31 @@
+{{- /*
+  Cartes des niveaux pour la page d'accueil (données : data/niveaux.yaml).
+  @example {{< niveaux >}}
+*/ -}}
+{{- $teintes := site.Data.niveaux.teintes -}}
+<div class="mx-niveaux">
+  {{- range site.Data.niveaux.cycles -}}
+    <section class="mx-cycle">
+      <h2 class="mx-cycle__nom">{{ .nom }}</h2>
+      <div class="mx-cycle__grille">
+        {{- range .niveaux -}}
+          {{- $p := site.GetPage (printf "/%s" .section) -}}
+          {{- $nb := 0 -}}
+          {{- with $p -}}
+            {{- range .Sections -}}
+              {{- if .Sections }}{{ $nb = add $nb (len .Sections) }}{{ else }}{{ $nb = add $nb 1 }}{{ end -}}
+            {{- end -}}
+          {{- end -}}
+          <a class="mx-niveau" href="{{ with $p }}{{ .RelPermalink }}{{ end }}" style="--niveau-h:{{ index $teintes .section }}">
+            <span class="mx-niveau__badge">{{ .titre }}</span>
+            <span class="mx-niveau__accroche">{{ .accroche }}</span>
+            <span class="mx-niveau__pied">
+              <span>{{ $nb }} chapitres</span>
+              {{ partial "utils/icon.html" (dict "name" "arrow-right" "attributes" "height=16") }}
+            </span>
+          </a>
+        {{- end -}}
+      </div>
+    </section>
+  {{- end -}}
+</div>

@@ -4,14 +4,9 @@ weight: 5
 ---
 Cours du chapitre 5 : Utilisation des nombres complexes.
 
-{{< cards >}}
-  {{< card link="./01_interpretation_geometrique_module_argument" title="Interprétation géométrique du module et de l'argument" icon="paper-clip">}}
-  {{< card link="./02_racines_nieme_unite" title="Racine n-ième de l'unité" icon="paper-clip">}}
-  {{< card link="./03_exercices" title="Exercices" icon="pencil">}}
-{{< /cards >}}
+{{< sommaire >}}
 
-#### Fiche résumé du chapitre
-
+{{% fiche %}}
 **Quotient \({\dfrac{d - c}{b - a}}\)** - module \(\dfrac{CD}{AB}\), argument \(\left(\overrightarrow{AB}, \overrightarrow{CD}\right) \ (2\pi)\).
 
 **Avec \({Z = \dfrac{c - a}{b - a}}\)** - \({|Z| = 1 \iff AB = AC}\) ; \(Z\) réel \({\iff}\) \(A, B, C\) alignés ; \(Z\) imaginaire pur \({\iff (AB) \perp (AC)}\) ; \({Z = e^{\pm i\frac{\pi}{3}} \iff ABC}\) équilatéral.
@@ -21,3 +16,4 @@ Cours du chapitre 5 : Utilisation des nombres complexes.
 **Cas usuels** - \({\mathbb{U}_2 = \{\pm 1\}}\), \({\mathbb{U}_3 = \{1, j, j^2\}}\) avec \({j = e^{i\frac{2\pi}{3}}}\), \({j^2 = \overline{j}}\), \({1 + j + j^2 = 0}\) ; \({\mathbb{U}_4 = \{1, i, -1, -i\}}\).
 
 **Somme** - \({1 + \omega + \dots + \omega^{n-1} = 0}\) pour \({\omega = e^{\frac{2i\pi}{n}}}\), \({n \geq 2}\). **Équation \({z^n = a}\)** : solutions \(z_0\,\omega\), \({\omega \in \mathbb{U}_n}\), où \(z_0\) est une solution particulière.
+{{% /fiche %}}

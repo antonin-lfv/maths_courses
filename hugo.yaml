@@ -1,5 +1,6 @@
 baseURL: "https://antoninlefevre.github.io/maths_courses/"
 languageCode: fr
+defaultContentLanguage: fr
 title: Mathématiques
 module:
   imports:
@@ -28,6 +29,8 @@ params:
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
+      width: 26
+      height: 26
 
   footer:
     displayCopyright: true

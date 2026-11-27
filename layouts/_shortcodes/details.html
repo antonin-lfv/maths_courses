@@ -1,0 +1,31 @@
+{{- /*
+  Bloc déroulant (surcharge du thème). La couleur dépend du titre :
+  exemple, solution, démonstration, ou neutre.
+
+  @param {string} title Le titre du bloc.
+  @param {string} closed "true" pour qu'il soit replié au chargement.
+  @example {{% details title="Exemple" closed="true" %}}...{{% /details %}}
+*/ -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $closed := eq (.Get "closed") "true" -}}
+{{- $mot := $title | plainify | lower -}}
+{{- $genre := "neutre" -}}
+{{- $icone := "chevron-right" -}}
+{{- if strings.HasPrefix $mot "exemple" -}}
+  {{- $genre = "exemple" -}}{{- $icone = "eye" -}}
+{{- else if strings.HasPrefix $mot "solution" -}}
+  {{- $genre = "solution" -}}{{- $icone = "check-circle" -}}
+{{- else if or (strings.HasPrefix $mot "démonstration") (strings.HasPrefix $mot "justification") (strings.HasPrefix $mot "pourquoi") -}}
+  {{- $genre = "preuve" -}}{{- $icone = "academic-cap" -}}
+{{- end -}}
+
+<details class="mx-deroulant mx-deroulant--{{ $genre }}" {{ if not $closed }}open{{ end }}>
+  <summary>
+    <span class="mx-deroulant__icone" aria-hidden="true">{{ partial "utils/icon.html" (dict "name" $icone "attributes" "height=16") }}</span>
+    <span class="mx-deroulant__titre">{{ $title | markdownify }}</span>
+    <span class="mx-deroulant__chevron" aria-hidden="true">{{ partial "utils/icon.html" (dict "name" "chevron-down" "attributes" "height=18") }}</span>
+  </summary>
+  <div class="mx-deroulant__corps">
+    {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
+  </div>
+</details>

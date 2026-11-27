@@ -4,17 +4,12 @@ weight: 3
 ---
 Cours du chapitre 3 : Nombres rationnels (multiplication et division).
 
-{{< cards >}}
-  {{< card link="./01_multiplier_fractions" title="Multiplier avec des fractions" icon="paper-clip">}}
-  {{< card link="./02_connaitre_inverse" title="Connaitre l’inverse d’un nombre" icon="paper-clip">}}
-  {{< card link="./03_diviser_par_fraction" title="Diviser par une fraction" icon="paper-clip">}}
-  {{< card link="./04_exercices" title="Exercices" icon="pencil">}}
-{{< /cards >}}
+{{< sommaire >}}
 
-#### Fiche résumé du chapitre
-
+{{% fiche %}}
 **Multiplier** - \({k \times \dfrac{a}{b} = \dfrac{k \times a}{b}}\) ; \({\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{a \times c}{b \times d}}\) ; simplifier avant de multiplier ; fraction d’une quantité : on multiplie.
 
 **Inverse** - produit égal à \(1\) ; inverse de \(a\) : \(\dfrac{1}{a}\) ; inverse de \(\dfrac{a}{b}\) : \(\dfrac{b}{a}\) ; \(0\) n’a pas d’inverse ; ne pas confondre avec l’opposé.
 
 **Diviser** - diviser par un nombre non nul, c’est multiplier par son inverse : \({\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \times \dfrac{d}{c}}\).
+{{% /fiche %}}

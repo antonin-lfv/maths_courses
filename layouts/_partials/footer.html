@@ -1,0 +1,12 @@
+{{- /* Pied de page (surcharge du thème) : une seule ligne fine,
+       copyright au centre, choix du thème à droite. */ -}}
+{{- $copyright := (T "copyright") | default "" -}}
+<footer class="hextra-footer mx-pied hx:print:hidden">
+  <div class="mx-pied__ligne hextra-max-footer-width">
+    <span></span>
+    <span class="mx-pied__copyright">{{ $copyright | markdownify }}</span>
+    <span class="mx-pied__theme">
+      {{- if site.Params.theme.displayToggle | default true }}{{ partial "theme-toggle.html" }}{{ end -}}
+    </span>
+  </div>
+</footer>
