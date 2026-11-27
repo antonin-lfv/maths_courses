@@ -2,7 +2,7 @@
 title: 'Nombres rationnels'
 weight: 2
 ---
-Cours du chapitre 2 : Nombres rationnels.
+Cours du chapitre 2 : Nombres rationnels.
 
 {{< cards >}}
   {{< card link="./01_calculer_nombres_relatifs" title="Calculer avec des nombres relatifs" icon="paper-clip">}}
@@ -14,10 +14,10 @@ Cours du chapitre 2 : Nombres rationnels.
 
 #### Fiche résumé du chapitre
 
-**Relatifs** — somme : même signe, on ajoute les distances ; signes contraires, on les soustrait ; \(a - b = a + (-b)\). Produit, quotient : même signe positif, signes contraires négatif.
+**Relatifs** - somme : même signe, on ajoute les distances ; signes contraires, on les soustrait ; \({a - b = a + (-b)}\). Produit, quotient : même signe positif, signes contraires négatif.
 
-**Puissances** — \(a^n\) (\(n\) facteurs), \(a^{-n} = \dfrac{1}{a^n}\), \(a^0 = 1\) ; priorité aux puissances ; écriture scientifique \(a \times 10^n\) avec \(1 \leq a < 10\).
+**Puissances** - \(a^n\) (\(n\) facteurs), \({a^{-n} = \dfrac{1}{a^n}}\), \({a^0 = 1}\) ; priorité aux puissances ; écriture scientifique \({a \times 10^n}\) avec \({1 \leq a < 10}\).
 
-**Rationnels** — \(\dfrac{p}{q}\) ; \(\dfrac{a}{b} = \dfrac{c}{d} \Leftrightarrow ad = bc\) ; forme irréductible : seul diviseur commun positif \(1\).
+**Rationnels** - \(\dfrac{p}{q}\) ; \({\dfrac{a}{b} = \dfrac{c}{d} \Leftrightarrow ad = bc}\) ; forme irréductible : seul diviseur commun positif \(1\).
 
-**Fractions** — même dénominateur pour ajouter ; \(\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{ac}{bd}\) ; diviser, c’est multiplier par l’inverse.
+**Fractions** - même dénominateur pour ajouter ; \({\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{ac}{bd}}\) ; diviser, c’est multiplier par l’inverse.

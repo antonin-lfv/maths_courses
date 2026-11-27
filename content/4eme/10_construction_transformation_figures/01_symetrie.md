@@ -42,34 +42,34 @@ Une transformation associe à chaque point d’une figure un point image. Les sy
 > - La symétrie centrale conserve les alignements, les longueurs, les mesures d’angles et les aires.
 > - Le symétrique d’une droite par rapport à un point est une droite qui lui est **parallèle**.
 
-Ci-dessous, un drapeau \(\mathcal{F}\) et son image \(\mathcal{F}'\) par une symétrie axiale (à gauche) puis par une symétrie centrale (à droite) :
+Ci-dessous, un drapeau \(\mathcal{F}\) et son image \(\mathcal{F}'\) par une symétrie axiale (à gauche) puis par une symétrie centrale (à droite) :
 
 ![](/images/image429.png)
 
 {{% details title="Exemple" closed="true" %}}
-Sur la figure de gauche, la pointe \(A\) du fanion est à 1 carreau de l’axe \((d)\) ; son symétrique \(A'\) est donc à 1 carreau de l’autre côté, sur la perpendiculaire à \((d)\) passant par \(A\). Le fanion « regarde » vers la gauche dans \(\mathcal{F}'\) : la symétrie axiale retourne la figure.
+Sur la figure de gauche, la pointe \(A\) du fanion est à 1 carreau de l’axe \((d)\) ; son symétrique \(A'\) est donc à 1 carreau de l’autre côté, sur la perpendiculaire à \((d)\) passant par \(A\). Le fanion « regarde » vers la gauche dans \(\mathcal{F}'\) : la symétrie axiale retourne la figure.
 
-Sur la figure de droite, \(O\) est le milieu de \([AA']\) : le drapeau \(\mathcal{F}'\) est « la tête en bas », comme après un demi-tour.
+Sur la figure de droite, \(O\) est le milieu de \([AA']\) : le drapeau \(\mathcal{F}'\) est « la tête en bas », comme après un demi-tour.
 {{% /details %}}
 
 ## Construire un symétrique
 
-> [!NOTE] **Méthode — Construire le symétrique d’un point**
+> [!NOTE] **Méthode - Construire le symétrique d’un point**
 >
-> - **Par rapport à une droite \((d)\)** : on trace la perpendiculaire à \((d)\) passant par \(A\), puis on reporte au compas, de l’autre côté de \((d)\), la distance de \(A\) à \((d)\).
-> - **Par rapport à un point \(O\)** : on trace la demi-droite \([AO)\), puis on reporte au compas la longueur \(AO\) au-delà de \(O\).
+> - **Par rapport à une droite \((d)\)** : on trace la perpendiculaire à \((d)\) passant par \(A\), puis on reporte au compas, de l’autre côté de \((d)\), la distance de \(A\) à \((d)\).
+> - **Par rapport à un point \(O\)** : on trace la demi-droite \([AO)\), puis on reporte au compas la longueur \(AO\) au-delà de \(O\).
 >
 > Pour une figure formée de segments, il suffit de construire les symétriques de ses sommets puis de les relier, puisque la symétrie conserve les alignements.
 
 > [!NOTE] **Exercice résolu**
 >
-> \(ABC\) est un triangle tel que \(AB = 4\) cm, \(AC = 3\) cm et \(\widehat{BAC} = 70^\circ\). On construit le triangle \(A'B'C'\), symétrique de \(ABC\) par rapport au point \(C\).
-> 1. Quelle est la longueur \(A'B'\) ? Quelle est la mesure de \(\widehat{B'A'C'}\) ?
-> 2. Où se trouve le point \(C'\) ?
-> 3. Que peut-on dire des droites \((AB)\) et \((A'B')\) ?
+> \(ABC\) est un triangle tel que \({AB = 4}\) cm, \({AC = 3}\) cm et \({\widehat{BAC} = 70^\circ}\). On construit le triangle \(A'B'C'\), symétrique de \(ABC\) par rapport au point \(C\).
+> 1. Quelle est la longueur \(A'B'\) ? Quelle est la mesure de \(\widehat{B'A'C'}\) ?
+> 2. Où se trouve le point \(C'\) ?
+> 3. Que peut-on dire des droites \((AB)\) et \((A'B')\) ?
 
 {{% details title="Solution commentée" closed="true" %}}
-1. La symétrie centrale conserve les longueurs et les angles : \(A'B' = AB = 4\) cm et \(\widehat{B'A'C'} = \widehat{BAC} = 70^\circ\).
-2. \(C\) est le centre de symétrie : son symétrique est lui-même, donc \(C' = C\).
-3. Le symétrique d’une droite par rapport à un point est une droite parallèle : \((A'B') \parallel (AB)\).
+1. La symétrie centrale conserve les longueurs et les angles : \({A'B' = AB = 4}\) cm et \({\widehat{B'A'C'} = \widehat{BAC} = 70^\circ}\).
+2. \(C\) est le centre de symétrie : son symétrique est lui-même, donc \({C' = C}\).
+3. Le symétrique d’une droite par rapport à un point est une droite parallèle : \({(A'B') \parallel (AB)}\).
 {{% /details %}}

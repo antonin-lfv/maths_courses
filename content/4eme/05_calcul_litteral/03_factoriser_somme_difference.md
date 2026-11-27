@@ -13,7 +13,7 @@ cascade:
 
 > [!TIP] **Propriété**
 >
-> \(k\), \(a\) et \(b\) désignent des nombres relatifs :
+> \(k\), \(a\) et \(b\) désignent des nombres relatifs :
 > \[
 ka + kb = k(a + b) \qquad \text{et} \qquad ka - kb = k(a - b).
 \]
@@ -25,7 +25,7 @@ ka + kb = k(a + b) \qquad \text{et} \qquad ka - kb = k(a - b).
 - \(H = 12y - 18 = 6 \times 2y - 6 \times 3 = 6(2y - 3)\).
 {{% /details %}}
 
-> [!NOTE] **Méthode — Repérer le facteur commun**
+> [!NOTE] **Méthode - Repérer le facteur commun**
 >
 > On écrit chaque terme comme un produit en faisant apparaître un facteur commun (un nombre, une lettre, ou les deux), puis on applique la propriété. On peut vérifier le résultat en redéveloppant.
 
@@ -33,12 +33,12 @@ ka + kb = k(a + b) \qquad \text{et} \qquad ka - kb = k(a - b).
 
 > [!NOTE] **Exercice résolu**
 >
-> Factoriser : \(K = 9x + 6\) ; \(L = 4a^2 + 10a\) ; \(M = 3x - 3\).
+> Factoriser : \({K = 9x + 6}\) ; \({L = 4a^2 + 10a}\) ; \({M = 3x - 3}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-- \(K = 3 \times 3x + 3 \times 2 = 3(3x + 2)\).
-- \(L = 2a \times 2a + 2a \times 5 = 2a(2a + 5)\).
-- \(M = 3 \times x - 3 \times 1 = 3(x - 1)\) (ne pas oublier le \(1\)).
+- \({K = 3 \times 3x + 3 \times 2 = 3(3x + 2)}\).
+- \({L = 2a \times 2a + 2a \times 5 = 2a(2a + 5)}\).
+- \({M = 3 \times x - 3 \times 1 = 3(x - 1)}\) (ne pas oublier le \(1\)).
 
-Vérification pour \(L\) : \(2a(2a + 5) = 4a^2 + 10a\).
+Vérification pour \(L\) : \({2a(2a + 5) = 4a^2 + 10a}\).
 {{% /details %}}

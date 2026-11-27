@@ -2,7 +2,7 @@
 title: 'Proportionnalité et fonctions'
 weight: 7
 ---
-Cours du chapitre 7 : Proportionnalité et fonctions.
+Cours du chapitre 7 : Proportionnalité et fonctions.
 
 {{< cards >}}
   {{< card link="./01_reconnaitre_proportionnalite" title="Reconnaître la proportionnalité" icon="paper-clip">}}
@@ -13,8 +13,8 @@ Cours du chapitre 7 : Proportionnalité et fonctions.
 
 #### Fiche résumé du chapitre
 
-**Proportionnalité** — on multiplie toujours par le même nombre (coefficient) ; tableau de proportionnalité : quotients égaux.
+**Proportionnalité** - on multiplie toujours par le même nombre (coefficient) ; tableau de proportionnalité : quotients égaux.
 
-**Valeur manquante** — coefficient ; multiplier, diviser, ajouter ou soustraire des colonnes ; passage par l’unité.
+**Valeur manquante** - coefficient ; multiplier, diviser, ajouter ou soustraire des colonnes ; passage par l’unité.
 
-**Graphique** — grandeur \(A\) en abscisse, grandeur \(B\) en ordonnée ; deux grandeurs sont proportionnelles lorsque les points sont alignés avec l’origine.
+**Graphique** - grandeur \(A\) en abscisse, grandeur \(B\) en ordonnée ; deux grandeurs sont proportionnelles lorsque les points sont alignés avec l’origine.

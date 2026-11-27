@@ -2,7 +2,7 @@
 title: 'Fonction exponentielle'
 weight: 6
 ---
-Cours du chapitre 6 : Fonction exponentielle.
+Cours du chapitre 6 : Fonction exponentielle.
 
 {{< cards >}}
   {{< card link="./01_definition_proprietes_algebriques" title="Définition et propriétés algébriques" icon="paper-clip">}}

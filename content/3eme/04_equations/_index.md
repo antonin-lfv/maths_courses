@@ -2,7 +2,7 @@
 title: 'Équations'
 weight: 4
 ---
-Cours du chapitre 4 : Équations.
+Cours du chapitre 4 : Équations.
 
 {{< cards >}}
   {{< card link="./01_equation_premier_degre" title="Résoudre une équation du premier degré" icon="paper-clip">}}
@@ -14,12 +14,12 @@ Cours du chapitre 4 : Équations.
 
 #### Fiche résumé du chapitre
 
-**Équation** — égalité avec une inconnue ; solution : valeur qui rend l’égalité vraie.
+**Équation** - égalité avec une inconnue ; solution : valeur qui rend l’égalité vraie.
 
-**Transformer** — on peut ajouter, soustraire un même nombre aux deux membres, ou les multiplier, diviser par un même nombre non nul.
+**Transformer** - on peut ajouter, soustraire un même nombre aux deux membres, ou les multiplier, diviser par un même nombre non nul.
 
-**Équation produit** — \(A \times B = 0 \Leftrightarrow A = 0\) ou \(B = 0\) ; se ramener à \(0\) dans un membre puis factoriser.
+**Équation produit** - \({A \times B = 0 \Leftrightarrow A = 0}\) ou \({B = 0}\) ; se ramener à \(0\) dans un membre puis factoriser.
 
-**\(x^2 = a\)** — deux solutions \(\pm\sqrt{a}\) si \(a > 0\) ; une seule (\(0\)) si \(a = 0\) ; aucune si \(a < 0\).
+**\({x^2 = a}\)** - deux solutions \({\pm\sqrt{a}}\) si \({a > 0}\) ; une seule (\(0\)) si \({a = 0}\) ; aucune si \({a < 0}\).
 
-**Modéliser** — choix de l’inconnue, mise en équation, résolution, conclusion.
+**Modéliser** - choix de l’inconnue, mise en équation, résolution, conclusion.

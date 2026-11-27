@@ -2,7 +2,7 @@
 title: 'Fonctions trigonométriques'
 weight: 3
 ---
-Cours du chapitre 3 : Fonctions trigonométriques.
+Cours du chapitre 3 : Fonctions trigonométriques.
 
 {{< cards >}}
   {{< card link="./01_lecture_cercle_trigonometrique" title="Lecture sur le cercle trigonométrique" icon="paper-clip">}}

@@ -2,7 +2,7 @@
 title: 'Probabilités conditionnelles et indépendance'
 weight: 9
 ---
-Cours du chapitre 9 : Probabilités conditionnelles et indépendance.
+Cours du chapitre 9 : Probabilités conditionnelles et indépendance.
 
 {{< cards >}}
   {{< card link="./01_probabilites_conditionnelles" title="Probabilités conditionnelles" icon="paper-clip">}}

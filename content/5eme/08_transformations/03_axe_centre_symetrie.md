@@ -16,7 +16,7 @@ cascade:
 
 {{% details title="Lecture de la figure" closed="true" %}}
 - La flèche a un axe de symétrie et pas de centre de symétrie.
-- La lettre S (dessinée avec des segments) n’a pas d’axe de symétrie, mais elle a un centre de symétrie : un demi-tour autour de son centre la laisse inchangée.
+- La lettre S (dessinée avec des segments) n’a pas d’axe de symétrie, mais elle a un centre de symétrie : un demi-tour autour de son centre la laisse inchangée.
 - La croix a quatre axes de symétrie et un centre de symétrie.
 {{% /details %}}
 
@@ -28,7 +28,7 @@ cascade:
 >
 > - Un cercle a pour centre de symétrie son centre.
 > - Un segment a pour centre de symétrie son milieu.
-> - Un parallélogramme a pour centre de symétrie le point d’intersection de ses diagonales (voir le chapitre « Parallélogrammes »).
+> - Un parallélogramme a pour centre de symétrie le point d’intersection de ses diagonales (voir le chapitre « Parallélogrammes »).
 
 ## S’entraîner
 
@@ -37,8 +37,8 @@ cascade:
 > Pour chacune des lettres majuscules H, N, A, O (écrites en caractères d’imprimerie simples), donner le nombre d’axes de symétrie et dire si elle a un centre de symétrie.
 
 {{% details title="Solution commentée" closed="true" %}}
-- H : \(2\) axes (vertical et horizontal) et un centre de symétrie.
-- N : aucun axe, un centre de symétrie.
-- A : \(1\) axe (vertical), pas de centre de symétrie.
-- O (dessiné comme une ellipse) : \(2\) axes et un centre de symétrie.
+- H : \(2\) axes (vertical et horizontal) et un centre de symétrie.
+- N : aucun axe, un centre de symétrie.
+- A : \(1\) axe (vertical), pas de centre de symétrie.
+- O (dessiné comme une ellipse) : \(2\) axes et un centre de symétrie.
 {{% /details %}}

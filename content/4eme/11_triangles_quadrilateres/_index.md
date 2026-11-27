@@ -2,7 +2,7 @@
 title: 'Triangles et quadrilatères'
 weight: 11
 ---
-Cours du chapitre 11 : Triangles et quadrilatères.
+Cours du chapitre 11 : Triangles et quadrilatères.
 
 {{< cards >}}
   {{< card link="./01_triangles_egaux" title="Reconnaitre des triangles égaux" icon="paper-clip">}}
@@ -13,8 +13,8 @@ Cours du chapitre 11 : Triangles et quadrilatères.
 
 #### Fiche résumé du chapitre
 
-**Triangles égaux** — côtés deux à deux égaux ; alors angles deux à deux égaux (réciproque fausse). Suffisent : un angle entre deux côtés égaux, ou un côté entre deux angles égaux.
+**Triangles égaux** - côtés deux à deux égaux ; alors angles deux à deux égaux (réciproque fausse). Suffisent : un angle entre deux côtés égaux, ou un côté entre deux angles égaux.
 
-**Parallélogramme** — côtés opposés parallèles ; diagonales de même milieu, côtés opposés égaux, angles opposés égaux. Se reconnait par les diagonales, par les quatre côtés ou par deux côtés opposés parallèles et égaux.
+**Parallélogramme** - côtés opposés parallèles ; diagonales de même milieu, côtés opposés égaux, angles opposés égaux. Se reconnait par les diagonales, par les quatre côtés ou par deux côtés opposés parallèles et égaux.
 
-**Parallélogrammes particuliers** — diagonales de même longueur : rectangle ; perpendiculaires : losange ; les deux : carré.
+**Parallélogrammes particuliers** - diagonales de même longueur : rectangle ; perpendiculaires : losange ; les deux : carré.

@@ -23,7 +23,7 @@ cascade:
 > Deux angles supplémentaires et adjacents forment un angle plat.
 
 {{% details title="Exemple" closed="true" %}}
-\(\widehat{EFG} = 57^\circ\) et \(\widehat{GFH} = 123^\circ\) sont adjacents et \(57 + 123 = 180\) : ils sont supplémentaires, l’angle \(\widehat{EFH}\) est plat et \(E\), \(F\), \(H\) sont alignés.
+\({\widehat{EFG} = 57^\circ}\) et \({\widehat{GFH} = 123^\circ}\) sont adjacents et \({57 + 123 = 180}\) : ils sont supplémentaires, l’angle \(\widehat{EFH}\) est plat et \(E\), \(F\), \(H\) sont alignés.
 {{% /details %}}
 
 > [!TIP] **Définition**
@@ -45,17 +45,17 @@ cascade:
 > Deux angles opposés par le sommet ont la même mesure.
 
 {{% details title="Démonstration" closed="true" %}}
-Soit deux droites sécantes en \(O\), formant les angles \(\widehat{1}\), \(\widehat{2}\), \(\widehat{3}\) dans cet ordre, où \(\widehat{1}\) et \(\widehat{3}\) sont opposés par le sommet. Les angles \(\widehat{1}\) et \(\widehat{2}\) sont adjacents et forment un angle plat : \(\widehat{1} + \widehat{2} = 180^\circ\). De même \(\widehat{2} + \widehat{3} = 180^\circ\). Donc \(\widehat{1} = 180^\circ - \widehat{2} = \widehat{3}\).
+Soit deux droites sécantes en \(O\), formant les angles \(\widehat{1}\), \(\widehat{2}\), \(\widehat{3}\) dans cet ordre, où \(\widehat{1}\) et \(\widehat{3}\) sont opposés par le sommet. Les angles \(\widehat{1}\) et \(\widehat{2}\) sont adjacents et forment un angle plat : \({\widehat{1} + \widehat{2} = 180^\circ}\). De même \({\widehat{2} + \widehat{3} = 180^\circ}\). Donc \({\widehat{1} = 180^\circ - \widehat{2} = \widehat{3}}\).
 {{% /details %}}
 
 ## S’entraîner
 
 > [!NOTE] **Exercice résolu**
 >
-> Deux droites \((AB)\) et \((CD)\) se coupent en \(O\), avec \(\widehat{AOC} = 64^\circ\). Calculer \(\widehat{BOD}\), \(\widehat{COB}\) et \(\widehat{AOD}\).
+> Deux droites \((AB)\) et \((CD)\) se coupent en \(O\), avec \({\widehat{AOC} = 64^\circ}\). Calculer \(\widehat{BOD}\), \(\widehat{COB}\) et \(\widehat{AOD}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-- \(\widehat{BOD}\) est opposé par le sommet à \(\widehat{AOC}\) : \(\widehat{BOD} = 64^\circ\).
-- \(\widehat{AOC}\) et \(\widehat{COB}\) sont adjacents et forment l’angle plat \(\widehat{AOB}\) : \(\widehat{COB} = 180^\circ - 64^\circ = 116^\circ\).
-- \(\widehat{AOD}\) est opposé par le sommet à \(\widehat{COB}\) : \(\widehat{AOD} = 116^\circ\).
+- \(\widehat{BOD}\) est opposé par le sommet à \(\widehat{AOC}\) : \({\widehat{BOD} = 64^\circ}\).
+- \(\widehat{AOC}\) et \(\widehat{COB}\) sont adjacents et forment l’angle plat \(\widehat{AOB}\) : \({\widehat{COB} = 180^\circ - 64^\circ = 116^\circ}\).
+- \(\widehat{AOD}\) est opposé par le sommet à \(\widehat{COB}\) : \({\widehat{AOD} = 116^\circ}\).
 {{% /details %}}

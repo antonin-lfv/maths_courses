@@ -2,7 +2,7 @@
 title: 'Dérivation locale'
 weight: 4
 ---
-Cours du chapitre 4 : Dérivation locale.
+Cours du chapitre 4 : Dérivation locale.
 
 {{< cards >}}
   {{< card link="./01_taux_variation" title="Taux de variation" icon="paper-clip">}}

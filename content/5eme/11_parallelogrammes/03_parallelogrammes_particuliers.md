@@ -46,8 +46,8 @@ cascade:
 
 > [!NOTE] **Exercice résolu**
 >
-> \(ABCD\) est un parallélogramme de centre \(O\). Préciser sa nature dans chaque cas : a) \(AC = BD\) ; b) \((AC) \perp (BD)\) ; c) \(AB = BC\) et \(\widehat{ABC} = 90^\circ\).
+> \(ABCD\) est un parallélogramme de centre \(O\). Préciser sa nature dans chaque cas : a) \({AC = BD}\) ; b) \({(AC) \perp (BD)}\) ; c) \({AB = BC}\) et \({\widehat{ABC} = 90^\circ}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-a) Diagonales de même longueur : rectangle. b) Diagonales perpendiculaires : losange. c) Deux côtés consécutifs égaux (losange) et un angle droit (rectangle) : carré.
+a) Diagonales de même longueur : rectangle. b) Diagonales perpendiculaires : losange. c) Deux côtés consécutifs égaux (losange) et un angle droit (rectangle) : carré.
 {{% /details %}}

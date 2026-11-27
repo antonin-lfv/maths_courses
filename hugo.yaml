@@ -17,6 +17,13 @@ markup:
       unsafe: true
 
 params:
+  # Feuille de style KaTeX : version fixée sur celle qu'utilise Hugo pour
+  # générer les formules (KaTeX 0.16). Avec « latest » (0.19), les noms de
+  # classes ne correspondent plus et les formules s'affichent mal.
+  math:
+    katex:
+      base: "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist"
+
   navbar:
     logo:
       path: images/logo.svg

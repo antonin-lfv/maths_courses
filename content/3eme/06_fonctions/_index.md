@@ -2,7 +2,7 @@
 title: 'Fonctions'
 weight: 6
 ---
-Cours du chapitre 6 : Fonctions.
+Cours du chapitre 6 : Fonctions.
 
 {{< cards >}}
   {{< card link="./01_images_antecedents" title="Déterminer des images et des antécédents" icon="paper-clip">}}
@@ -13,10 +13,10 @@ Cours du chapitre 6 : Fonctions.
 
 #### Fiche résumé du chapitre
 
-**Fonction** — à chaque nombre \(x\), une unique image \(f(x)\) ; \(f : x \mapsto f(x)\).
+**Fonction** - à chaque nombre \(x\), une unique image \(f(x)\) ; \({f : x \mapsto f(x)}\).
 
-**Antécédent** — \(x\) est un antécédent de \(y\) si \(f(x) = y\) ; un nombre peut avoir plusieurs antécédents ou aucun. On les trouve en résolvant \(f(x) = y\).
+**Antécédent** - \(x\) est un antécédent de \(y\) si \({f(x) = y}\) ; un nombre peut avoir plusieurs antécédents ou aucun. On les trouve en résolvant \({f(x) = y}\).
 
-**Courbe** — points \((x\,;\,f(x))\) ; \(M(a\,;\,b) \in \mathcal{C}_f \Leftrightarrow f(a) = b\).
+**Courbe** - points \((x\,;\,f(x))\) ; \({M(a\,;\,b) \in \mathcal{C}_f \Leftrightarrow f(a) = b}\).
 
-**Lecture graphique** — image : on part de l’axe des abscisses ; antécédents : on part de l’axe des ordonnées et on lit toutes les abscisses.
+**Lecture graphique** - image : on part de l’axe des abscisses ; antécédents : on part de l’axe des ordonnées et on lit toutes les abscisses.

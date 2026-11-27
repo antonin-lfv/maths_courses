@@ -3,7 +3,7 @@ title: 'Suites numériques'
 weight: 1
 ---
 
-Vous trouverez ici les cours du chapitre 1 : Suites numériques.
+Vous trouverez ici les cours du chapitre 1 : Suites numériques.
 
 {{< cards >}}
   {{< card link="./01_modes_generation_suite" title="Modes de génération d'une suite" icon="paper-clip">}}

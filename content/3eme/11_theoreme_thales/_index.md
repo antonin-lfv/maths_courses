@@ -2,7 +2,7 @@
 title: 'Théorème de Thalès'
 weight: 11
 ---
-Cours du chapitre 11 : Théorème de Thalès.
+Cours du chapitre 11 : Théorème de Thalès.
 
 {{< cards >}}
   {{< card link="./01_calculer_longueurs_thales" title="Calculer des longueurs avec le théorème de Thalès" icon="paper-clip">}}
@@ -13,8 +13,8 @@ Cours du chapitre 11 : Théorème de Thalès.
 
 #### Fiche résumé du chapitre
 
-**Théorème de Thalès** — \(A, B, M\) et \(A, C, N\) alignés, \((BC) \parallel (MN)\) : \(\dfrac{AM}{AB} = \dfrac{AN}{AC} = \dfrac{MN}{BC}\) (configuration classique ou papillon).
+**Théorème de Thalès** - \(A, B, M\) et \(A, C, N\) alignés, \({(BC) \parallel (MN)}\) : \({\dfrac{AM}{AB} = \dfrac{AN}{AC} = \dfrac{MN}{BC}}\) (configuration classique ou papillon).
 
-**Réciproque** — alignements dans le même ordre et \(\dfrac{AM}{AB} = \dfrac{AN}{AC}\) : \((BC) \parallel (MN)\). Rapports différents : droites non parallèles.
+**Réciproque** - alignements dans le même ordre et \({\dfrac{AM}{AB} = \dfrac{AN}{AC}}\) : \({(BC) \parallel (MN)}\). Rapports différents : droites non parallèles.
 
-**Triangles semblables** — angles deux à deux égaux (deux paires suffisent) \(\Leftrightarrow\) côtés proportionnels ; l’un est un agrandissement de l’autre.
+**Triangles semblables** - angles deux à deux égaux (deux paires suffisent) \({\Leftrightarrow}\) côtés proportionnels ; l’un est un agrandissement de l’autre.

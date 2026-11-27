@@ -9,13 +9,13 @@ cascade:
 
 > [!TIP] **Définitions**
 >
-> Une **pyramide** de sommet \(S\) est un solide dont :
-> - la **base** est un polygone (triangle, quadrilatère…) ;
+> Une **pyramide** de sommet \(S\) est un solide dont :
+> - la **base** est un polygone (triangle, quadrilatère…) ;
 > - les **faces latérales** sont des triangles ayant pour sommet commun le point \(S\).
 >
 > La **hauteur** d’une pyramide de sommet \(S\) est le segment \([SH]\) perpendiculaire au plan de la base, où \(H\) est un point de ce plan. On appelle aussi hauteur la longueur \(SH\).
 
-Ci-dessous, une pyramide à base carrée \(ABCD\), dessinée en perspective cavalière (les arêtes cachées sont en pointillés), et l’un de ses patrons : le carré de base entouré des quatre faces latérales triangulaires.
+Ci-dessous, une pyramide à base carrée \(ABCD\), dessinée en perspective cavalière (les arêtes cachées sont en pointillés), et l’un de ses patrons : le carré de base entouré des quatre faces latérales triangulaires.
 
 ![](/images/image440.png)
 
@@ -31,13 +31,13 @@ Ci-dessous, une pyramide à base carrée \(ABCD\), dessinée en perspective cava
 >
 > Le volume \(\mathcal{V}\) d’une pyramide est donné par la formule
 > \[
-\mathcal{V} = \frac{\text{aire de la base} \times \text{hauteur}}{3}.
+\mathcal{V} = \dfrac{\text{aire de la base} \times \text{hauteur}}{3}.
 \]
 
 {{% details title="Exemple" closed="true" %}}
-Une pyramide a pour base un rectangle de \(5\) cm sur \(3\) cm et pour hauteur \(8\) cm. Aire de la base : \(5 \times 3 = 15\) cm². Volume :
+Une pyramide a pour base un rectangle de \(5\) cm sur \(3\) cm et pour hauteur \(8\) cm. Aire de la base : \({5 \times 3 = 15}\) cm². Volume :
 \[
-\mathcal{V} = \frac{15 \times 8}{3} = \frac{120}{3} = 40 \text{ cm}^3.
+\mathcal{V} = \dfrac{15 \times 8}{3} = \dfrac{120}{3} = 40 \text{ cm}^3.
 \]
 {{% /details %}}
 
@@ -47,11 +47,11 @@ Une pyramide a pour base un rectangle de \(5\) cm sur \(3\) cm et pour hauteur \
 
 > [!NOTE] **Exercice résolu**
 >
-> \(SABC\) est un tétraèdre dont la base \(ABC\) est un triangle rectangle en \(A\) avec \(AB = 6\) cm et \(AC = 4\) cm. La hauteur \([SA]\) mesure \(9\) cm.
-> 1. Combien ce solide a-t-il de faces, d’arêtes et de sommets ?
+> \(SABC\) est un tétraèdre dont la base \(ABC\) est un triangle rectangle en \(A\) avec \({AB = 6}\) cm et \({AC = 4}\) cm. La hauteur \([SA]\) mesure \(9\) cm.
+> 1. Combien ce solide a-t-il de faces, d’arêtes et de sommets ?
 > 2. Calculer son volume.
 
 {{% details title="Solution commentée" closed="true" %}}
 1. Un tétraèdre a 4 faces (toutes triangulaires), 6 arêtes (\([AB]\), \([AC]\), \([BC]\), \([SA]\), \([SB]\), \([SC]\)) et 4 sommets.
-2. Aire de la base : \(\dfrac{AB \times AC}{2} = \dfrac{6 \times 4}{2} = 12\) cm². Volume : \(\mathcal{V} = \dfrac{12 \times 9}{3} = 36\) cm³.
+2. Aire de la base : \({\dfrac{AB \times AC}{2} = \dfrac{6 \times 4}{2} = 12}\) cm². Volume : \({\mathcal{V} = \dfrac{12 \times 9}{3} = 36}\) cm³.
 {{% /details %}}

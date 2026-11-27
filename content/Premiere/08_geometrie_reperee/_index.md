@@ -2,7 +2,7 @@
 title: 'Géométrie repérée'
 weight: 8
 ---
-Cours du chapitre 8 : Géométrie repérée.
+Cours du chapitre 8 : Géométrie repérée.
 
 {{< cards >}}
   {{< card link="./01_vecteur_normal_droite" title="Vecteur normal à une droite" icon="paper-clip">}}

@@ -2,7 +2,7 @@
 title: 'Dérivation globale'
 weight: 5
 ---
-Cours du chapitre 5 : Dérivation globale.
+Cours du chapitre 5 : Dérivation globale.
 
 {{< cards >}}
   {{< card link="./01_fonctions_derivables_intervalle" title="Fonctions dérivables sur un intervalle" icon="paper-clip">}}

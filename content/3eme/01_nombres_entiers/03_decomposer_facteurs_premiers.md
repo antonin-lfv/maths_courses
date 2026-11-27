@@ -21,16 +21,16 @@ n = p_1^{k_1} \times p_2^{k_2} \times \dots
 
 ## Obtenir la décomposition
 
-> [!NOTE] **Méthode — Décomposer un entier**
+> [!NOTE] **Méthode - Décomposer un entier**
 >
 > On divise le nombre par le plus petit nombre premier qui le divise, puis on recommence avec le quotient obtenu, jusqu’à obtenir un quotient égal à \(1\). Les diviseurs successifs sont les facteurs premiers.
 
 {{% details title="Exemple" closed="true" %}}
-Décomposition de \(252\) :
+Décomposition de \(252\) :
 \[
 252 = 2 \times 126 = 2 \times 2 \times 63 = 2 \times 2 \times 3 \times 21 = 2 \times 2 \times 3 \times 3 \times 7.
 \]
-Donc \(252 = 2^2 \times 3^2 \times 7\).
+Donc \({252 = 2^2 \times 3^2 \times 7}\).
 
 De même, \(330 = 2 \times 165 = 2 \times 3 \times 55 = 2 \times 3 \times 5 \times 11\).
 {{% /details %}}
@@ -38,12 +38,12 @@ De même, \(330 = 2 \times 165 = 2 \times 3 \times 55 = 2 \times 3 \times 5 \tim
 > [!IMPORTANT] **Remarques**
 >
 > - Certaines calculatrices donnent directement la décomposition en facteurs premiers d’un entier.
-> - La décomposition en facteurs premiers permet de simplifier une fraction : on « barre » les facteurs communs au numérateur et au dénominateur.
+> - La décomposition en facteurs premiers permet de simplifier une fraction : on « barre » les facteurs communs au numérateur et au dénominateur.
 
 {{% details title="Exemple" closed="true" %}}
-Avec les décompositions précédentes :
+Avec les décompositions précédentes :
 \[
-\frac{252}{330} = \frac{2 \times 2 \times 3 \times 3 \times 7}{2 \times 3 \times 5 \times 11} = \frac{2 \times 3 \times 7}{5 \times 11} = \frac{42}{55}.
+\dfrac{252}{330} = \dfrac{2 \times 2 \times 3 \times 3 \times 7}{2 \times 3 \times 5 \times 11} = \dfrac{2 \times 3 \times 7}{5 \times 11} = \dfrac{42}{55}.
 \]
 {{% /details %}}
 
@@ -54,8 +54,8 @@ Avec les décompositions précédentes :
 > 3. Simplifier la fraction \(\dfrac{126}{180}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. \(180 = 2 \times 90 = 2 \times 2 \times 45 = 2 \times 2 \times 3 \times 15 = 2 \times 2 \times 3 \times 3 \times 5\), soit \(180 = 2^2 \times 3^2 \times 5\).
-   \(126 = 2 \times 63 = 2 \times 3 \times 21 = 2 \times 3 \times 3 \times 7\), soit \(126 = 2 \times 3^2 \times 7\).
-2. Les facteurs communs sont \(2\) (une fois) et \(3\) (deux fois) : le plus grand diviseur commun est \(2 \times 3^2 = 18\).
-3. \(\dfrac{126}{180} = \dfrac{18 \times 7}{18 \times 10} = \dfrac{7}{10}\).
+1. \(180 = 2 \times 90 = 2 \times 2 \times 45 = 2 \times 2 \times 3 \times 15 = 2 \times 2 \times 3 \times 3 \times 5\), soit \({180 = 2^2 \times 3^2 \times 5}\).
+   \(126 = 2 \times 63 = 2 \times 3 \times 21 = 2 \times 3 \times 3 \times 7\), soit \({126 = 2 \times 3^2 \times 7}\).
+2. Les facteurs communs sont \(2\) (une fois) et \(3\) (deux fois) : le plus grand diviseur commun est \({2 \times 3^2 = 18}\).
+3. \({\dfrac{126}{180} = \dfrac{18 \times 7}{18 \times 10} = \dfrac{7}{10}}\).
 {{% /details %}}

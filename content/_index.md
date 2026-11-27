@@ -31,7 +31,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="Fiches ultra-condensées"
     icon="book-open"
-    subtitle="Chaque notion en 2–3 phrases + la formule clé. Idéal pour réviser vite."
+    subtitle="Chaque notion en 2-3 phrases + la formule clé. Idéal pour réviser vite."
   >}}
 
   {{< hextra/feature-card

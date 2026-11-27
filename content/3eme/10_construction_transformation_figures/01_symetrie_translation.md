@@ -5,7 +5,7 @@ cascade:
   type: docs
 ---
 
-Une **transformation** associe à chaque point d’une figure un point image. Ce chapitre rassemble les transformations vues au collège : symétries, translation, puis rotation et homothétie.
+Une **transformation** associe à chaque point d’une figure un point image. Ce chapitre rassemble les transformations vues au collège : symétries, translation, puis rotation et homothétie.
 
 ## Symétrie axiale
 
@@ -17,7 +17,7 @@ Une **transformation** associe à chaque point d’une figure un point image. Ce
 
 > [!TIP] **Propriété**
 >
-> Deux figures symétriques par rapport à une droite \((d)\) sont superposables : elles se superposent quand on plie la feuille le long de \((d)\).
+> Deux figures symétriques par rapport à une droite \((d)\) sont superposables : elles se superposent quand on plie la feuille le long de \((d)\).
 
 ## Symétrie centrale
 
@@ -29,7 +29,7 @@ Une **transformation** associe à chaque point d’une figure un point image. Ce
 
 > [!TIP] **Propriété**
 >
-> Deux figures symétriques par rapport à un point \(O\) sont superposables : elles se superposent lorsqu’on effectue un demi-tour autour du point \(O\).
+> Deux figures symétriques par rapport à un point \(O\) sont superposables : elles se superposent lorsqu’on effectue un demi-tour autour du point \(O\).
 
 ![](/images/image429.png)
 
@@ -50,10 +50,10 @@ Une **transformation** associe à chaque point d’une figure un point image. Ce
 > Dans un repère, on considère le point \(A(3\,;\,1)\).
 > 1. Donner les coordonnées de son symétrique \(B\) par rapport à l’origine \(O\).
 > 2. Donner les coordonnées de son symétrique \(C\) par rapport à l’axe des ordonnées.
-> 3. Donner les coordonnées de son image \(D\) par la translation qui transforme \(O\) en \(E(-2\,;\,4)\).
+> 3. Donner les coordonnées de son image \(D\) par la translation qui transforme \(O\) en \({E(-2\,;\,4)}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. \(O\) est le milieu de \([AB]\) : on change les signes des deux coordonnées, \(B(-3\,;\,-1)\).
-2. L’axe des ordonnées est la médiatrice de \([AC]\) : on change le signe de l’abscisse, \(C(-3\,;\,1)\).
-3. La translation fait avancer de \(2\) vers la gauche et de \(4\) vers le haut : \(D(3 - 2\,;\,1 + 4) = (1\,;\,5)\).
+1. \(O\) est le milieu de \([AB]\) : on change les signes des deux coordonnées, \({B(-3\,;\,-1)}\).
+2. L’axe des ordonnées est la médiatrice de \([AC]\) : on change le signe de l’abscisse, \({C(-3\,;\,1)}\).
+3. La translation fait avancer de \(2\) vers la gauche et de \(4\) vers le haut : \({D(3 - 2\,;\,1 + 4) = (1\,;\,5)}\).
 {{% /details %}}

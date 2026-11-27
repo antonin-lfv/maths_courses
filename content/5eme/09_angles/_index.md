@@ -2,7 +2,7 @@
 title: 'Angles'
 weight: 9
 ---
-Cours du chapitre 9 : Angles.
+Cours du chapitre 9 : Angles.
 
 {{< cards >}}
   {{< card link="./01_mesure_angle" title="Déterminer la mesure d’un angle" icon="paper-clip">}}
@@ -13,8 +13,8 @@ Cours du chapitre 9 : Angles.
 
 #### Fiche résumé du chapitre
 
-**Rappels** — angles adjacents ; supplémentaires (somme \(180^\circ\)) ; bissectrice ; opposés par le sommet : même mesure.
+**Rappels** - angles adjacents ; supplémentaires (somme \(180^\circ\)) ; bissectrice ; opposés par le sommet : même mesure.
 
-**Alternes-internes** — de part et d’autre de la sécante, entre les deux droites ; **correspondants** — du même côté de la sécante, l’un entre les droites, l’autre non.
+**Alternes-internes** - de part et d’autre de la sécante, entre les deux droites ; **correspondants** - du même côté de la sécante, l’un entre les droites, l’autre non.
 
-**Propriétés** — droites parallèles \(\Rightarrow\) angles alternes-internes (ou correspondants) égaux ; réciproquement, angles alternes-internes (ou correspondants) égaux \(\Rightarrow\) droites parallèles.
+**Propriétés** - droites parallèles \({\Rightarrow}\) angles alternes-internes (ou correspondants) égaux ; réciproquement, angles alternes-internes (ou correspondants) égaux \({\Rightarrow}\) droites parallèles.
