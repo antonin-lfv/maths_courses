@@ -1,5 +1,5 @@
 ---
-title: 'Grandeurs et proportionnalité'
+title: 'Grandeurs et proportionnalités'
 weight: 7
 ---
 Cours du chapitre 7 : Grandeurs et proportionnalité.
