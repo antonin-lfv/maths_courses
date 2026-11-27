@@ -1,14 +1,14 @@
 ---
-title: 'Mathématiques, de la 6e à la Terminale'
+title: 'Mathématiques, de la 6e à la licence'
 layout: hextra-home
 ---
 
 <div class="mx-accueil">
 
 <div class="mx-hero">
-  <p class="mx-hero__surtitre">Cours de mathématiques · collège et lycée</p>
+  <p class="mx-hero__surtitre">Cours de mathématiques · collège, lycée, licence</p>
   <h1 class="mx-hero__titre">Comprendre les maths,<br><em>une notion à la fois.</em></h1>
-  <p class="mx-hero__texte">Tout le programme, de la 6e à la Terminale : des définitions précises, des exemples corrigés, des méthodes pas à pas et une fiche résumé à la fin de chaque chapitre.</p>
+  <p class="mx-hero__texte">Tout le programme, de la 6e à la troisième année de licence : des définitions précises, des exemples corrigés, des méthodes pas à pas et une fiche résumé à la fin de chaque chapitre.</p>
 </div>
 
 {{< niveaux >}}
