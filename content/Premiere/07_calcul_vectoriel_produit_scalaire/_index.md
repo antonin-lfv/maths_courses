@@ -2,7 +2,7 @@
 title: 'Calcul vectoriel et produit scalaire'
 weight: 7
 ---
-Cours du chapitre 7 : Produit scalaire.
+Cours du chapitre 7 : Produit scalaire.
 
 {{< cards >}}
   {{< card link="./01_produit_scalaire" title="Produit scalaire" icon="paper-clip">}}

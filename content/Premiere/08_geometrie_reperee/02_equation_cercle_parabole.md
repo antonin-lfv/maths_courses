@@ -9,175 +9,166 @@ cascade:
 
 > [!TIP] **Propriété et définition**  
 > Soient \(A(x_A; y_A)\) un point du plan et \(R\) un réel strictement positif.  
-> L’ensemble des points \(M(x; y)\) du plan vérifiant l’égalité :
+> Le **cercle \(\mathscr{C}\)** de centre \(A\) et de rayon \(R\) est l’ensemble des points \(M(x; y)\) du plan tels que :
 >
 > \[
 (x - x_A)^2 + (y - y_A)^2 = R^2
 \]
 >
-> est le **cercle \(\mathscr{C}\)** de centre \(A\) et de rayon \(R\).  
-> Cette égalité est une **équation cartésienne** du cercle \(\mathscr{C}\).
-> ![](/images/image121.png)
+> Cette égalité est appelée **équation cartésienne** du cercle \(\mathscr{C}\).
+> ![](/images/image205.png)
+
+> [!IMPORTANT] **Remarque**  
+> Cette équation traduit simplement \({AM^2 = R^2}\), c’est-à-dire \({AM = R}\), en utilisant la formule de la distance dans un repère orthonormé.
 
 {{% details title="Exemple" closed="true" %}}
-On considère l’équation :
+On considère l’équation :
 \[
-(x - 3)^2 + (y + 1)^2 = 4
+(x + 2)^2 + (y - 4)^2 = 9
 \]
 
-Cette équation est équivalente à :
+On la réécrit sous la forme :
 \[
-(x - 3)^2 + (y - (-1))^2 = 4
+(x - (-2))^2 + (y - 4)^2 = 3^2
 \]
 
-C’est celle du cercle de centre \(A(3; -1)\) et de rayon \(R = \sqrt{4} = 2\) unités de longueur.
+C’est l’équation du cercle de centre \({A(-2; 4)}\) et de rayon \({R = \sqrt{9} = 3}\) unités de longueur.
 {{% /details %}}
 
 > [!IMPORTANT] **Remarque**  
-> Dans le cas où un cercle \(\mathscr{C}\) est défini par un diamètre \([AB]\), on peut trouver une équation cartésienne de \(\mathscr{C}\) :
-> - en utilisant l’équivalence \(M \in \mathscr{C} \Leftrightarrow \overrightarrow{MA} \cdot \overrightarrow{MB} = 0\) ;  
-> - ou en déterminant les coordonnées du centre \(I\) et le rayon égal à la longueur \(AI\).
-
+> Lorsqu’un cercle \(\mathscr{C}\) est donné par l’un de ses diamètres \([AB]\), on obtient une équation cartésienne de \(\mathscr{C}\) :
+> - soit avec l’équivalence \({M \in \mathscr{C} \Leftrightarrow \overrightarrow{MA} \cdot \overrightarrow{MB} = 0}\) ;  
+> - soit en calculant les coordonnées du centre \(I\) (milieu de \([AB]\)) et le rayon \(AI\).
 
 ## Équation cartésienne d’une parabole
 
 > [!TIP] **Définition et propriété**  
-> Soient \(a\), \(b\) et \(c\) trois réels tels que \(a \neq 0\).  
-> La fonction polynomiale de degré 2 :
->
-> \[
-f(x) = ax^2 + bx + c
-\]
->
-> a pour courbe représentative une **parabole** d’équation :
+> Soient \(a\), \(b\) et \(c\) trois réels avec \({a \neq 0}\).  
+> La courbe représentative de la fonction polynôme du second degré \({f : x \mapsto ax^2 + bx + c}\) est une **parabole**, d’équation :
 >
 > \[
 y = ax^2 + bx + c
 \]
 >
-> Cette parabole admet :  
-> - pour axe de symétrie la droite \(x = -\dfrac{b}{2a}\) ;  
-> - pour sommet le point \(S\left(-\dfrac{b}{2a}; f\left(-\dfrac{b}{2a}\right)\right)\).
-> ![](/images/image122.png)
+> Cette parabole admet :  
+> - pour axe de symétrie la droite d’équation \({x = -\dfrac{b}{2a}}\) ;  
+> - pour sommet le point \({S\left(-\dfrac{b}{2a}; f\left(-\dfrac{b}{2a}\right)\right)}\).
+> ![](/images/image149.png)
 
 {{% details title="Exemple" closed="true" %}}
-On considère l’équation :
+On considère la parabole d’équation :
 \[
-y = -x^2 + 2x - 5
-\]
-C’est celle d’une parabole.
-
-![](/images/image123.png)
-
-Par identification, on a \(a = -1\), \(b = 2\), \(c = -5\).
-
-L’axe de symétrie a pour équation :
-\[
-x = -\frac{b}{2a} = -\frac{2}{2 \times (-1)} = 1
+y = 2x^2 + 8x + 3
 \]
 
-Le sommet \(S\) a pour coordonnées :
+![](/images/image207.png)
+
+Par identification, \({a = 2}\), \({b = 8}\), \({c = 3}\).
+
+Son axe de symétrie a pour équation :
 \[
-x_S = 1, \quad y_S = -1^2 + 2 \times 1 - 5 = -4
+x = -\dfrac{b}{2a} = -\dfrac{8}{2 \times 2} = -2
 \]
-Donc \(S(1; -4)\).
+
+Son sommet \(S\) a pour coordonnées :
+\[
+x_S = -2, \quad y_S = 2 \times (-2)^2 + 8 \times (-2) + 3 = 8 - 16 + 3 = -5
+\]
+soit \({S(-2; -5)}\).
 {{% /details %}}
 
-
-## Exercice résolu — Déterminer une équation de cercle
+## Exercice résolu - Déterminer une équation de cercle
 
 > [!NOTE] **Énoncé**  
-> Soient \(A(1;1)\) et \(B(5;-2)\).  
+> On considère les points \({A(-1;2)}\) et \(B(3;4)\).  
 > 1. Déterminer une équation du cercle \(\mathscr{C}\) de diamètre \([AB]\).  
-> 2. Déterminer les coordonnées de son centre et la valeur de son rayon.
-> ![](/images/image124.png)
+> 2. En déduire les coordonnées de son centre et son rayon.
+> ![](/images/image208.png)
 
 {{% details title="Solution commentée" closed="true" %}}
 
-### 1ere méthode
-Soit \(M(x;y)\) un point du cercle.  
+**Première méthode : avec le produit scalaire**  
+Soit \(M(x;y)\) un point du plan.  
 \[
 M \in \mathscr{C} \Leftrightarrow \overrightarrow{MA} \cdot \overrightarrow{MB} = 0
 \]
+avec
 \[
-\overrightarrow{MA} \begin{pmatrix} 1 - x \\ 1 - y \end{pmatrix}, \quad
-\overrightarrow{MB} \begin{pmatrix} 5 - x \\ -2 - y \end{pmatrix}
+\overrightarrow{MA} \begin{pmatrix} -1 - x \\ 2 - y \end{pmatrix}, \quad
+\overrightarrow{MB} \begin{pmatrix} 3 - x \\ 4 - y \end{pmatrix}.
+\]
+D’où :
+\[
+(-1 - x)(3 - x) + (2 - y)(4 - y) = 0
 \]
 \[
-(1 - x)(5 - x) + (1 - y)(-2 - y) = 0
+x^2 - 2x - 3 + y^2 - 6y + 8 = 0
 \]
 \[
-x^2 - 6x + y^2 + y = -3
+x^2 - 2x + y^2 - 6y = -5
+\]
+On fait apparaître des carrés (forme canonique) : \({x^2 - 2x = (x-1)^2 - 1}\) et \({y^2 - 6y = (y-3)^2 - 9}\).
+\[
+(x - 1)^2 - 1 + (y - 3)^2 - 9 = -5
 \]
 \[
-(x - 3)^2 - 9 + (y + \tfrac{1}{2})^2 - \tfrac{1}{4} = -3
+(x - 1)^2 + (y - 3)^2 = 5
 \]
-\[
-(x - 3)^2 + (y + \tfrac{1}{2})^2 = \tfrac{25}{4}
-\]
-Le cercle a donc pour centre \(I(3; -\tfrac{1}{2})\) et pour rayon \(R = \tfrac{5}{2}\).
+Le cercle a donc pour centre \(I(1; 3)\) et pour rayon \({R = \sqrt{5}}\).
 
-### 2eme méthode
-Le centre est \(I\left(\dfrac{1 + 5}{2}; \dfrac{1 + (-2)}{2}\right) = (3; -\tfrac{1}{2})\).  
-Le carré du rayon est :
+**Deuxième méthode : avec le centre et le rayon**  
+Le centre est le milieu de \([AB]\) : \({I\left(\dfrac{-1 + 3}{2}; \dfrac{2 + 4}{2}\right)}\), soit \(I(1; 3)\).  
+Le carré du rayon vaut :
 \[
-AI^2 = (3 - 1)^2 + (-\tfrac{1}{2} - 1)^2 = \tfrac{25}{4}
+AI^2 = (1 - (-1))^2 + (3 - 2)^2 = 4 + 1 = 5
 \]
-Donc l’équation est :
+D’où l’équation :
 \[
-(x - 3)^2 + (y + \tfrac{1}{2})^2 = \tfrac{25}{4}
+(x - 1)^2 + (y - 3)^2 = 5
 \]
 {{% /details %}}
 
-
-## Exercice résolu — Déterminer l’équation d’une parabole
+## Exercice résolu - Déterminer l’équation d’une parabole
 
 > [!NOTE] **Énoncé**  
-> On considère une parabole dont le sommet \(S\) a pour coordonnées \(S(3;5)\) et qui passe par \(A(0;10)\).  
+> Une parabole a pour sommet \({S(-1;2)}\) et passe par le point \(A(1;10)\).  
 > Déterminer une équation de cette parabole.
-> ![](/images/image125.png)
+> ![](/images/image209.png)
 
 {{% details title="Solution commentée" closed="true" %}}
-On cherche l’équation sous la forme :
+On cherche une équation de la forme :
 \[
-y = ax^2 + bx + c
-\]
-avec \(a \neq 0\).
-
-Le sommet \(S\) vérifie :
-\[
-x_S = -\frac{b}{2a} = 3 \Rightarrow b = -6a
+y = ax^2 + bx + c, \quad a \neq 0.
 \]
 
-En utilisant les coordonnées de \(S(3;5)\) :
+L’abscisse du sommet donne une première relation :
 \[
-5 = a \times 3^2 + b \times 3 + c = 9a + 3b + c
-\]
-et les coordonnées de \(A(0;10)\) :
-\[
-10 = c
+x_S = -\dfrac{b}{2a} = -1 \Rightarrow b = 2a
 \]
 
-On a donc le système :
+Le sommet \({S(-1;2)}\) appartient à la parabole :
+\[
+2 = a \times (-1)^2 + b \times (-1) + c = a - b + c
+\]
+et le point \(A(1;10)\) aussi :
+\[
+10 = a + b + c
+\]
+
+On remplace \(b\) par \(2a\) :
 \[
 \begin{cases}
-c = 10 \\
-b = -6a \\
-9a + 3b + c = 5
+2 = a - 2a + c = -a + c \\
+10 = a + 2a + c = 3a + c
 \end{cases}
-\Rightarrow
-\begin{cases}
-9a + 3(-6a) + 10 = 5 \\
--9a = -5
-\end{cases}
-\Rightarrow a = \frac{5}{9}
 \]
+En soustrayant la première équation à la seconde : \({8 = 4a}\), d’où \({a = 2}\).  
+Puis \({c = 2 + a = 4}\) et \({b = 2a = 4}\).
+
+Une équation de la parabole est donc :
 \[
-b = -6a = -\frac{10}{3}, \quad c = 10
+y = 2x^2 + 4x + 4
 \]
 
-Donc l’équation de la parabole est :
-\[
-y = \frac{5}{9}x^2 - \frac{10}{3}x + 10
-\]
+*Autre méthode* : avec la forme canonique, \({y = a(x + 1)^2 + 2}\) ; le point \(A\) donne \({10 = 4a + 2}\), donc \({a = 2}\), et \({y = 2(x+1)^2 + 2 = 2x^2 + 4x + 4}\).
 {{% /details %}}

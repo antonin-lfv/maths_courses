@@ -7,196 +7,186 @@ cascade:
 
 ### Exercice 1
 
-Soit \((v_n)\) la suite définie par \(v_0 = 3\) et, pour tout entier naturel \(n\),  
+On considère la suite \((w_n)\) définie par \({w_0 = 2}\) et, pour tout entier naturel \(n\),  
 \[
-v_{n+1} = v_n^2 + v_n.
+w_{n+1} = w_n^2 - w_n + 1.
 \]
 
-1. Calculer les quatre premiers termes de la suite \((v_n)\).  
-2. Exprimer \(v_{n+2}\) en fonction de \(v_{n+1}\).  
-3. Exprimer \(v_n\) en fonction de \(v_{n-1}\).  
-4. À l’aide de la calculatrice, donner la valeur de \(v_4\).  
-5. Déterminer une fonction \(f\) définie sur \(\mathbb{R}\) telle que, pour tout entier naturel \(n\), \(v_{n+1} = f(v_n)\).
+1. Calculer \(w_1\), \(w_2\) et \(w_3\).  
+2. Exprimer \({w_{n+2}}\) en fonction de \({w_{n+1}}\).  
+3. Exprimer \(w_n\) en fonction de \({w_{n-1}}\), pour \({n \geq 1}\).  
+4. À l’aide de la calculatrice, déterminer \(w_4\).  
+5. Donner une fonction \(f\) définie sur \(\mathbb{R}\) telle que, pour tout entier naturel \(n\), \({w_{n+1} = f(w_n)}\).
 
 {{% details title="Solution" closed="true" %}}
-1. \(v_0=3\).  
-\(\displaystyle v_1=3^2+3=12\).  
-\(\displaystyle v_2=12^2+12=156\).  
-\(\displaystyle v_3=156^2+156=24\,492\).  
+1. \({w_1 = 2^2 - 2 + 1 = 3}\).  
+\({w_2 = 3^2 - 3 + 1 = 7}\).  
+\({w_3 = 7^2 - 7 + 1 = 43}\).  
 
-2. Par la récurrence : \(\displaystyle v_{n+2}=v_{n+1}^2+v_{n+1}\).
+2. On applique la relation de récurrence en remplaçant \(n\) par \({n+1}\) : \({w_{n+2} = w_{n+1}^2 - w_{n+1} + 1}\).
 
-3. Idem : \(\displaystyle v_n=v_{n-1}^2+v_{n-1}\).
+3. On remplace \(n\) par \({n-1}\) : \({w_n = w_{n-1}^2 - w_{n-1} + 1}\).
 
-4. \(\displaystyle v_4=v_3^2+v_3=24\,492^2+24\,492=599\,882\,556\).
+4. \(w_4 = 43^2 - 43 + 1 = 1\,849 - 43 + 1 = 1\,807\).
 
-5. On pose \(\displaystyle f:\mathbb{R}\to\mathbb{R},\; f(x)=x^2+x\). Alors, pour tout \(n\), \(\displaystyle v_{n+1}=f(v_n)\).
+5. On pose \({f(x) = x^2 - x + 1}\) pour tout réel \(x\). Alors, pour tout \(n\), \({w_{n+1} = f(w_n)}\).
 {{% /details %}}
 
 ### Exercice 2
 
-La suite \((u_n)\) est définie par son premier terme \(u_0\) et, pour tout entier naturel \(n\) :
+La suite \((u_n)\) est définie par son premier terme \({u_0 \geq 0}\) et, pour tout entier naturel \(n\) :
 \[
-u_{n+1}=\sqrt{u_n+\tfrac{2}{5}}.
+u_{n+1} = \sqrt{2u_n + 3}.
 \]
 
-1. Démontrer que la propriété \(P(n):\; 0<u_n<\tfrac{7}{5}\) est **héréditaire**.  
-2. Quelle condition doit vérifier \(u_0\) pour que la propriété \(P(n)\) soit vraie pour tout entier naturel \(n\) ?
+1. Démontrer que la propriété \(P(n)\) : « \({0 < u_n < 3}\) » est **héréditaire**.  
+2. À quelle condition sur \(u_0\) la propriété \(P(n)\) est-elle vraie pour tout entier naturel \(n\) ?
 
 {{% details title="Solution" closed="true" %}}
-**1) Hérédité.** Supposons \(P(k)\) vraie : \(0<u_k<\tfrac{7}{5}\).  
-Alors \(u_k+\tfrac{2}{5}>\tfrac{2}{5}>0\) donc \(u_{k+1}=\sqrt{u_k+\tfrac{2}{5}}>0\).  
-De plus, \(u_k+\tfrac{2}{5}<\tfrac{7}{5}+\tfrac{2}{5}=\tfrac{9}{5}\) donc
+**1) Hérédité.** Soit \(k\) un entier naturel ; on suppose \(P(k)\) vraie : \({0 < u_k < 3}\).  
+En multipliant par 2 puis en ajoutant 3 : \({3 < 2u_k + 3 < 9}\).  
+La fonction racine carrée est strictement croissante sur \({[0 ; +\infty[}\), donc :
 \[
-u_{k+1}=\sqrt{u_k+\tfrac{2}{5}}<\sqrt{\tfrac{9}{5}}=\frac{3}{\sqrt{5}}<\frac{7}{5}
-\quad(\text{car } \tfrac{9}{5}<\tfrac{49}{25}).
+\sqrt{3} < \sqrt{2u_k + 3} < \sqrt{9}, \quad \text{soit} \quad \sqrt{3} < u_{k+1} < 3.
 \]
-Ainsi \(0<u_{k+1}<\tfrac{7}{5}\) : \(P(k)\Rightarrow P(k+1)\), la propriété est héréditaire.
+Comme \({\sqrt{3} > 0}\), on a bien \({0 < u_{k+1} < 3}\) : \({P(k+1)}\) est vraie. La propriété est héréditaire.
 
-**2) Initialisation et condition sur \(u_0\).**  
-Pour que \(P(n)\) soit vraie pour **tout** \(n\), il suffit que \(P(0)\) soit vraie (puis hérédité).  
-Donc on doit avoir **\(0<u_0<\tfrac{7}{5}\)**.
+**2) Condition sur \(u_0\).**  
+La propriété étant héréditaire, elle est vraie pour tout \(n\) dès qu’elle est initialisée, c’est-à-dire dès que \(P(0)\) est vraie.  
+Il suffit donc que **\({0 < u_0 < 3}\)**. (Réciproquement, si \(P(n)\) est vraie pour tout \(n\), elle l’est en particulier pour \({n = 0}\) : la condition est nécessaire.)
 {{% /details %}}
-
 
 ### Exercice 3
 
-Soit \((u_n)\) la suite définie par \(u_0=-1\) et, pour tout entier naturel \(n\),  
+On considère la suite \((u_n)\) définie par \({u_0 = 4}\) et, pour tout entier naturel \(n\),  
 \[
-u_{n+1}=0,2u_n+0,6.
+u_{n+1} = 0{,}5u_n + 1.
 \]
 
-Montrer par récurrence que, pour tout entier naturel \(n\), \(u_n \leq 1\).
+Démontrer par récurrence que, pour tout entier naturel \(n\), \({u_n \geq 2}\).
 
 {{% details title="Solution" closed="true" %}}
-**Initialisation.** Pour \(n=0\), \(u_0=-1 \leq 1\) : la propriété est vraie.  
+On note \(P(n)\) la propriété : « \({u_n \geq 2}\) ».
 
-**Hérédité.** Supposons \(u_k \leq 1\). Alors  
+- **Initialisation.** \({u_0 = 4 \geq 2}\) : \(P(0)\) est vraie.  
+
+- **Hérédité.** Soit \(k\) un entier naturel ; on suppose \({u_k \geq 2}\). Alors  
 \[
-u_k \leq 1 \implies 0,2u_k \leq 0,2 \implies 0,2u_k + 0,6 \leq 0,8 \leq 1.
+u_k \geq 2 \implies 0{,}5u_k \geq 1 \implies 0{,}5u_k + 1 \geq 2,
 \]  
-Donc \(u_{k+1}\leq 1\).  
+c’est-à-dire \({u_{k+1} \geq 2}\) : \({P(k+1)}\) est vraie.  
 
-**Conclusion.** Par récurrence, pour tout \(n\in\mathbb{N}\), \(u_n\leq 1\).
+- **Conclusion.** D’après le principe de récurrence, \({u_n \geq 2}\) pour tout \({n \in \mathbb{N}}\).
 {{% /details %}}
 
 ### Exercice 4
 
-On considère la suite \((u_n)\) définie par \(u_0=\tfrac{1}{4}\) et, pour tout entier naturel \(n\),  
+On considère la suite \((u_n)\) définie par \({u_0 = \dfrac{1}{2}}\) et, pour tout entier naturel \(n\),  
 \[
-u_{n+1}=\frac{3u_n+2}{u_n+2}.
+u_{n+1} = \dfrac{4u_n + 3}{u_n + 2}.
 \]
 
-1. Déterminer la fonction \(f\) définie sur \([0;+\infty[\) telle que \(u_{n+1}=f(u_n)\).  
-2. Démontrer que la fonction \(f\) est croissante sur \([0;+\infty[\).  
-3. Démontrer que, pour tout entier naturel \(n\) :  
+1. Donner la fonction \(f\) définie sur \({[0;+\infty[}\) telle que \({u_{n+1} = f(u_n)}\).  
+2. Démontrer que \(f\) est croissante sur \({[0;+\infty[}\).  
+3. Démontrer par récurrence que, pour tout entier naturel \(n\) :  
    \[
-   0 \leq u_n \leq u_{n+1} \leq 2.
+   0 \leq u_n \leq u_{n+1} \leq 3.
    \]
-4. Quel est le sens de variation de la suite \((u_n)\) et quel est un majorant de cette suite ?
+4. En déduire le sens de variation de \((u_n)\), ainsi qu’un majorant de cette suite.
 
 {{% details title="Solution" closed="true" %}}
-1. On pose \(f(x)=\dfrac{3x+2}{x+2}\). Alors \(u_{n+1}=f(u_n)\).  
+1. On pose \({f(x) = \dfrac{4x + 3}{x + 2}}\) pour \({x \geq 0}\) ; on a bien \({u_{n+1} = f(u_n)}\).  
 
-2. Pour \(x\geq 0\),  
+2. \(f\) est un quotient de fonctions dérivables, le dénominateur ne s’annulant pas sur \({[0;+\infty[}\). Pour \({x \geq 0}\) :  
 \[
-f'(x)=\frac{3(x+2)-(3x+2)}{(x+2)^2}=\frac{4}{(x+2)^2}>0.
+f'(x) = \dfrac{4(x+2) - (4x+3) \times 1}{(x+2)^2} = \dfrac{5}{(x+2)^2} > 0.
 \]  
-Donc \(f\) est croissante sur \([0;+\infty[\).  
+Donc \(f\) est croissante sur \({[0;+\infty[}\).  
 
-1. On raisonne par récurrence.  
-- Initialisation. Pour \(n=0\), \(u_0=\tfrac{1}{4}\) et \(u_1=f(u_0)=\dfrac{3\cdot \tfrac{1}{4}+2}{\tfrac{1}{4}+2}=\dfrac{\tfrac{3}{4}+2}{\tfrac{1}{4}+2}=\dfrac{\tfrac{11}{4}}{\tfrac{9}{4}}=\dfrac{11}{9}\).  
-Et \(f(0)=\dfrac{2}{2}=1\) et \(f(2)=\dfrac{6+2}{4}=2\).
-Donc \(0 \leq u_0 \leq u_1 \leq 2\). La propriété est vraie au rang 0.
-- Hérédité. Supposons que, pour un certain \(k\), \(0 \leq u_k \leq u_{k+1} \leq 2\).  
-Alors, comme \(f\) est croissante sur \([0;+\infty[\), on a \(f(u_k) \leq f(u_{k+1})\), c’est-à-dire \(u_{k+1} \leq u_{k+2}\).  
-De plus, \(u_{k+1} \leq 2\) donc
-\[u_{k+2} = f(u_{k+1}) = \frac{3u_{k+1}+2}{u_{k+1}+2} \leq \frac{3\cdot 2 + 2}{2 + 2} = \frac{8}{4} = 2.\]  
-Ainsi, \(0 \leq u_{k+1} \leq u_{k+2} \leq 2\). La propriété est héréditaire.
-- Conclusion. Par récurrence, pour tout entier naturel \(n\), \(0 \leq u_n \leq u_{n+1} \leq 2\).
+3. On note \(P(n)\) la propriété : « \({0 \leq u_n \leq u_{n+1} \leq 3}\) ».
+- **Initialisation.** \({u_0 = \dfrac{1}{2}}\) et \({u_1 = f\left(\dfrac12\right) = \dfrac{2 + 3}{\dfrac12 + 2} = \dfrac{5}{\dfrac52} = 2}\).  
+On a bien \({0 \leq \dfrac12 \leq 2 \leq 3}\) : \(P(0)\) est vraie.
+- **Hérédité.** Soit \(k\) un entier naturel ; on suppose \({0 \leq u_k \leq u_{k+1} \leq 3}\).  
+Comme \(f\) est croissante sur \({[0;+\infty[}\), elle conserve l’ordre :  
+\[
+f(0) \leq f(u_k) \leq f(u_{k+1}) \leq f(3).
+\]
+Or \({f(0) = \dfrac{3}{2} \geq 0}\), \({f(u_k) = u_{k+1}}\), \({f(u_{k+1}) = u_{k+2}}\) et \({f(3) = \dfrac{15}{5} = 3}\). D’où :
+\[
+0 \leq u_{k+1} \leq u_{k+2} \leq 3.
+\]
+\({P(k+1)}\) est vraie : la propriété est héréditaire.
+- **Conclusion.** D’après le principe de récurrence, \({0 \leq u_n \leq u_{n+1} \leq 3}\) pour tout entier naturel \(n\).
 
-4. La suite \((u_n)\) est croissante (car \(u_n \leq u_{n+1}\)) et majorée par 2.
-
+4. Pour tout \(n\), \({u_n \leq u_{n+1}}\) : la suite \((u_n)\) est **croissante**. Elle est **majorée par 3**.
 {{% /details %}}
-
 
 ### Exercice 5
 
-On considère la suite \((u_n)\) définie par \(u_0=1\) et, pour tout entier naturel \(n\),
+On considère la suite \((u_n)\) définie par \({u_0 = 2}\) et, pour tout entier naturel \(n\),
 \[
-u_{n+1}=u_n+3^n-7.
+u_{n+1} = u_n + 2^n + 3.
 \]
-On souhaite démontrer qu’une formule explicite pour cette suite est
+On veut démontrer que, pour tout entier naturel \(n\),
 \[
-u_n=\frac{3^n}{2}-7n+\frac12,\quad \forall n\in\mathbb{N}.
+u_n = 2^n + 3n + 1.
 \]
 
-1. **Un raisonnement par récurrence.** Démontrer la formule précédente par récurrence.  
-2. **Un raisonnement direct.** On considère la suite auxiliaire \((v_n)\) définie par \(v_n=u_{n+1}-u_n\) et la somme \(S_n=v_0+v_1+\cdots+v_{n-1}\).  
-   a. Calculer \(S_n\) de deux manières différentes.  
+1. **Par récurrence.** Démontrer cette formule par récurrence.  
+2. **Par un calcul direct.** On pose, pour tout \(n\), \({v_n = u_{n+1} - u_n}\), et pour \({n \geq 1}\), \({S_n = v_0 + v_1 + \cdots + v_{n-1}}\).  
+   a. Calculer \(S_n\) de deux façons différentes.  
    b. En déduire l’expression de \(u_n\) en fonction de \(n\).
 
 {{% details title="Solution" closed="true" %}}
-**1) Récurrence.**  
-*Initialisation.* Pour \(n=0\), la formule donne \(\frac{3^0}{2}-7\cdot0+\frac12=1=u_0\).  
-*Hérédité.* Supposons \(u_k=\frac{3^k}{2}-7k+\frac12\). Alors
+**1) Récurrence.** On note \(P(n)\) : « \({u_n = 2^n + 3n + 1}\) ».  
+*Initialisation.* Pour \({n = 0}\) : \({2^0 + 0 + 1 = 2 = u_0}\). \(P(0)\) est vraie.  
+*Hérédité.* Soit \(k\) un entier naturel ; on suppose \({u_k = 2^k + 3k + 1}\). Alors
 \[
-u_{k+1}=u_k+3^k-7=\Big(\frac{3^k}{2}-7k+\frac12\Big)+3^k-7
-=\frac{3^{k+1}}{2}-7(k+1)+\frac12.
+\begin{aligned}
+u_{k+1} &= u_k + 2^k + 3 = (2^k + 3k + 1) + 2^k + 3 \\[0.3em]
+&= 2 \times 2^k + 3k + 3 + 1 = 2^{k+1} + 3(k+1) + 1.
+\end{aligned}
 \]
-Donc la formule est vraie pour \(k+1\). Par récurrence, elle est vraie pour tout \(n\).
+\({P(k+1)}\) est vraie.  
+*Conclusion.* D’après le principe de récurrence, la formule est vraie pour tout entier naturel \(n\).
 
 ---
 
-**2) Raisonnement direct.**  
-On a \(v_n=u_{n+1}-u_n=3^n-7\).  
+**2) Calcul direct.**  
+D’après la relation de récurrence, \({v_n = u_{n+1} - u_n = 2^n + 3}\).  
 
-a) **Première façon de calculer \(S_n\).**  
-Par définition :
+a) **Première façon.** Par définition :
 \[
-S_n=v_0+v_1+\cdots+v_{n-1}=(u_1-u_0)+(u_2-u_1)+\cdots+(u_n-u_{n-1}).
+S_n = (u_1 - u_0) + (u_2 - u_1) + \cdots + (u_n - u_{n-1}).
 \]
-C’est une somme télescopique : tous les termes intermédiaires s’annulent et il reste
+Les termes intermédiaires se simplifient deux à deux (somme « télescopique ») ; il reste :
 \[
-S_n=u_n-u_0=u_n-1.
-\]
-
-**Deuxième façon.**  
-Toujours par définition :
-\[
-S_n=\sum_{k=0}^{n-1}(3^k-7).
-\]
-On sépare la somme :
-\[
-S_n=\sum_{k=0}^{n-1}3^k-\sum_{k=0}^{n-1}7.
+S_n = u_n - u_0 = u_n - 2.
 \]
 
-- La première somme est une **somme géométrique** de raison 3 :  
+**Deuxième façon.** On remplace \(v_k\) par son expression :
 \[
-\sum_{k=0}^{n-1}3^k=\frac{3^n-1}{3-1}=\frac{3^n-1}{2}.
+S_n = \sum_{k=0}^{n-1}(2^k + 3) = \sum_{k=0}^{n-1}2^k + \sum_{k=0}^{n-1}3.
 \]
 
-- La deuxième somme est une somme de termes constants :  
+- La première somme est la somme des \(n\) premières puissances de 2 (somme géométrique de raison 2) :  
 \[
-\sum_{k=0}^{n-1}7=7+7+\cdots+7 \quad (n\ \text{fois})=7n.
+\sum_{k=0}^{n-1}2^k = \dfrac{1 - 2^n}{1 - 2} = 2^n - 1.
+\]
+
+- La seconde est une somme de \(n\) termes égaux à 3 :  
+\[
+\sum_{k=0}^{n-1}3 = 3n.
 \]
 
 Ainsi,
 \[
-S_n=\frac{3^n-1}{2}-7n.
+S_n = 2^n - 1 + 3n.
 \]
 
-b) On a donc deux expressions de \(S_n\) :  
+b) En égalant les deux expressions de \(S_n\) :  
 \[
-u_n-1=S_n=\frac{3^n-1}{2}-7n.
+u_n - 2 = 2^n - 1 + 3n, \quad \text{d’où} \quad u_n = 2^n + 3n + 1.
 \]
-En ajoutant 1 des deux côtés :
-\[
-u_n=\frac{3^n-1}{2}-7n+1=\frac{3^n}{2}-7n+\frac12.
-\]
-
-**Conclusion.** L’expression explicite est bien
-\[
-u_n=\frac{3^n}{2}-7n+\frac12.
-\]
+On retrouve la formule annoncée (elle est aussi vraie pour \({n = 0}\)).
 {{% /details %}}

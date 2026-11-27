@@ -10,133 +10,125 @@ cascade:
 ## Évènements indépendants
 
 > [!TIP] **Définition**  
-> On dit que deux évènements \(A\) et \(B\) sont indépendants lorsque :  
+> Deux évènements \(A\) et \(B\) sont dits **indépendants** lorsque :  
 > \[
 P(A \cap B) = P(A) \times P(B).
 \]
 
 > [!TIP] **Propriété**  
 > Soient \(A\) et \(B\) deux évènements de probabilités non nulles.  
-> \(A\) et \(B\) sont indépendants si et seulement si :  
-> \[
-P_B(A) = P(A) \iff P_A(B) = P(B).
-\]
+> \(A\) et \(B\) sont indépendants si et seulement si \({P_B(A) = P(A)}\), ce qui équivaut aussi à \({P_A(B) = P(B)}\).
 
 > [!IMPORTANT] **Remarques**  
-> - \(P_B(A) = P(A)\) signifie que la réalisation ou non de l’évènement \(B\) n’a pas d’influence sur la réalisation de \(A\).  
-> - Il ne faut pas confondre **évènements indépendants** et **évènements incompatibles**.  
->   Deux évènements sont incompatibles lorsque \(P(A \cap B) = 0\), c’est-à-dire qu’ils ne peuvent pas se réaliser simultanément.
+> - L’égalité \({P_B(A) = P(A)}\) signifie que savoir que \(B\) est réalisé ne modifie pas la probabilité de \(A\) : \(B\) n’a pas d’influence sur \(A\).  
+> - Il ne faut pas confondre évènements **indépendants** et évènements **incompatibles**.  
+>   Deux évènements sont incompatibles lorsqu’ils ne peuvent pas se produire en même temps : \({A \cap B = \varnothing}\), donc \({P(A \cap B) = 0}\).
 
 > [!TIP] **Propriété**  
-> Si \(A\) et \(B\) sont deux évènements indépendants, alors \(\overline{A}\) et \(B\) sont indépendants.
+> Si \(A\) et \(B\) sont indépendants, alors \(\overline{A}\) et \(B\) sont indépendants.
 
 > [!IMPORTANT] **Remarque**  
-> Si \(A\) et \(B\) sont deux évènements indépendants, alors \(A\) et \(\overline{B}\) sont aussi indépendants, ainsi que \(\overline{A}\) et \(\overline{B}\).
-
+> Par conséquent, si \(A\) et \(B\) sont indépendants, il en est de même de \(A\) et \(\overline{B}\), ainsi que de \(\overline{A}\) et \(\overline{B}\).
 
 ## Succession de deux épreuves indépendantes
 
 > [!TIP] **Définition**  
-> Lorsque deux expériences aléatoires se succèdent et que les résultats de la première expérience n’ont aucune influence sur les résultats de la seconde, on dit qu’il s’agit d’une **succession de deux épreuves indépendantes**.
+> Lorsque deux expériences aléatoires ont lieu l’une après l’autre et que le résultat de la première n’a aucune influence sur celui de la seconde, on parle de **succession de deux épreuves indépendantes**.
 
 {{% details title="Exemples" closed="true" %}}
-On tire au hasard successivement deux cartes dans un jeu de cartes et on note les deux cartes obtenues.  
-- Si l’on remet la carte tirée dans le paquet, les deux tirages sont indépendants.  
-- Sinon, le contenu du paquet après le premier tirage dépend de la carte tirée : les deux tirages ne sont pas indépendants.
+On tire successivement deux boules au hasard dans une urne et on note leurs couleurs.  
+- Si l’on remet la première boule dans l’urne avant le second tirage (tirage **avec remise**), l’urne est identique pour les deux tirages : les épreuves sont indépendantes.  
+- Si on ne la remet pas (tirage **sans remise**), la composition de l’urne au second tirage dépend de la première boule : les épreuves ne sont pas indépendantes.
 {{% /details %}}
 
 > [!TIP] **Propriété (admise)**  
-> Lorsque deux épreuves sont indépendantes, la probabilité d’un couple de résultats est égale au produit des probabilités de chacun d’entre eux.
+> Dans une succession de deux épreuves indépendantes, la probabilité d’un couple de résultats est égale au produit des probabilités de chacun des deux résultats.
 
 {{% details title="Exemple" closed="true" %}}
-On lance successivement deux fois un dé cubique non truqué.  
-Il s’agit d’une succession de deux épreuves indépendantes.  
-La probabilité d’obtenir deux fois le numéro 6 est :
+On lance une pièce équilibrée, puis un dé cubique équilibré.  
+Les deux épreuves sont indépendantes.  
+La probabilité d’obtenir « pile » puis le numéro 6 est :
 \[
-\frac{1}{6} \times \frac{1}{6} = \frac{1}{36}.
+\dfrac{1}{2} \times \dfrac{1}{6} = \dfrac{1}{12}.
 \]
 {{% /details %}}
 
-
-> [!NOTE] **Exercice résolu – Étudier l’indépendance de deux évènements**  
-> Une urne contient quatre jetons rouges indiscernables au toucher numérotés de 1 à 4, trois jetons verts numérotés de 5 à 7 et un jeton noir numéroté 8.  
-> On tire au hasard un jeton et on considère les évènements :  
-> \(A\) : « Obtenir un numéro pair »,  
-> \(B\) : « Obtenir un jeton rouge »,  
-> \(C\) : « Obtenir un jeton vert ».  
+> [!NOTE] **Exercice résolu - Étudier l’indépendance de deux évènements**  
+> On tire au hasard une carte parmi douze cartes numérotées de 1 à 12. On considère les évènements :  
+> \(A\) : « Le numéro est un multiple de 3 »,  
+> \(B\) : « Le numéro est inférieur ou égal à 6 »,  
+> \(C\) : « Le numéro est inférieur ou égal à 4 ».  
 >
 > 1. Calculer \(P(A)\).  
 > 2.  
->    a. Les évènements \(A\) et \(B\) sont-ils indépendants ? Justifier à l’aide de la définition.  
->    b. Reprendre la question précédente avec les évènements \(A\) et \(C\).  
+>    a. Les évènements \(A\) et \(B\) sont-ils indépendants ? Justifier avec la définition.  
+>    b. Même question pour les évènements \(A\) et \(C\).  
 > 3. Retrouver les résultats de la question 2 en calculant \(P_B(A)\) et \(P_C(A)\).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. Il y a quatre jetons dont le numéro est pair :
+1. \({A = \{3 ; 6 ; 9 ; 12\}}\) contient quatre numéros sur douze :
    \[
-   P(A) = \frac{4}{8} = \frac{1}{2}.
+   P(A) = \dfrac{4}{12} = \dfrac{1}{3}.
    \]
 
 2.  
-   a. \(A \cap B\) est l’évènement « Obtenir un numéro pair et rouge » :  
+   a. \({A \cap B = \{3 ; 6\}}\), donc :  
    \[
-   P(A \cap B) = \frac{2}{8} = \frac{1}{4}.
+   P(A \cap B) = \dfrac{2}{12} = \dfrac{1}{6}.
    \]
-   On a \(P(B) = \frac{1}{2}\), donc :
+   Par ailleurs \({P(B) = \dfrac{6}{12} = \dfrac{1}{2}}\), d’où :
    \[
-   P(A) \times P(B) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} = P(A \cap B).
+   P(A) \times P(B) = \dfrac{1}{3} \times \dfrac{1}{2} = \dfrac{1}{6} = P(A \cap B).
    \]
    Les évènements \(A\) et \(B\) sont indépendants.
 
-   b. \(A \cap C\) est l’évènement « Obtenir un numéro pair et vert » :  
+   b. \({A \cap C = \{3\}}\), donc :  
    \[
-   P(A \cap C) = \frac{1}{8}.
+   P(A \cap C) = \dfrac{1}{12}.
    \]
-   Or :
+   Or \({P(C) = \dfrac{4}{12} = \dfrac{1}{3}}\) et :
    \[
-   P(A) \times P(C) = \frac{1}{2} \times \frac{3}{8} = \frac{3}{16}.
+   P(A) \times P(C) = \dfrac{1}{3} \times \dfrac{1}{3} = \dfrac{1}{9}.
    \]
-   Donc \(P(A \cap C) \neq P(A) \times P(C)\).  
-   Les évènements \(A\) et \(C\) ne sont pas indépendants.
+   Comme \({\dfrac{1}{12} \neq \dfrac{1}{9}}\), les évènements \(A\) et \(C\) ne sont pas indépendants.
 
-3. Parmi les quatre jetons rouges, deux ont un numéro pair.  
-   Parmi les huit jetons au total, quatre ont un numéro pair.  
+3. Parmi les six cartes de \(B\), deux portent un multiple de 3 :  
    \[
-   P_B(A) = \frac{1}{2} = P(A).
+   P_B(A) = \dfrac{2}{6} = \dfrac{1}{3} = P(A).
    \]
-   Donc \(A\) et \(B\) sont indépendants.
+   On retrouve que \(A\) et \(B\) sont indépendants.
 
-   En revanche, parmi les trois jetons verts, un seul possède un numéro pair.  
+   Parmi les quatre cartes de \(C\), une seule porte un multiple de 3 :  
    \[
-   P_C(A) = \frac{1}{3} \neq P(A).
+   P_C(A) = \dfrac{1}{4} \neq P(A).
    \]
-   Donc \(A\) et \(C\) ne sont pas indépendants.
+   On retrouve que \(A\) et \(C\) ne sont pas indépendants.
 {{% /details %}}
 
-> [!NOTE] **Exercice résolu 2 – Étudier une répétition d’expériences aléatoires**  
-> Dans une population, 13 % des personnes sont gauchères.  
-> On interroge au hasard deux individus et on suppose la population suffisamment importante pour considérer ces deux épreuves indépendantes.  
+> [!NOTE] **Exercice résolu 2 - Étudier une répétition d’expériences aléatoires**  
+> Dans une ville, 30 % des habitants se rendent au travail à vélo.  
+> On interroge au hasard deux habitants ; la population est assez grande pour que l’on considère ces deux choix comme indépendants.  
 > 
-> 1. Représenter cette expérience aléatoire à l’aide d’un arbre pondéré.  
-> 2. Calculer la probabilité que les deux personnes soient gauchères.  
-> 3. Calculer la probabilité qu’exactement l’une de ces personnes soit gauchère.
+> 1. Représenter l’expérience par un arbre pondéré.  
+> 2. Calculer la probabilité que les deux habitants aillent au travail à vélo.  
+> 3. Calculer la probabilité qu’exactement un des deux habitants aille au travail à vélo.
 
 {{% details title="Solution commentée" closed="true" %}}
-1. La probabilité qu’une personne interrogée au hasard soit gauchère est égale à \(0{,}13\).  
-   On a donc :
+1. On note \(V_1\) (resp. \(V_2\)) l’évènement « Le premier (resp. le second) habitant va au travail à vélo ». Les épreuves étant indépendantes :
    \[
-   P(G_1) = P(G_2) = 0{,}13 \quad \text{et} \quad P(\overline{G_1}) = P(\overline{G_2}) = 1 - 0{,}13 = 0{,}87.
+   P(V_1) = P(V_2) = 0{,}3 \quad \text{et} \quad P(\overline{V_1}) = P(\overline{V_2}) = 1 - 0{,}3 = 0{,}7,
+   \]
+   et les probabilités du second niveau ne dépendent pas du premier résultat.
+
+   ![](/images/image215.png)
+
+2. On suit le chemin \(V_1\) puis \(V_2\) :
+   \[
+   P(V_1 \cap V_2) = 0{,}3 \times 0{,}3 = 0{,}09.
    \]
 
-   ![](/images/image131.png)
-
-2. La probabilité que les deux personnes soient gauchères est :
+3. Deux chemins conviennent : \(V_1\) puis \(\overline{V_2}\), ou \(\overline{V_1}\) puis \(V_2\). On additionne leurs probabilités :
    \[
-   P(G_1 \cap G_2) = 0{,}13 \times 0{,}13 = 0{,}0169.
-   \]
-
-3. La probabilité qu’exactement l’une de ces personnes soit gauchère est :
-   \[
-   P(G_1 \cap \overline{G_2}) + P(\overline{G_1} \cap G_2) = 0{,}13 \times 0{,}87 + 0{,}87 \times 0{,}13 = 2 \times 0{,}13 \times 0{,}87 = 0{,}2262.
+   P(V_1 \cap \overline{V_2}) + P(\overline{V_1} \cap V_2) = 0{,}3 \times 0{,}7 + 0{,}7 \times 0{,}3 = 2 \times 0{,}21 = 0{,}42.
    \]
 {{% /details %}}

@@ -8,100 +8,99 @@ cascade:
 ## Caractérisations de la convexité
 
 > [!TIP] **Propriétés (admises)**  
-> Soit \( f \) une fonction définie et deux fois dérivable sur un intervalle \( I \).  
-> On note \( f' \) sa dérivée et \( f'' \) sa dérivée seconde.  
-> Les propositions suivantes sont équivalentes :  
-> - \( f \) est convexe sur l’intervalle \( I \).  
-> - \( f'' \) est positive sur l’intervalle \( I \).  
-> - \( f' \) est croissante sur \( I \).  
+> Soit \( f \) une fonction deux fois dérivable sur un intervalle \( I \), de dérivée \( f' \) et de dérivée seconde \( f'' \).  
+> Les trois propositions suivantes sont équivalentes :  
+> - \( f \) est convexe sur \( I \) ;  
+> - \( f' \) est croissante sur \( I \) ;  
+> - \( f'' \) est positive sur \( I \).  
 >   
-> Les propositions suivantes sont équivalentes :  
-> - \( f \) est concave sur l’intervalle \( I \).  
-> - \( f'' \) est négative sur l’intervalle \( I \).  
-> - \( f' \) est décroissante sur \( I \).
+> De même, les trois propositions suivantes sont équivalentes :  
+> - \( f \) est concave sur \( I \) ;  
+> - \( f' \) est décroissante sur \( I \) ;  
+> - \( f'' \) est négative sur \( I \).
 
 {{% details title="Exemple" closed="true" %}}
-On considère la fonction polynôme \( f \), définie sur \(\mathbb{R}\) par  
+On considère la fonction polynôme \( f \) définie sur \(\mathbb{R}\) par  
 \[
-f(x) = 3x^2 - 5x + 1.
+f(x) = -2x^2 + x + 4.
 \]  
-La fonction \( f \) est deux fois dérivable sur \(\mathbb{R}\). On a :  
+Elle est deux fois dérivable sur \(\mathbb{R}\), avec \({f'(x) = -4x + 1}\) et  
 \[
-f''(x) = 6.
+f''(x) = -4.
 \]  
-La fonction \( f'' \) est positive sur \(\mathbb{R}\), donc la fonction \( f \) est convexe sur \(\mathbb{R}\).
+\( f'' \) est négative sur \(\mathbb{R}\) : la fonction \( f \) est concave sur \(\mathbb{R}\). (Plus généralement, \({x \mapsto ax^2 + bx + c}\) est convexe si \({a > 0}\) et concave si \({a < 0}\).)
 {{% /details %}}
-
 
 ## Convexité et tangentes
 
 > [!TIP] **Propriétés**  
-> Soient \( f \) une fonction et \(\mathcal{C}_f\) sa courbe représentative dans un repère.  
-> Soit \( I \) un intervalle sur lequel \( f \) est dérivable.  
-> - Sur l’intervalle \( I \), \( f \) est convexe si et seulement si \(\mathcal{C}_f\) est **au-dessus de toutes ses tangentes**.  
-> - Sur l’intervalle \( I \), \( f \) est concave si et seulement si \(\mathcal{C}_f\) est **en dessous de toutes ses tangentes**.
+> Soit \( f \) une fonction dérivable sur un intervalle \( I \), et \(\mathcal{C}_f\) sa courbe représentative.  
+> - \( f \) est convexe sur \( I \) si et seulement si, sur \(I\), \(\mathcal{C}_f\) est située **au-dessus de chacune de ses tangentes**.  
+> - \( f \) est concave sur \( I \) si et seulement si, sur \(I\), \(\mathcal{C}_f\) est située **en dessous de chacune de ses tangentes**.
 
 {{% details title="Exemples" closed="true" %}}
-- La fonction \( f \) représentée ci-dessous est convexe :  
-![](/images/image44.png)  
+- La fonction \( f \) représentée ci-dessous est convexe : sa courbe est au-dessus de ses tangentes.  
+![](/images/image251.png)  
 
-- La fonction \( g \) représentée ci-dessous est concave :  
-![](/images/image45.png)  
+- La fonction \( g \) représentée ci-dessous est concave : sa courbe est en dessous de ses tangentes.  
+![](/images/image252.png)  
 {{% /details %}}
 
 > [!IMPORTANT] **Remarque**  
-> Une fonction croissante et convexe sur un intervalle \( I \) est une fonction qui croît « de plus en plus vite » sur \( I \).  
-> Si elle est dérivable sur \( I \), les pentes des tangentes à sa courbe représentative augmentent quand les abscisses augmentent.  
-> Pour une fonction croissante et concave, c’est le contraire : elle croît « de moins en moins vite ».
+> Une fonction croissante et convexe sur \( I \) croît « de plus en plus vite » : quand l’abscisse augmente, les tangentes deviennent de plus en plus pentues (\(f'\) est croissante).  
+> À l’inverse, une fonction croissante et concave croît « de moins en moins vite ».
 
+> [!IMPORTANT] **Remarque**  
+> Ces propriétés servent à démontrer des inégalités : si \(f\) est convexe sur \(I\) et \({a \in I}\), alors pour tout \({x \in I}\), \({f(x) \geq f'(a)(x - a) + f(a)}\). Par exemple, l’exponentielle étant convexe, sa courbe est au-dessus de sa tangente en 0 : \({e^x \geq x + 1}\) pour tout réel \(x\).
 
 ## Point d’inflexion
 
 > [!TIP] **Propriétés (admises)**  
-> Soient \( f \) une fonction définie et deux fois dérivable sur un intervalle \( I \), \(\mathcal{C}_f\) sa courbe représentative et \( a \) un réel appartenant à \( I \).  
-> - Si \( f' \) change de sens de variation en \( a \), alors \(\mathcal{C}_f\) admet un point d’inflexion au point d’abscisse \( a \).  
-> - Si \( f'' \) s’annule et change de signe en \( a \), alors \(\mathcal{C}_f\) admet un point d’inflexion au point d’abscisse \( a \).
+> Soit \( f \) une fonction deux fois dérivable sur un intervalle \( I \), \(\mathcal{C}_f\) sa courbe représentative, et \( a \) un réel de \( I \).  
+> - Si \( f' \) change de sens de variation en \( a \), alors \(\mathcal{C}_f\) admet un point d’inflexion d’abscisse \( a \).  
+> - Si \( f'' \) s’annule **en changeant de signe** en \( a \), alors \(\mathcal{C}_f\) admet un point d’inflexion d’abscisse \( a \).
 
-
-## Méthode : Utiliser la dérivée seconde pour étudier la convexité d’une fonction
+## Méthode : Utiliser la dérivée seconde pour étudier la convexité d’une fonction
 
 > [!NOTE] **Méthode**  
-> Soit la fonction polynôme définie sur \(\mathbb{R}\) par  
+> On considère la fonction polynôme \( f \) définie sur \(\mathbb{R}\) par  
 > \[
-f(x) = \tfrac{1}{3}x^3 - x^2 + x + 1.
+f(x) = -\dfrac{1}{3}x^3 + 2x^2 - 3x + 1,
 \]  
-> On note \(\mathcal{C}_f\) sa courbe représentative dans un repère.  
-> 1. À l’aide d’une calculatrice ou d’un logiciel de géométrie, conjecturer la convexité de \( f \) et les éventuels points d’inflexion de \(\mathcal{C}_f\).  
+> et \(\mathcal{C}_f\) sa courbe représentative.  
+> 1. À l’aide d’une calculatrice ou d’un logiciel, conjecturer la convexité de \( f \) et les éventuels points d’inflexion de \(\mathcal{C}_f\).  
 > 2. Calculer la dérivée seconde de \( f \).  
 > 3. En déduire la convexité de \( f \).  
-> 4. Justifier l’existence d’un point d’inflexion de \(\mathcal{C}_f\), que l’on précisera.
+> 4. Justifier que \(\mathcal{C}_f\) admet un point d’inflexion, et en donner les coordonnées.
 
 {{% details title="Solution commentée" closed="true" %}}
-1. On conjecture sur la figure ci-dessous, obtenue avec un logiciel de géométrie, que \( f \) est concave sur \( ]-\infty ; 1] \) et convexe sur \([1 ; +\infty[\) et que \(\mathcal{C}_f\) admet un point d’inflexion d’abscisse 1, noté \( A \) sur la figure.  
+1. Sur la figure ci-dessous, on conjecture que \( f \) est convexe sur \({]-\infty ; 2]}\), concave sur \({[2 ; +\infty[}\), et que \(\mathcal{C}_f\) a un point d’inflexion \( A \) d’abscisse 2.  
 
-![](/images/image46.png)  
+![](/images/image253.png)  
 
-2. La fonction \( f \) est deux fois dérivable sur \(\mathbb{R}\), car c’est une fonction polynôme, et \( f'(x) = x^2 - 2x + 1 \). Donc \( f''(x) = 2x - 2 \).  
+2. \( f \) est une fonction polynôme, donc deux fois dérivable sur \(\mathbb{R}\) :  
+\({f'(x) = -x^2 + 4x - 3}\), puis \({f''(x) = -2x + 4}\).  
 
-3. \( f''(x) = 2x - 2 = 2(x-1) \).  
-- Pour tout réel \( x \) appartenant à \( ]-\infty ; 1] \), \( f''(x) \leq 0 \), donc \( f \) est concave sur \( ]-\infty ; 1] \).  
-- Pour tout réel \( x \) appartenant à \([1 ; +\infty[ \), \( f''(x) \geq 0 \), donc \( f \) est convexe sur \([1 ; +\infty[ \).  
+3. \({f''(x) = -2x + 4 = -2(x - 2)}\).  
+- Pour \({x \in \,]-\infty ; 2]}\), \({f''(x) \geq 0}\) : \( f \) est convexe sur \({]-\infty ; 2]}\).  
+- Pour \({x \in [2 ; +\infty[}\), \({f''(x) \leq 0}\) : \( f \) est concave sur \({[2 ; +\infty[}\).  
 
-4. En \( x=1 \), \( f'' \) s’annule en changeant de signe, donc \(\mathcal{C}_f\) admet un point d’inflexion d’abscisse 1.  
+4. \( f'' \) s’annule en 2 en changeant de signe : \(\mathcal{C}_f\) admet un point d’inflexion d’abscisse 2.  
+Son ordonnée est \({f(2) = -\dfrac{8}{3} + 8 - 6 + 1 = \dfrac{1}{3}}\) : c’est le point \( A\left(2 ; \dfrac{1}{3}\right) \).  
 {{% /details %}}
 
-
-## Méthode : Relier convexité d’une fonction et sens de variation de sa dérivée
+## Méthode : Relier convexité d’une fonction et sens de variation de sa dérivée
 
 > [!NOTE] **Méthode**  
-> Soit \( f \) une fonction définie et dérivable sur \([0 ; 4]\).  
-> On note \(\mathcal{C}_f\) sa courbe représentative et \(\mathcal{C}_{f'}\) la courbe représentative de sa fonction dérivée \( f' \), représentée ci-dessous.  
-> ![](/images/image47.png)
-> \(\mathcal{C}_f\) est l’une des trois courbes ci-dessous.  
-> Préciser laquelle en justifiant clairement la réponse.  
-> ![](/images/image48.png)
+> Soit \( f \) une fonction dérivable sur \([0 ; 4]\). La courbe \(\mathcal{C}_{f'}\) de sa fonction dérivée \( f' \) est représentée ci-dessous.  
+> ![](/images/image254.png)
+> La courbe \(\mathcal{C}_f\) de \(f\) est l’une des trois courbes suivantes.  
+> Laquelle ? Justifier.  
+> ![](/images/image255.png)
 
 {{% details title="Solution commentée" closed="true" %}}
-\(\mathcal{C}_{f'}\) est au-dessus de l’axe des abscisses, donc \( f' \) est positive, donc \( f \) est une fonction croissante, ce qui élimine la courbe \(\mathcal{C}_2\).  
-De plus, l’allure de \(\mathcal{C}_{f'}\) indique que \( f' \) est décroissante et donc que \( f \) est concave : la courbe représentative de \( f \) est donc la courbe \(\mathcal{C}_1\).  
+- \(\mathcal{C}_{f'}\) est entièrement au-dessus de l’axe des abscisses : \( f' \) est positive, donc \( f \) est croissante sur \([0 ; 4]\). Cela élimine \(\mathcal{C}_2\), qui représente une fonction décroissante.  
+- \(\mathcal{C}_{f'}\) « monte » : \( f' \) est croissante, donc \( f \) est convexe sur \([0 ; 4]\). Cela élimine \(\mathcal{C}_1\), qui représente une fonction concave (elle croît de moins en moins vite).  
+
+La courbe représentative de \( f \) est donc \(\mathcal{C}_3\) : croissante et de plus en plus pentue.  
 {{% /details %}}

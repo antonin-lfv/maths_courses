@@ -6,7 +6,7 @@ Vous trouverez ici les cours de mathématiques pour la seconde, organisés en ch
 {{< cards >}}
   {{< card link="./01_nombres_entiers_reels/" title="Nombres entiers & réels" icon="paper-clip">}}
   {{< card link="./02_equations_inequations/" title="Équations & inéquations" icon="paper-clip">}}
-  {{< card link="./03_fonctions_affines/" title="Fonctions affines" icon="paper-clip">}}
+  {{< card link="./03_fonctions_affines/" title="Fonctions & fonctions affines" icon="paper-clip">}}
   {{< card link="./04_fonctions_carre_cube/" title="Fonctions carré & cube" icon="paper-clip">}}
   {{< card link="./05_fonctions_racinecarree_inverse/" title="Racine carrée & inverse" icon="paper-clip">}}
   {{< card link="./06_variations_extremums/" title="Variations & extremums" icon="paper-clip">}}

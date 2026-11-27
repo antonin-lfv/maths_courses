@@ -5,130 +5,121 @@ cascade:
   type: docs
 ---
 
-\(P\) est une loi de probabilité sur un univers \(\Omega\).
+Dans tout ce chapitre, \(P\) est une loi de probabilité sur un univers \(\Omega\).
 
 ## Probabilité de B sachant A
 
 > [!TIP] **Définition**  
-> Soient \(A\) et \(B\) deux évènements avec \(P(A) \neq 0\).  
-> La probabilité que l’évènement \(B\) se réalise, sachant que l’évènement \(A\) est réalisé, est notée \(P_A(B)\) et définie par :  
+> Soient \(A\) et \(B\) deux évènements, avec \({P(A) \neq 0}\).  
+> La probabilité que \(B\) soit réalisé sachant que \(A\) est réalisé est notée \(P_A(B)\) ; elle est définie par :  
 >
 > \[
-P_A(B) = \frac{P(A \cap B)}{P(A)}.
+P_A(B) = \dfrac{P(A \cap B)}{P(A)}.
 \]
 
 > [!IMPORTANT] **Remarque**  
-> \(P_A(B)\) se lit « P de B sachant A ».
+> \(P_A(B)\) se lit « probabilité de \(B\) sachant \(A\) ». Savoir que \(A\) est réalisé revient à restreindre l’univers à \(A\) : on cherche la part de \(B\) **à l’intérieur de** \(A\).
 
 {{% details title="Exemples" closed="true" %}}
-On tire une carte au hasard dans un jeu de 32 cartes.  
-On note \(A\) l’évènement « La couleur de la carte est rouge » et \(B\) l’évènement « La carte est un valet ».  
-Les tirages étant équiprobables, on a :  
+On lance un dé équilibré à six faces.  
+On note \(A\) l’évènement « Le résultat est pair » et \(B\) l’évènement « Le résultat est supérieur ou égal à 5 ».  
+On a \({A = \{2 ; 4 ; 6\}}\), \({B = \{5 ; 6\}}\) et \({A \cap B = \{6\}}\). Par équiprobabilité :  
 \[
-P(A) = \frac{1}{2} \quad \text{et} \quad P(A \cap B) = \frac{2}{32} = \frac{1}{16}.
+P(A) = \dfrac{3}{6} = \dfrac{1}{2} \quad \text{et} \quad P(A \cap B) = \dfrac{1}{6}.
 \]
-On a alors :
+D’où :
 \[
-P_A(B) = \frac{P(A \cap B)}{P(A)} = \frac{\tfrac{1}{16}}{\tfrac{1}{2}} = \frac{1}{8}.
+P_A(B) = \dfrac{P(A \cap B)}{P(A)} = \dfrac{\dfrac{1}{6}}{\dfrac{1}{2}} = \dfrac{1}{3}.
 \]
-Parmi les seize cartes rouges, il y a deux valets, donc la probabilité de tirer un valet sachant que la carte est rouge est bien \(P_A(B) = \frac{1}{8}\).
+On le retrouve directement : parmi les trois résultats pairs, un seul (le 6) est supérieur ou égal à 5.
 
-Par ailleurs :
+D’autre part :
 \[
-P(B) = \frac{4}{32} = \frac{1}{8}, \quad P_B(A) = \frac{P(A \cap B)}{P(B)} = \frac{\tfrac{1}{16}}{\tfrac{1}{8}} = \frac{1}{2}.
+P(B) = \dfrac{2}{6} = \dfrac{1}{3}, \quad P_B(A) = \dfrac{P(A \cap B)}{P(B)} = \dfrac{\dfrac{1}{6}}{\dfrac{1}{3}} = \dfrac{1}{2}.
 \]
-Parmi les quatre valets, il y a deux cartes rouges, donc \(P_B(A) = \frac{1}{2}\).  
-En particulier, \(P_A(B) \neq P_B(A)\).
+Parmi les deux résultats 5 et 6, un seul est pair, d’où \({P_B(A) = \dfrac{1}{2}}\).  
+Cet exemple montre qu’en général \({P_A(B) \neq P_B(A)}\) : il ne faut pas confondre les deux.
 {{% /details %}}
-
 
 ## Propriétés
 
 > [!TIP] **Propriétés**  
 > Soient \(A\) et \(B\) deux évènements de probabilités non nulles.  
 > - \(P(A \cap B) = P(A) \times P_A(B) = P(B) \times P_B(A)\)  
-> - \(P_A(\overline{B}) = 1 - P_A(B)\)
+> - \({P_A(\overline{B}) = 1 - P_A(B)}\)
 
 {{% details title="Exemples" closed="true" %}}
-À la montagne, 80 % des vacanciers pratiquent le ski alpin et 20 % la randonnée en raquettes.  
-60 % des skieurs et 50 % des marcheurs sont des hommes.  
+Dans un lycée, 70 % des élèves sont demi-pensionnaires, les autres sont externes. Parmi les demi-pensionnaires, 40 % suivent une option sportive.  
 
-On choisit un vacancier au hasard et on note \(S\) l’évènement « Le vacancier choisi pratique le ski » et \(H\) l’évènement « Le vacancier choisi est un homme ».  
-
-\[
-P(S \cap H) = P(S) \times P_S(H) = 0{,}8 \times 0{,}6 = 0{,}48
-\]
-
-La probabilité que le vacancier choisi soit un homme et qu’il pratique le ski est donc \(0{,}48\).  
+On choisit un élève au hasard. On note \(D\) l’évènement « L’élève est demi-pensionnaire » et \(S\) l’évènement « L’élève suit une option sportive ».  
 
 \[
-P_S(\overline{H}) = 1 - P_S(H) = 0{,}4
+P(D \cap S) = P(D) \times P_D(S) = 0{,}7 \times 0{,}4 = 0{,}28
 \]
 
-Si l’on sait que le vacancier choisi pratique le ski, la probabilité que ce soit une femme est égale à \(0{,}4\).
+La probabilité que l’élève soit demi-pensionnaire **et** suive une option sportive est \(0{,}28\).  
+
+\[
+P_D(\overline{S}) = 1 - P_D(S) = 1 - 0{,}4 = 0{,}6
+\]
+
+Sachant que l’élève est demi-pensionnaire, la probabilité qu’il ne suive pas d’option sportive est \(0{,}6\).
 {{% /details %}}
 
-
-> [!NOTE] **Exercice résolu 1 – Déterminer des probabilités conditionnelles**  
-> Une urne contient sept boules : quatre rouges numérotées 1, 2, 3 et 4, et trois vertes numérotées 1, 2 et 3.  
-> On tire deux boules au hasard, successivement et sans remise.  
-> 1. Quelle est la probabilité que la deuxième boule tirée soit rouge sachant que la première est rouge ?  
-> 2. Quelle est la probabilité que les deux boules tirées soient rouges ?
+> [!NOTE] **Exercice résolu 1 - Déterminer des probabilités conditionnelles**  
+> Une urne contient huit boules indiscernables au toucher : cinq bleues et trois jaunes.  
+> On tire au hasard deux boules, l’une après l’autre et sans remise.  
+> 1. Quelle est la probabilité que la deuxième boule soit bleue, sachant que la première est bleue ?  
+> 2. Quelle est la probabilité que les deux boules tirées soient bleues ?
 
 {{% details title="Solution commentée" closed="true" %}}
-1. Après avoir tiré une première boule rouge, il reste six boules (trois vertes et trois rouges).  
-   La probabilité de tirer une boule rouge est alors :
+1. Si la première boule tirée est bleue, il reste sept boules dans l’urne : quatre bleues et trois jaunes.  
+   La probabilité de tirer alors une boule bleue est :
    \[
-   \frac{3}{6} = \frac{1}{2}.
+   \dfrac{4}{7}.
    \]
-   Donc la probabilité que la deuxième boule tirée soit rouge sachant que la première est rouge est \( \frac{1}{2} \).
 
-2. Soit \(R_1\) : « La première boule tirée est rouge » et \(R_2\) : « La deuxième boule tirée est rouge ».  
-   Alors :
+2. On note \(B_1\) : « La première boule est bleue » et \(B_2\) : « La deuxième boule est bleue ».  
+   On cherche \({P(B_1 \cap B_2)}\) :
    \[
-   P(R_1 \cap R_2) = P(R_1) \times P_{R_1}(R_2).
+   P(B_1 \cap B_2) = P(B_1) \times P_{B_1}(B_2).
    \]
-   D’après la question 1 :
+   On a \({P(B_1) = \dfrac{5}{8}}\) et, d’après la question 1, \({P_{B_1}(B_2) = \dfrac{4}{7}}\). Donc :
    \[
-   P_{R_1}(R_2) = \frac{1}{2} \quad \text{et} \quad P(R_1) = \frac{4}{7}.
-   \]
-   Donc :
-   \[
-   P(R_1 \cap R_2) = \frac{4}{7} \times \frac{1}{2} = \frac{2}{7}.
+   P(B_1 \cap B_2) = \dfrac{5}{8} \times \dfrac{4}{7} = \dfrac{20}{56} = \dfrac{5}{14}.
    \]
 {{% /details %}}
 
-
-> [!NOTE] **Exercice résolu 2 – Calculer des probabilités conditionnelles à partir d’un tableau de fréquences**  
-> Le tableau ci-dessous donne la répartition des participants à un stage de survie en Aquitaine, en fonction de leur sexe et de leur département d’origine.  
+> [!NOTE] **Exercice résolu 2 - Calculer des probabilités conditionnelles à partir d’un tableau d’effectifs**  
+> Un club de sport compte 120 adhérents, répartis selon leur activité et leur âge :  
 >
-> |              | Homme | Femme | Total |
+> |              | Mineur | Majeur | Total |
 > |--------------|--------|--------|--------|
-> | Gironde      | 18     | 50     | 68     |
-> | Landes       | 11     | 21     | 32     |
-> | **Total**    | **29** | **71** | **100** |
+> | Natation     | 24     | 36     | 60     |
+> | Escalade     | 16     | 44     | 60     |
+> | **Total**    | **40** | **80** | **120** |
 > 
-> On choisit au hasard une fiche parmi les fiches des participants.
-> 1. Quelle est la probabilité que ce soit un homme ?  
-> 2. Quelle est la probabilité que ce soit un homme originaire des Landes ?  
-> 3. Quelle est la probabilité qu’il soit originaire des Landes sachant que c’est un homme ?
+> On choisit un adhérent au hasard.
+> 1. Quelle est la probabilité qu’il soit mineur ?  
+> 2. Quelle est la probabilité qu’il soit mineur et pratique l’escalade ?  
+> 3. Sachant que l’adhérent est mineur, quelle est la probabilité qu’il pratique l’escalade ?
 
 {{% details title="Solution commentée" closed="true" %}}
-On note \(H\) l’évènement « La fiche est celle d’un homme » et \(L\) l’évènement « La fiche est celle d’un Landais ».
+On note \(M\) l’évènement « L’adhérent est mineur » et \(E\) l’évènement « L’adhérent pratique l’escalade ».
 
-1. D’après le tableau : \(29\) hommes participent au stage.  
+1. Le tableau indique 40 mineurs sur 120 adhérents :  
    \[
-   P(H) = \frac{29}{100} = 0{,}29.
+   P(M) = \dfrac{40}{120} = \dfrac{1}{3}.
    \]
 
-2. D’après le tableau : \(11\) Landais sont des hommes.  
+2. 16 adhérents sont à la fois mineurs et grimpeurs :  
    \[
-   P(H \cap L) = \frac{11}{100} = 0{,}11.
+   P(M \cap E) = \dfrac{16}{120} = \dfrac{2}{15}.
    \]
 
-3. On applique la formule :
+3. On applique la définition :
    \[
-   P_H(L) = \frac{P(H \cap L)}{P(H)} = \frac{0{,}11}{0{,}29} = \frac{11}{29}.
+   P_M(E) = \dfrac{P(M \cap E)}{P(M)} = \dfrac{\dfrac{2}{15}}{\dfrac{1}{3}} = \dfrac{2}{15} \times 3 = \dfrac{2}{5}.
    \]
-   On lit aussi directement dans le tableau que parmi les 29 hommes, 11 viennent des Landes, d’où \(P_H(L) = \frac{11}{29}\).
+   On peut aussi lire directement dans la colonne « Mineur » : 16 grimpeurs parmi 40 mineurs, soit \({\dfrac{16}{40} = \dfrac{2}{5}}\).
 {{% /details %}}

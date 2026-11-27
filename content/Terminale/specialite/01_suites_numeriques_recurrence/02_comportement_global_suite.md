@@ -8,128 +8,124 @@ cascade:
 ## Suites monotones
 
 > [!TIP] **Définitions**  
-> On dit qu’une suite \((u_n)\) définie sur \(\mathbb{N}\) est :  
-> - **croissante** si et seulement si, pour tout entier naturel \(n\), \(u_{n+1} \geq u_n\) ;  
-> - **décroissante** si et seulement si, pour tout entier naturel \(n\), \(u_{n+1} \leq u_n\).  
-> Une suite \((u_n)\) est dite **monotone** lorsqu’elle est croissante ou décroissante.  
+> Une suite \((u_n)\) définie sur \(\mathbb{N}\) est :  
+> - **croissante** si et seulement si, pour tout entier naturel \(n\), \({u_{n+1} \geq u_n}\) ;  
+> - **décroissante** si et seulement si, pour tout entier naturel \(n\), \({u_{n+1} \leq u_n}\).  
+>
+> Une suite croissante ou décroissante est dite **monotone**.  
 
-Trois méthodes permettent l’étude de la monotonie d’une suite :  
-- **Méthode algébrique** : elle consiste à comparer directement \(u_n\) et \(u_{n+1}\) :  
-  - soit en étudiant le signe de la différence \(u_{n+1} - u_n\),  
-  - soit en comparant le quotient \(\dfrac{u_{n+1}}{u_n}\) à 1 si, pour tout entier naturel \(n\), \(u_n > 0\).  
+Pour étudier la monotonie d’une suite, on dispose de trois méthodes :  
+- **Méthode algébrique** : on compare directement \(u_n\) et \({u_{n+1}}\),  
+  - soit en étudiant le signe de la différence \({u_{n+1} - u_n}\),  
+  - soit, lorsque tous les termes sont strictement positifs, en comparant le quotient \({\dfrac{u_{n+1}}{u_n}}\) à 1.  
 
-- **Méthode fonctionnelle** : elle s’applique aux suites définies par une formule explicite de la forme \(u_n = f(n)\) (\(f\) étant une fonction) et consiste à étudier le sens de variation de \(f\) sur \([0 ; +\infty[\). Le sens de variation de \((u_n)\) s’en déduit.  
+- **Méthode fonctionnelle** : pour une suite définie explicitement par \({u_n = f(n)}\), où \(f\) est une fonction, on étudie le sens de variation de \(f\) sur \({[0 ; +\infty[}\) ; la suite \((u_n)\) a alors le même sens de variation que \(f\).  
 
-- **Méthode du raisonnement par récurrence** : elle s’applique aux suites définies par une relation de récurrence de la forme \(u_{n+1} = f(u_n)\) et consiste à démontrer qu’une des propriétés \(P(n) : u_{n+1} \leq u_n\) ou \(P(n) : u_{n+1} \geq u_n\) est vraie pour tout entier naturel \(n\).  
-
+- **Raisonnement par récurrence** : pour une suite définie par une relation \({u_{n+1} = f(u_n)}\), on démontre par récurrence que la propriété \(P(n)\) : « \({u_{n+1} \leq u_n}\) » (ou \(P(n)\) : « \({u_{n+1} \geq u_n}\) ») est vraie pour tout entier naturel \(n\).  
 
 ## Suites majorées, minorées et bornées
 
 > [!TIP] **Définitions**  
-> On dit qu’une suite \((u_n)\) définie sur \(\mathbb{N}\) est :  
-> - **majorée** s’il existe un réel \(M\) tel que, pour tout entier naturel \(n\), \(u_n \leq M\).  
->   \(M\) est appelé un **majorant** de \((u_n)\).  
-> - **minorée** s’il existe un réel \(m\) tel que, pour tout entier naturel \(n\), \(u_n \geq m\).  
->   \(m\) est appelé un **minorant** de \((u_n)\).  
+> Une suite \((u_n)\) définie sur \(\mathbb{N}\) est :  
+> - **majorée** s’il existe un réel \(M\) tel que, pour tout entier naturel \(n\), \({u_n \leq M}\) ;  
+>   le réel \(M\) est alors un **majorant** de \((u_n)\) ;  
+> - **minorée** s’il existe un réel \(m\) tel que, pour tout entier naturel \(n\), \({u_n \geq m}\) ;  
+>   le réel \(m\) est alors un **minorant** de \((u_n)\) ;  
 > - **bornée** si elle est à la fois majorée et minorée.  
 
 > [!IMPORTANT] **Remarques**  
-> - Une suite majorée admet une infinité de majorants. En effet, si \(M\) est un majorant de \((u_n)\), tous les réels supérieurs à \(M\) sont également des majorants de \((u_n)\). De même, une suite minorée admet une infinité de minorants.  
-> - Toute suite croissante est minorée par son premier terme et toute suite décroissante est majorée par son premier terme.  
-> - Pour démontrer qu’une suite est majorée ou minorée, on peut utiliser une des méthodes vues plus haut.  
+> - Un majorant n’est jamais unique : si \(M\) majore \((u_n)\), tout réel supérieur à \(M\) la majore aussi. Une suite majorée a donc une infinité de majorants ; de même pour les minorants.  
+> - Une suite croissante est minorée par son premier terme ; une suite décroissante est majorée par son premier terme.  
+> - Pour prouver qu’une suite est majorée ou minorée, on peut réutiliser les méthodes ci-dessus (signe d’une différence, étude de fonction, récurrence).  
 
 {{% details title="Exemple" closed="true" %}}
-Soit \((u_n)\) la suite définie pour tout \(n \in \mathbb{N}\) par \(u_n = 2 - \dfrac{1}{n^2+1}\).  
+On considère la suite \((u_n)\) définie pour tout \({n \in \mathbb{N}}\) par \({u_n = 1 + \dfrac{2}{n^2+2}}\).  
 
-On peut montrer qu’elle est bornée en utilisant la méthode algébrique.  
+Montrons qu’elle est bornée, par la méthode algébrique.  
 
-Pour tout entier naturel \(n\), \(\dfrac{1}{n^2+1} \geq 0\), donc \(u_n \leq 2\). Donc la suite \((u_n)\) est majorée par 2.  
+Pour tout entier naturel \(n\), \({\dfrac{2}{n^2+2} > 0}\), donc \({u_n > 1}\) : la suite est minorée par 1.  
 
-Pour tout entier naturel \(n\), \(\dfrac{1}{n^2+1} \leq 1\), donc \(-\dfrac{1}{n^2+1} \geq -1\), donc \(u_n \geq 1\). Donc la suite \((u_n)\) est minorée par 1.  
+Pour tout entier naturel \(n\), \({n^2 + 2 \geq 2}\), donc \({\dfrac{2}{n^2+2} \leq 1}\), d’où \({u_n \leq 2}\) : la suite est majorée par 2.  
 
-On en déduit que, pour tout entier naturel \(n\), \(1 \leq u_n \leq 2\). Donc la suite \((u_n)\) est bornée.
+Ainsi, pour tout entier naturel \(n\), \({1 \leq u_n \leq 2}\) : la suite \((u_n)\) est bornée.
 {{% /details %}}
-
 
 ## Déterminer le sens de variation d’une suite
 
-> [!NOTE] **Méthode 1 — Déterminer le sens de variation d’une suite**  
-> 1. Montrer que la suite \((u_n)\), définie pour tout entier naturel \(n\) par \(u_n = n^2 + 3n\), est croissante.  
-> 2. Montrer que la suite \((v_n)\), définie pour tout entier naturel \(n\) non nul par \(v_n = \left(\dfrac{1}{4}\right)^n n^2\), est décroissante.  
-> 3. La suite \((w_n)\) est définie par \(w_0 = 1\) et, pour tout entier naturel \(n\), \(w_{n+1} = 2w_n - 3\).  
->    Montrer par récurrence que la suite \((w_n)\) est décroissante.
+> [!NOTE] **Méthode 1 - Déterminer le sens de variation d’une suite**  
+> 1. Démontrer que la suite \((u_n)\) définie pour tout entier naturel \(n\) par \({u_n = n^2 + 2n}\) est croissante.  
+> 2. Démontrer que la suite \((v_n)\) définie pour tout entier \({n \geq 1}\) par \({v_n = \dfrac{n}{3^n}}\) est décroissante.  
+> 3. La suite \((w_n)\) est définie par \({w_0 = 2}\) et, pour tout entier naturel \(n\), \({w_{n+1} = 3w_n - 5}\).  
+>    Démontrer par récurrence que la suite \((w_n)\) est décroissante.
 
 {{% details title="Solution commentée" closed="true" %}}
 
-**1.** On peut utiliser la méthode algébrique : on étudie le signe de la différence \(u_{n+1} - u_n\), pour tout \(n \in \mathbb{N}\).  
+**1.** *Méthode algébrique* : on étudie le signe de \({u_{n+1} - u_n}\) pour tout \({n \in \mathbb{N}}\).  
 
 \[
-u_{n+1} - u_n = (n+1)^2 + 3(n+1) - (n^2+3n) = n^2+2n+1+3n+3-n^2-3n = 2n+4.
+\begin{aligned}
+u_{n+1} - u_n &= (n+1)^2 + 2(n+1) - (n^2+2n) \\[0.3em]
+&= n^2+2n+1+2n+2-n^2-2n = 2n+3.
+\end{aligned}
 \]
 
-Or, pour tout \(n \in \mathbb{N}\), \(2n+4 \geq 0\), c’est-à-dire \(u_{n+1} - u_n \geq 0\), donc la suite \((u_n)\) est croissante.  
+Pour tout \({n \in \mathbb{N}}\), \({2n+3 > 0}\), donc \({u_{n+1} - u_n \geq 0}\) : la suite \((u_n)\) est croissante.  
 
-On peut également utiliser la méthode fonctionnelle en étudiant les variations de la fonction \(f : x \mapsto x^2 + 3x\) sur \([0;+\infty[\).  
-\(f'(x) = 2x+3\). Or \(2x+3 \geq 0\) sur \([0;+\infty[\), donc la fonction \(f\) est croissante sur \([0;+\infty[\). Donc la suite \((u_n)\) est croissante.  
+*Méthode fonctionnelle* : on a \({u_n = f(n)}\) avec \({f : x \mapsto x^2 + 2x}\). Sa dérivée \({f'(x) = 2x+2}\) est positive sur \({[0;+\infty[}\), donc \(f\) est croissante sur \({[0;+\infty[}\), et la suite \((u_n)\) aussi.  
 
 ---
 
-**2.** On peut utiliser la méthode algébrique : ici, on a, pour tout entier \(n \geq 1\), \(v_n > 0\).  
-
-Donc on compare le quotient \(\dfrac{v_{n+1}}{v_n}\) à 1 pour tout entier \(n \geq 1\).  
+**2.** Pour tout entier \({n \geq 1}\), \({v_n > 0}\) : on peut comparer le quotient \({\dfrac{v_{n+1}}{v_n}}\) à 1.  
 
 \[
-\dfrac{v_{n+1}}{v_n} = \dfrac{\left(\dfrac{1}{4}\right)^{n+1}(n+1)^2}{\left(\dfrac{1}{4}\right)^n n^2}
-= \dfrac{1}{4}\dfrac{(n+1)^2}{n^2}.
+\dfrac{v_{n+1}}{v_n} = \dfrac{n+1}{3^{n+1}} \times \dfrac{3^n}{n} = \dfrac{n+1}{3n}.
 \]
 
-Or \(\dfrac{(n+1)^2}{n^2} \leq 2n \cdot \dfrac{1}{2n} = 2n \cdot \dfrac{1}{2n} = \dfrac{n+1}{n}\).  
-Donc, pour tout \(n \geq 1\), \(\dfrac{v_{n+1}}{v_n} \leq 1\), donc la suite \((v_n)\) est décroissante.  
+Or, pour \({n \geq 1}\), \({n + 1 \leq 2n \leq 3n}\), donc \({\dfrac{n+1}{3n} \leq 1}\).  
+Ainsi \({\dfrac{v_{n+1}}{v_n} \leq 1}\), et comme \({v_n > 0}\), \({v_{n+1} \leq v_n}\) : la suite \((v_n)\) est décroissante.  
 
 ---
 
-**3.** On considère la propriété \(P(n) : w_{n+1} \leq w_n\).  
+**3.** Pour tout entier naturel \(n\), on note \(P(n)\) la propriété : « \({w_{n+1} \leq w_n}\) ».  
 
-- **Initialisation.** Pour \(n_0 = 0\), \(w_1 = 2w_0 - 3 = 2 \cdot 1 - 3 = -1\) et \(w_0 = 1\), donc \(w_1 \leq w_0\). Donc \(P(0)\) est vraie.  
+- **Initialisation.** \({w_1 = 3 \times 2 - 5 = 1}\) et \({w_0 = 2}\) ; on a bien \({w_1 \leq w_0}\). Donc \(P(0)\) est vraie.  
 
-- **Hérédité.** On considère un entier quelconque \(k \geq 0\). On suppose que \(P(k)\) est vraie (hypothèse de récurrence), c’est-à-dire \(w_{k+1} \leq w_k\).  
-On veut démontrer que \(P(k+1)\) est alors vraie, c’est-à-dire que \(w_{k+2} \leq w_{k+1}\).  
+- **Hérédité.** Soit \(k\) un entier naturel. On suppose que \(P(k)\) est vraie : \({w_{k+1} \leq w_k}\) (hypothèse de récurrence).  
+Montrons que \({w_{k+2} \leq w_{k+1}}\).  
 
-  Par hypothèse de récurrence, on a \(w_{k+1} \leq w_k\), donc \(2w_{k+1} \leq 2w_k\).  
-  En multipliant chaque membre par le réel positif 2 et en ajoutant -3 à chaque membre, on a alors \(2w_{k+1} - 3 \leq 2w_k - 3\), soit \(w_{k+2} \leq w_{k+1}\).  
+  En multipliant l’hypothèse par le réel positif 3, on obtient \({3w_{k+1} \leq 3w_k}\), puis, en retranchant 5 : \({3w_{k+1} - 5 \leq 3w_k - 5}\), c’est-à-dire \({w_{k+2} \leq w_{k+1}}\).  
 
-  Donc \(P(k+1)\) est vraie. La propriété est héréditaire.  
+  Donc \({P(k+1)}\) est vraie : la propriété est héréditaire.  
 
-- **Conclusion.** La propriété \(P(n)\) est vraie au rang \(n_0 = 0\) et elle est héréditaire, donc \(P(n)\) est vraie pour tout entier \(n \geq 0\). Ainsi, la suite \((w_n)\) est décroissante.
+- **Conclusion.** \(P(0)\) est vraie et la propriété est héréditaire : d’après le principe de récurrence, \({w_{n+1} \leq w_n}\) pour tout entier naturel \(n\). La suite \((w_n)\) est décroissante.
 {{% /details %}}
 
 ## Montrer qu’une suite est majorée ou minorée
 
-> [!NOTE] **Méthode 2 — Montrer qu’une suite est majorée ou minorée**  
-> 1. Montrer que la suite \((u_n)\), définie pour tout entier naturel \(n\) par \(u_n = n^2 - 6n + 5\), est minorée par \(-4\).  
-> 2. La suite \((v_n)\) est définie par \(v_0 = 1\) et, pour tout entier naturel \(n\), \(v_{n+1} = 2v_n - 3\).  
->    Montrer par récurrence que la suite \((v_n)\) est majorée par 3.
+> [!NOTE] **Méthode 2 - Montrer qu’une suite est majorée ou minorée**  
+> 1. Démontrer que la suite \((u_n)\) définie pour tout entier naturel \(n\) par \({u_n = n^2 - 8n + 10}\) est minorée par \({-6}\).  
+> 2. La suite \((v_n)\) est définie par \({v_0 = 2}\) et, pour tout entier naturel \(n\), \({v_{n+1} = 3v_n - 5}\).  
+>    Démontrer par récurrence que la suite \((v_n)\) est majorée par \(\dfrac{5}{2}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-**1.** Pour montrer que, pour tout entier naturel \(n\), \(u_n \geq -4\), on étudie le signe de la différence \(u_n - (-4)\).  
+**1.** On étudie le signe de la différence \({u_n - (-6)}\) :  
 
 \[
-u_n - (-4) = n^2 - 6n + 9 = (n-3)^2.
+u_n + 6 = n^2 - 8n + 16 = (n-4)^2.
 \]
 
-Or \((n-3)^2 \geq 0\) pour tout entier naturel \(n\), donc \(u_n - (-4) \geq 0\), donc \(u_n \geq -4\).  
-Donc la suite \((u_n)\) est minorée par \(-4\).  
+Un carré est positif : pour tout entier naturel \(n\), \({u_n + 6 \geq 0}\), soit \({u_n \geq -6}\).  
+La suite \((u_n)\) est donc minorée par \({-6}\) (et \({-6 = u_4}\) est même son plus petit terme).  
 
 ---
 
-**2.** On considère la propriété \(P(n) : v_n \leq 3\).  
+**2.** Pour tout entier naturel \(n\), on note \(P(n)\) la propriété : « \({v_n \leq \dfrac{5}{2}}\) ».  
 
-- **Initialisation.** Pour \(n_0 = 0\), \(v_0 = 1\). Or \(1 \leq 3\), donc \(P(0)\) est vraie.  
+- **Initialisation.** \({v_0 = 2}\) et \({2 \leq \dfrac{5}{2}}\) : \(P(0)\) est vraie.  
 
-- **Hérédité.** On considère un entier quelconque \(k \geq 0\). On suppose que \(P(k)\) est vraie, c’est-à-dire \(v_k \leq 3\).  
-  Alors \(2v_k \leq 6\), donc \(2v_k - 3 \leq 3\), donc \(v_{k+1} \leq 3\).  
-  Donc \(P(k+1)\) est vraie. La propriété est héréditaire.  
+- **Hérédité.** Soit \(k\) un entier naturel. On suppose \({v_k \leq \dfrac{5}{2}}\) (hypothèse de récurrence).  
+  En multipliant par 3 (positif) : \({3v_k \leq \dfrac{15}{2}}\) ; en retranchant 5 : \({3v_k - 5 \leq \dfrac{15}{2} - 5 = \dfrac{5}{2}}\), c’est-à-dire \({v_{k+1} \leq \dfrac{5}{2}}\).  
+  Donc \({P(k+1)}\) est vraie : la propriété est héréditaire.  
 
-- **Conclusion.** La propriété \(P(n)\) est vraie au rang \(n_0 = 0\) et elle est héréditaire, donc \(P(n)\) est vraie pour tout entier \(n \geq 0\), c’est-à-dire que, pour tout entier \(n \geq 0\), \(v_n \leq 3\).  
-Donc la suite \((v_n)\) est majorée par 3.
+- **Conclusion.** D’après le principe de récurrence, \({v_n \leq \dfrac{5}{2}}\) pour tout entier naturel \(n\) : la suite \((v_n)\) est majorée par \(\dfrac{5}{2}\).
 {{% /details %}}

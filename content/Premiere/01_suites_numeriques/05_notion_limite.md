@@ -5,66 +5,61 @@ cascade:
   type: docs
 ---
 
-
-S’intéresser à la limite d’une suite \((u_n)\), c’est étudier le comportement des termes \(u_n\) quand on donne à \(n\) des valeurs entières aussi grandes que l’on veut, ce qui se dit aussi « quand \(n\) tend vers \(+\infty\) ».  
-Différents outils (calculatrice, tableur, Python…) fournissent une représentation graphique ou un tableau de valeurs de la suite qui permettent d’émettre différentes conjectures.  
-
-
+Chercher la limite d’une suite \((u_n)\), c’est observer ce que deviennent ses termes \(u_n\) lorsque l’entier \(n\) prend des valeurs de plus en plus grandes, aussi grandes qu’on le souhaite : on dit que l’on fait « tendre \(n\) vers \({+\infty}\) ».  
+En Première, on se contente de **conjecturer** cette limite à l’aide d’un graphique ou d’un tableau de valeurs obtenus avec une calculatrice, un tableur ou un programme Python.  
 
 ## Limite finie
 
-\((u_n)\) est définie par \(u_n = \dfrac{1}{n}\), pour tout entier \(n \geq 1\).
+On considère la suite \((u_n)\) définie pour tout entier \({n \geq 1}\) par \({u_n = \dfrac{1}{n}}\).
 
-![](/images/image13.png)
+![](/images/image144.png)
 
 | \(n\)   | 100   | 1 000   | 100 000   |  
 |---------|-------|---------|-----------|  
 | \(u_n\) | 0,01  | 0,001   | 0,00001   |  
 
-Les termes \(u_n\) semblent se rapprocher autant que l’on veut d’une valeur « limite » : 0.  
-On dit que la suite \((u_n)\) tend vers 0 lorsque \(n\) tend vers \(+\infty\) et on note  
+Les termes \(u_n\) deviennent aussi proches de 0 qu’on le veut pourvu que \(n\) soit assez grand.  
+On dit que la suite \((u_n)\) **tend vers 0** quand \(n\) tend vers \({+\infty}\), et on écrit  
 \[
 \lim_{n \to +\infty} u_n = 0.
 \]
 
 ---
 
-\((v_n)\) est définie par \(v_n = \dfrac{4n-5}{2n+3}\), pour tout entier naturel \(n\).
+On considère la suite \((v_n)\) définie pour tout entier naturel \(n\) par \({v_n = \dfrac{3n+2}{n+1}}\).
 
-![](/images/image14.png)
+![](/images/image145.png)
 
-| \(n\)   | 100     | 1 000    | 100 000   |  
-|---------|---------|----------|-----------|  
-| \(v_n\) | 1,9458  | 1,9945   | 1,9999    |  
+| \(n\)   | 100      | 1 000    | 100 000   |  
+|---------|----------|----------|-----------|  
+| \(v_n\) | 2,9901   | 2,9990   | 2,99999   |  
 
-Les termes \(v_n\) semblent se rapprocher autant que l’on veut d’une valeur « limite » : 2.  
-On dit que la suite \((v_n)\) tend vers 2 lorsque \(n\) tend vers \(+\infty\) et on note  
+Les termes \(v_n\) semblent se rapprocher autant qu’on le veut de 3.  
+On dit que la suite \((v_n)\) **tend vers 3** quand \(n\) tend vers \({+\infty}\), et on écrit  
 \[
-\lim_{n \to +\infty} v_n = 2.
+\lim_{n \to +\infty} v_n = 3.
 \]
-
 
 ## Limite infinie
 
-\((u_n)\) est définie par \(u_n = n^2\), pour tout entier naturel \(n\).  
+On considère la suite \((u_n)\) définie pour tout entier naturel \(n\) par \({u_n = n^2}\).  
 
-![](/images/image15.png)
+![](/images/image146.png)
 
-Les termes de la suite semblent devenir aussi grands que l’on veut.  
-On dit que \(\lim_{n \to +\infty} u_n = +\infty\).  
+Les termes finissent par dépasser n’importe quel nombre, aussi grand soit-il.  
+On écrit \({\lim\limits_{n \to +\infty} u_n = +\infty}\).  
 
 ---
 
-\((w_n)\) est la suite arithmétique de premier terme 16 et de raison \(-2\).  
+On considère la suite arithmétique \((w_n)\) de premier terme 10 et de raison \({-3}\).  
 
-![](/images/image16.png)
+![](/images/image147.png)
 
-Les termes de la suite semblent devenir aussi grands que l’on veut en valeur absolue tout en étant négatifs.  
-On dit que \(\lim_{n \to +\infty} w_n = -\infty\).  
-
+Les termes sont négatifs à partir d’un certain rang et deviennent aussi grands qu’on le veut en valeur absolue.  
+On écrit \({\lim\limits_{n \to +\infty} w_n = -\infty}\).  
 
 ## Pas de limite
 
-Il existe des suites qui n’ont pas de limite, comme la suite \((u_n)\) définie pour tout \(n \in \mathbb{N}\) par \(u_n = (-1)^n\).  
+Certaines suites n’ont pas de limite. C’est le cas de la suite \((u_n)\) définie pour tout \({n \in \mathbb{N}}\) par \({u_n = (-1)^n}\) : ses termes valent alternativement 1 et \({-1}\), sans jamais se rapprocher d’une valeur unique.  
 
-![](/images/image17.png)
+![](/images/image148.png)

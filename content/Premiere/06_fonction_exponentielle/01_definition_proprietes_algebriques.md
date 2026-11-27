@@ -8,10 +8,14 @@ cascade:
 ## La fonction exponentielle
 
 > [!TIP] **Propriété et définition**  
-> Il existe une fonction \( f \) et une seule, définie et dérivable sur \( \mathbb{R} \), telle que :  
-> - pour tout réel \( x \), \( f'(x) = f(x) \) et \( f(0) = 1 \).  
-> Cette fonction est appelée **fonction exponentielle** et notée \( \exp : x \mapsto \exp(x) \).
+> Il existe une unique fonction \( f \), définie et dérivable sur \( \mathbb{R} \), telle que :  
+> \[
+f' = f \quad \text{et} \quad f(0) = 1.
+\]
+> Cette fonction est appelée **fonction exponentielle** ; on la note \({\exp : x \mapsto \exp(x)}\).
 
+> [!IMPORTANT] **Remarque**  
+> Par définition, \({\exp(0) = 1}\) et, pour tout réel \(x\), \({\exp'(x) = \exp(x)}\) : la fonction exponentielle est égale à sa propre dérivée.
 
 ## Propriétés algébriques
 
@@ -22,108 +26,108 @@ cascade:
 \]
 
 > [!IMPORTANT] **Remarque**  
-> Cette formule permet de transformer une somme en produit et réciproquement.
+> Cette relation permet de passer d’une somme (dans l’exponentielle) à un produit, et inversement.
 
 > [!TIP] **Propriété**  
-> Pour tous réels \( x \) et \( y \), on a :  
+> Pour tous réels \( x \) et \( y \) :  
 > \[
-\exp(-x) = \frac{1}{\exp(x)} \quad \text{et} \quad \exp(x - y) = \frac{\exp(x)}{\exp(y)}.
+\exp(-x) = \dfrac{1}{\exp(x)} \quad \text{et} \quad \exp(x - y) = \dfrac{\exp(x)}{\exp(y)}.
 \]
-
 
 ## Lien avec les suites géométriques
 
 > [!TIP] **Propriété**  
-> Soit \( a \) un réel et \((u_n)\) la suite de terme général \( u_n = \exp(na) \), où \( n \) est un entier naturel.  
-> - La suite \((u_n)\) est une **suite géométrique** de premier terme \( u_0 = 1 \) et de raison \( \exp(a) \).  
-> - Pour tout entier \( n \) et tout réel \( a \), \( \exp(na) = (\exp(a))^n \).
-
+> Soit \( a \) un réel, et \((u_n)\) la suite définie pour tout entier naturel \( n \) par \({u_n = \exp(na)}\).  
+> - La suite \((u_n)\) est **géométrique**, de premier terme \({u_0 = 1}\) et de raison \( \exp(a) \).  
+> - Par conséquent, pour tout entier naturel \( n \) et tout réel \( a \), \({\exp(na) = (\exp(a))^n}\).
 
 ## Notation \( e^x \)
 
 > [!TIP] **Définition et notation**  
-> Le nombre \( \exp(1) \) est noté \( e \).  
-> Une valeur approchée au millième de ce nombre est \( e \approx 2{,}718 \).
+> On note \( e \) le nombre \( \exp(1) \).  
+> Sa valeur approchée au millième est \({e \approx 2{,}718}\).
 
 > [!IMPORTANT] **Remarque**  
-> D’après la propriété précédente avec \( a = 1 \), pour tout entier \( n \),  
+> En appliquant la propriété précédente avec \({a = 1}\), on obtient, pour tout entier naturel \( n \) :  
 > \[
 \exp(n) = (\exp(1))^n = e^n.
 \]
 
 > [!TIP] **Notation**  
-> Par extension, pour tout réel \( x \), on note :  
+> On généralise cette écriture à tous les réels : pour tout réel \( x \), on note  
 > \[
 \exp(x) = e^x.
 \]
 
+Avec cette notation, les propriétés algébriques prennent la même forme que les règles de calcul sur les puissances : \({e^{x+y} = e^x e^y}\), \({e^{-x} = \dfrac{1}{e^x}}\), \({e^{x-y} = \dfrac{e^x}{e^y}}\) et \({(e^x)^n = e^{nx}}\).
 
-## Exercice résolu : Utiliser la dérivée de la fonction exponentielle
+## Exercice résolu : Utiliser la dérivée de la fonction exponentielle
 
 > [!NOTE] **Exercice résolu**  
-> Pour chacune des fonctions suivantes définies sur \( \mathbb{R} \), déterminer l’expression de sa fonction dérivée.  
-> 1. \( f(x) = 5\exp(x) + x \)  
-> 2. \( g(x) = (3x - 1)\exp(x) \)
+> Calculer la dérivée de chacune des fonctions suivantes, définies sur \( \mathbb{R} \).  
+> 1. \({f(x) = -2\exp(x) + x^2}\)  
+> 2. \({g(x) = (2 - x)\exp(x)}\)
 
 {{% details title="Solution commentée" closed="true" %}}
-1. \( f'(x) = 5\exp(x) + 1 \)  
-2. \( g'(x) = 3\exp(x) + (3x - 1)\exp(x) = (3x + 2)\exp(x) \)
+1. On dérive terme à terme, en utilisant \({\exp' = \exp}\) :  
+\({f'(x) = -2\exp(x) + 2x}\).  
+2. \(g\) est un produit \(uv\) avec \({u(x) = 2 - x}\) et \({v(x) = \exp(x)}\), donc \({u'(x) = -1}\) et \({v'(x) = \exp(x)}\) :  
+\( g'(x) = -\exp(x) + (2 - x)\exp(x) = (1 - x)\exp(x) \).
 {{% /details %}}
 
-
-## Exercice résolu : Transformer une expression
+## Exercice résolu : Transformer une expression
 
 > [!NOTE] **Exercice résolu**  
-> On donne les ordres de grandeur suivants : \( \exp(2) \approx 7 \), \( \exp(3) \approx 20 \), \( \exp(4) \approx 55 \).  
-> En déduire les ordres de grandeur de \( \exp(5) \), \( \exp(-3) \) et \( \exp(1) \).
+> On donne les valeurs approchées suivantes : \({\exp(1) \approx 2{,}7}\), \({\exp(2) \approx 7{,}4}\), \({\exp(5) \approx 148}\).  
+> En déduire des valeurs approchées de \( \exp(3) \), \({\exp(-2)}\) et \( \exp(7) \).
 
 {{% details title="Solution commentée" closed="true" %}}
+On écrit chaque nombre à l’aide des exponentielles connues :
 \[
-\exp(5) = \exp(2 + 3) = \exp(2)\times\exp(3) \approx 7\times20 = 140
+\exp(3) = \exp(5 - 2) = \dfrac{\exp(5)}{\exp(2)} \approx \dfrac{148}{7{,}4} = 20
 \]  
 \[
-\exp(-3) = \frac{1}{\exp(3)} \approx \frac{1}{20} = 0{,}05
+\exp(-2) = \dfrac{1}{\exp(2)} \approx \dfrac{1}{7{,}4} \approx 0{,}135
 \]  
 \[
-\exp(1) = \frac{\exp(4)}{\exp(3)} \approx \frac{55}{20} = 2{,}75
+\exp(7) = \exp(5 + 2) = \exp(5)\times\exp(2) \approx 148 \times 7{,}4 \approx 1\,095
 \]
 {{% /details %}}
 
-
-## Exercice résolu : Utiliser les propriétés algébriques de la fonction exponentielle
+## Exercice résolu : Utiliser les propriétés algébriques de la fonction exponentielle
 
 > [!NOTE] **Exercice résolu**  
-> Utiliser les propriétés algébriques de la fonction exponentielle pour simplifier les expressions suivantes :  
-> \( A = \exp(x + 3) \times \exp(x - 1) \)  
-> \( B = (\exp(x))^2 \times \exp(3x) \)  
-> \( C = \dfrac{\exp(x - 1)}{\exp(x + 2)} \)
+> À l’aide des propriétés algébriques de la fonction exponentielle, simplifier les expressions suivantes, où \(x\) est un réel :  
+> \({A = \exp(2x - 1) \times \exp(3 - x)}\)  
+> \({B = (\exp(x))^3 \times \exp(-x)}\)  
+> \({C = \dfrac{\exp(2x + 1)}{\exp(2x - 4)}}\)
 
 {{% details title="Solution commentée" closed="true" %}}
 \[
-A = \exp(x + 3 + x - 1) = \exp(2x + 2)
+A = \exp\big((2x - 1) + (3 - x)\big) = \exp(x + 2)
 \]  
 \[
-B = \exp(2x + 3x) = \exp(5x)
+B = \exp(3x) \times \exp(-x) = \exp(3x - x) = \exp(2x)
 \]  
 \[
-C = \exp[(x - 1) - (x + 2)] = \exp(-3) = \frac{1}{\exp(3)}
+C = \exp\big((2x + 1) - (2x - 4)\big) = \exp(5)
 \]
 {{% /details %}}
 
-
-## Exercice résolu : Identifier une suite géométrique
+## Exercice résolu : Identifier une suite géométrique
 
 > [!NOTE] **Exercice résolu**  
-> Soit la suite \((u_n)\) définie pour tout entier naturel \( n \) par \( u_n = 10 \times e^{3n} \).  
+> On considère la suite \((u_n)\) définie pour tout entier naturel \( n \) par \({u_n = 3e^{-2n}}\).  
 > 1. Calculer \( u_0 \).  
-> 2. Montrer que \((u_n)\) est une suite géométrique et préciser son premier terme et sa raison.  
-> 3. En utilisant \( e^3 \approx 20 \), justifier que la suite est croissante et déterminer à partir de quel rang \( u_n > 10^6 \).
+> 2. Démontrer que \((u_n)\) est géométrique ; préciser son premier terme et sa raison.  
+> 3. Sachant que \({e^2 \approx 7{,}4}\), justifier que la suite est décroissante, puis déterminer à partir de quel rang on a \({u_n < 0{,}01}\).
 
 {{% details title="Solution commentée" closed="true" %}}
-1. \( u_0 = 10 \times e^{3\times0} = 10 \times 1 = 10 \)  
-2. \( u_{n+1} = 10 \times e^{3(n+1)} = e^3 \times u_n \).  
-   Donc \((u_n)\) est une **suite géométrique** de raison \( q = e^3 \) et de premier terme \( u_0 = 10 \).  
-3. \( e^3 \approx 20 > 1 \), donc la suite est **strictement croissante**.  
-   On cherche \( n \) tel que \( 10\times20^n > 10^6 \), soit \( 20^n > 10^5 \).  
-   On trouve \( n = 4 \), donc \( u_n \) dépasse le million à partir du rang \( n = 4 \).
+1. \({u_0 = 3 \times e^{0} = 3 \times 1 = 3}\).  
+2. Pour tout entier naturel \(n\) : \( u_{n+1} = 3e^{-2(n+1)} = 3e^{-2n} \times e^{-2} = e^{-2} \times u_n \).  
+   La suite \((u_n)\) est donc **géométrique**, de premier terme \({u_0 = 3}\) et de raison \({q = e^{-2}}\).  
+3. On a \({q = e^{-2} = \dfrac{1}{e^2} \approx \dfrac{1}{7{,}4}}\), donc \({0 < q < 1}\) ; comme \({u_0 = 3 > 0}\), la suite est **strictement décroissante**.  
+   On cherche \( n \) tel que \({u_n = \dfrac{3}{(e^2)^n} < 0{,}01}\), c’est-à-dire \({(e^2)^n > 300}\).  
+   Avec \({e^2 \approx 7{,}4}\) : \({7{,}4^2 \approx 55}\) et \({7{,}4^3 \approx 405}\).  
+   Donc \({u_n < 0{,}01}\) à partir du rang \({n = 3}\) (en effet \({u_2 \approx 0{,}055}\) et \({u_3 \approx 0{,}0074}\)).
 {{% /details %}}

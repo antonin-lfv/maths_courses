@@ -7,110 +7,109 @@ cascade:
 
 ### Exercice 1
 
-Soit \((w_n)\) la suite définie par \(w_0=1\) et chaque terme est obtenu en **ajoutant 1 au double du carré** du terme précédent.
+La suite \((t_n)\) est définie par \({t_0 = 2}\), et chaque terme s’obtient en **retranchant 4 au carré** du terme précédent.
 
-1. Calculer \(w_1, w_2, w_3\).  
-2. Donner la relation entre \(w_{n+1}\) et \(w_n\).
+1. Calculer \(t_1, t_2, t_3\).  
+2. Écrire la relation liant \({t_{n+1}}\) et \(t_n\).
 
 {{% details title="Solution" closed="true" %}}
-1. \(w_1=2\cdot 1^2+1=3\), \(w_2=2\cdot 3^2+1=19\), \(w_3=2\cdot 19^2+1=723\).  
-2. Pour tout \(n\ge0\), \(\boxed{\,w_{n+1}=2w_n^2+1\,}\).
+1. \({t_1 = 2^2 - 4 = 0}\), \({t_2 = 0^2 - 4 = -4}\), \({t_3 = (-4)^2 - 4 = 12}\).  
+2. Pour tout entier naturel \(n\), \({\boxed{\,t_{n+1} = t_n^2 - 4\,}}\).
 {{% /details %}}
-
 
 ### Exercice 2
 
-Suites arithmétiques : on donne le premier terme et la raison \(r\).  
-Exprimer \(u_n\) en fonction de \(n\), puis calculer \(u_8\).
+Suites arithmétiques : on donne un terme et la raison \(r\).  
+Exprimer \(u_n\) en fonction de \(n\), puis calculer \(u_{10}\).
 
-- \(u_0=5\), \(r=-1\)
-- \(u_0=-2\), \(r=\tfrac12\)
-- \(u_0=3\), \(r=-\tfrac54\)
-- \(u_1=1\), \(r=2\)
+- \({u_0 = 7}\), \({r = -2}\)
+- \({u_0 = -4}\), \({r = \dfrac13}\)
+- \({u_0 = 1}\), \({r = -\dfrac32}\)
+- \({u_2 = 5}\), \({r = 4}\)
 
 {{% details title="Solution" closed="true" %}}
-Formule : \(u_n=u_0+nr\). Si \(u_1\) est donné : \(u_n=u_1+(n-1)r\).
+On utilise \({u_n = u_0 + nr}\) ou, si un autre terme \(u_p\) est donné, \({u_n = u_p + (n-p)r}\).
 
-- \(u_n=5-n\) ⇒ \(u_8=-3\).  
-- \(u_n=-2+\tfrac n2\) ⇒ \(u_8=2\).  
-- \(u_n=3-\tfrac{5}{4}n\) ⇒ \(u_8=-7\).  
-- \(u_n=1+2(n-1)=2n-1\) ⇒ \(u_8=15\).
+- \({u_n = 7 - 2n}\) ⇒ \({u_{10} = 7 - 20 = -13}\).  
+- \({u_n = -4 + \dfrac{n}{3}}\) ⇒ \({u_{10} = -4 + \dfrac{10}{3} = -\dfrac{2}{3}}\).  
+- \({u_n = 1 - \dfrac{3}{2}n}\) ⇒ \({u_{10} = 1 - 15 = -14}\).  
+- \({u_n = 5 + 4(n-2) = 4n - 3}\) ⇒ \({u_{10} = 37}\).
 {{% /details %}}
-
 
 ### Exercice 3
 
-Suites géométriques : on donne le premier terme et la raison \(q\).  
-Exprimer \(u_n\) en fonction de \(n\), puis calculer \(u_5\).
+Suites géométriques : on donne un terme et la raison \(q\).  
+Exprimer \(u_n\) en fonction de \(n\), puis calculer \(u_4\).
 
-- \(u_0=3\), \(q=2\)
-- \(u_0=10\), \(q=\tfrac12\)
-- \(u_0=-2\), \(q=-3\) 
-- \(u_1=2\), \(q=3\)
+- \({u_0 = 5}\), \({q = 3}\)
+- \({u_0 = 48}\), \({q = \dfrac12}\)
+- \({u_0 = 3}\), \({q = -2}\)
+- \({u_1 = 4}\), \({q = 5}\)
 
 {{% details title="Solution" closed="true" %}}
-Formule : \(u_n=u_0\,q^n\). Si \(u_1\) est donné : \(u_n=u_1\,q^{\,n-1}\).
+On utilise \({u_n = u_0\,q^n}\) ou, si \(u_1\) est donné, \({u_n = u_1\,q^{\,n-1}}\).
 
-- \(u_n=3\cdot 2^n\) ⇒ \(u_5=96\).  
-- \(u_n=10\left(\tfrac12\right)^n\) ⇒ \(u_5=\tfrac{5}{16}\).  
-- \(u_n=-2(-3)^n\) ⇒ \(u_5=486\).  
-- \(u_n=2\cdot 3^{\,n-1}\) ⇒ \(u_5=162\).
+- \({u_n = 5 \times 3^n}\) ⇒ \({u_4 = 5 \times 81 = 405}\).  
+- \({u_n = 48 \left(\dfrac12\right)^n}\) ⇒ \({u_4 = \dfrac{48}{16} = 3}\).  
+- \({u_n = 3 \times (-2)^n}\) ⇒ \({u_4 = 3 \times 16 = 48}\).  
+- \({u_n = 4 \times 5^{\,n-1}}\) ⇒ \({u_4 = 4 \times 125 = 500}\).
 {{% /details %}}
-
 
 ### Exercice 4
 
-Calculer les sommes suivantes (sommes arithmétiques) :  
-- \(4+7+10+\cdots+64\)
-- \(50+52+54+\cdots+1002\)
+Calculer les sommes suivantes, dont les termes sont ceux d’une suite arithmétique :  
+- \({5 + 9 + 13 + \cdots + 85}\)
+- \({30 + 33 + 36 + \cdots + 300}\)
 
 {{% details title="Solution" closed="true" %}}
-Formule : \(S=\dfrac{(a_1+a_n)\,n}{2}\) avec \(a_k=a_1+(k-1)r\).
+La somme de \(k\) termes consécutifs d’une suite arithmétique vaut \(S = \dfrac{k \times (\text{premier terme} + \text{dernier terme})}{2}\). Il faut d’abord compter les termes.
 
-- \(a_1=4\), \(r=3\), dernier \(=64\).  
-\(4+(k-1)3=64 \Rightarrow k=21\).  
-\(S=\dfrac{(4+64)\cdot 21}{2}=714\).
+- Premier terme 5, raison 4, dernier terme 85.  
+\(5 + 4(k-1) = 85 \Rightarrow k - 1 = 20 \Rightarrow k = 21\) termes.  
+\({S = \dfrac{21 \times (5 + 85)}{2} = \dfrac{21 \times 90}{2} = 945}\).
 
-- \(a_1=50\), \(r=2\), dernier \(=1002\).  
-\(50+(k-1)2=1002 \Rightarrow k=477\).  
-\(S=\dfrac{(50+1002)\cdot 477}{2}=250\,902\).
+- Premier terme 30, raison 3, dernier terme 300.  
+\(30 + 3(k-1) = 300 \Rightarrow k - 1 = 90 \Rightarrow k = 91\) termes.  
+\(S = \dfrac{91 \times (30 + 300)}{2} = \dfrac{91 \times 330}{2} = 15\,015\).
 {{% /details %}}
-
 
 ### Exercice 5
 
-Déterminer le sens de variation de la suite \(u_n=n^2-8n+2\) (pour \(n\in\mathbb{N}\)).
+Étudier le sens de variation de la suite définie pour tout \({n \in \mathbb{N}}\) par \({u_n = n^2 - 10n + 1}\).
 
 {{% details title="Solution" closed="true" %}}
-Étudions l’incrément :  
+On étudie le signe de la différence de deux termes consécutifs :  
 \[
-u_{n+1}-u_n=(n+1)^2-8(n+1)+2-(n^2-8n+2)=2n-7.
+\begin{aligned}
+u_{n+1} - u_n &= (n+1)^2 - 10(n+1) + 1 - (n^2 - 10n + 1) \\[0.3em]
+&= 2n + 1 - 10 = 2n - 9.
+\end{aligned}
 \]
-- Pour \(n=0,1,2,3\), \(2n-7<0\) : la suite **décroît**.  
-- Pour \(n\ge 4\), \(2n-7>0\) : la suite **croît**.  
+- Pour \({n \in \{0, 1, 2, 3, 4\}}\), \({2n - 9 < 0}\) : \({u_0 > u_1 > u_2 > u_3 > u_4 > u_5}\).  
+- Pour \({n \geq 5}\), \({2n - 9 > 0}\) : \({u_{n+1} > u_n}\).  
 
-Donc \((u_n)\) est **décroissante** pour \(n=0,1,2,3\) puis **croissante** à partir de \(n\ge4\) (minimum vers \(n=4\)).
+La suite \((u_n)\) décroît jusqu’au rang 5, puis elle est **croissante à partir du rang 5**. Son plus petit terme est \({u_5 = 25 - 50 + 1 = -24}\).
 {{% /details %}}
-
 
 ### Exercice 6
 
-On définit \(u_0=2\) et, pour tout \(n\in\mathbb{N}\), \(\displaystyle u_{n+1}=\frac{u_n}{3u_n+1}\) (on admet \(u_n\ne0\)).  
-On pose \(v_n=\dfrac{1}{u_n}\).
+On définit \({u_0 = 1}\) et, pour tout \({n \in \mathbb{N}}\), \({\displaystyle u_{n+1} = \dfrac{u_n}{2u_n + 1}}\) (on admet que \({u_n > 0}\) pour tout \(n\)).  
+On pose, pour tout \({n \in \mathbb{N}}\), \({v_n = \dfrac{1}{u_n}}\).
 
-1. Calculer \(u_1,u_2,u_3\) puis \(v_1,v_2,v_3\).  
-2. Montrer que \((v_n)\) est arithmétique. Donner son premier terme et sa raison.  
-3. En déduire \(v_n\) puis \(u_n\) en fonction de \(n\).
+1. Calculer \(u_1, u_2, u_3\), puis \(v_1, v_2, v_3\).  
+2. Démontrer que \((v_n)\) est arithmétique, et préciser son premier terme et sa raison.  
+3. En déduire l’expression de \(v_n\), puis celle de \(u_n\), en fonction de \(n\).
 
 {{% details title="Solution" closed="true" %}}
-1. \(u_1=\dfrac{2}{7}\), \(u_2=\dfrac{2}{13}\), \(u_3=\dfrac{2}{19}\).  
-Donc \(v_1=\dfrac{7}{2}\), \(v_2=\dfrac{13}{2}\), \(v_3=\dfrac{19}{2}\).
+1. \({u_1 = \dfrac{1}{2 + 1} = \dfrac13}\), \({u_2 = \dfrac{1/3}{2/3 + 1} = \dfrac{1/3}{5/3} = \dfrac15}\), \({u_3 = \dfrac{1/5}{2/5 + 1} = \dfrac{1/5}{7/5} = \dfrac17}\).  
+D’où \({v_1 = 3}\), \({v_2 = 5}\), \({v_3 = 7}\).
 
-2. \[
-v_{n+1}=\frac{1}{u_{n+1}}=\frac{3u_n+1}{u_n}=3+\frac{1}{u_n}=v_n+3.
+2. Pour tout \({n \in \mathbb{N}}\) :
+\[
+v_{n+1} = \dfrac{1}{u_{n+1}} = \dfrac{2u_n + 1}{u_n} = 2 + \dfrac{1}{u_n} = v_n + 2.
 \]
-Ainsi \((v_n)\) est **arithmétique** de raison \(r=3\) et \(v_0=\dfrac{1}{u_0}=\dfrac12\).
+La suite \((v_n)\) est donc **arithmétique** de raison \({r = 2}\) et de premier terme \({v_0 = \dfrac{1}{u_0} = 1}\).
 
-3. \(v_n=v_0+3n=\dfrac12+3n=\dfrac{6n+1}{2}\).  
-Donc \(\displaystyle u_n=\frac{1}{v_n}=\boxed{\frac{2}{6n+1}}.\)
+3. \({v_n = v_0 + nr = 1 + 2n}\).  
+Comme \({u_n = \dfrac{1}{v_n}}\) : \({\displaystyle \boxed{u_n = \dfrac{1}{2n + 1}}.}\)
 {{% /details %}}
