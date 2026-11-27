@@ -41,49 +41,56 @@ params:
 
 menu:
   main:
+    - identifier: college
+      name: Collège
+      weight: 1
     - name: 6e
+      parent: college
       pageRef: /6eme
       weight: 1
-      params:
-        type: link
-        icon: collection
     - name: 5e
+      parent: college
       pageRef: /5eme
       weight: 2
-      params:
-        type: link
-        icon: collection
     - name: 4e
+      parent: college
       pageRef: /4eme
       weight: 3
-      params:
-        type: link
-        icon: collection
     - name: 3e
+      parent: college
       pageRef: /3eme
       weight: 4
-      params:
-        type: link
-        icon: collection
+    - identifier: lycee
+      name: Lycée
+      weight: 2
     - name: Seconde
+      parent: lycee
       pageRef: /seconde
-      weight: 5
-      params:
-        type: link
-        icon: collection
+      weight: 1
     - name: Première
+      parent: lycee
       pageRef: /premiere
-      weight: 6
-      params:
-        type: link
-        icon: collection
+      weight: 2
     - name: Terminale
+      parent: lycee
       pageRef: /terminale
-      weight: 7
-      params:
-        type: link
-        icon: collection
+      weight: 3
+    - identifier: licence
+      name: Licence
+      weight: 3
+    - name: L1
+      parent: licence
+      pageRef: /l1
+      weight: 1
+    - name: L2
+      parent: licence
+      pageRef: /l2
+      weight: 2
+    - name: L3
+      parent: licence
+      pageRef: /l3
+      weight: 3
     - name: Search
-      weight: 8
+      weight: 4
       params:
         type: search

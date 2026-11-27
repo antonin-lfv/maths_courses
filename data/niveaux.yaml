@@ -8,6 +8,9 @@ teintes:
   seconde: 212
   premiere: 248
   terminale: 286
+  l1: 328
+  l2: 196
+  l3: 90
 
 # Cartes de la page d'accueil.
 cycles:
@@ -22,3 +25,8 @@ cycles:
       - { section: seconde, titre: "Seconde", accroche: "Fonctions de référence, vecteurs, équations de droites, statistiques." }
       - { section: premiere, titre: "Première", accroche: "Second degré, dérivation, suites, exponentielle, produit scalaire." }
       - { section: terminale, titre: "Terminale", accroche: "Spécialité, maths expertes et maths complémentaires." }
+  - nom: Licence
+    niveaux:
+      - { section: l1, titre: "L1", accroche: "Logique, complexes, polynômes, algèbre linéaire, suites, fonctions, intégration." }
+      - { section: l2, titre: "L2", accroche: "Réduction, espaces euclidiens, séries, fonctions de plusieurs variables, probabilités." }
+      - { section: l3, titre: "L3", accroche: "Topologie, calcul différentiel, intégrale de Lebesgue, groupes, anneaux, probabilités." }
